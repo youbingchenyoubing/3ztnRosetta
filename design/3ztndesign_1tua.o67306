@@ -1,0 +1,1455 @@
+command executed: rosetta.debug -epi_graft -multigraft -nres_Ab 323 -Ab_first -native_complex ./3ztn.pdb -loop_ranges ./loop_ranges_3ztn -use_input_from_match -input_file ./outfile_extrall_1tua.txt -use_non_monotone_line_search -ex1 -ex1aro -ex2 -extrachi_cutoff 0 -atom_vdw_set highres -close_as_ALA -grow_as_ALA -graft_with_Ab -repack_Ab -build_loops -refine_loops -refine_with_constraints -design_after_closure -refine_with_Ab_after_design -closure_attempts 200 -store_n_best_closures 5 -design_attempts 3 -store_n_best_designs 5 -max_chainbreak_score 200 -max_local_rama 10 -design_after_closure -closure_reset_period 3 -Ab_epitope_optimize -repack_epitope -paths ./paths.txt -output_file outfile.txt -export_resfile -export_blueprint
+[T/F  OPT]Default FALSE value for [-no_option_display]
+[T/F  OPT]Default FALSE value for [-args_file]
+[STR  OPT]New value for [-paths] ./paths.txt.
+[T/F  OPT]Default FALSE value for [-version]
+[T/F  OPT]Default FALSE value for [-score]
+[T/F  OPT]Default FALSE value for [-abinitio]
+[T/F  OPT]Default FALSE value for [-refine]
+[T/F  OPT]Default FALSE value for [-assemble]
+[T/F  OPT]Default FALSE value for [-idealize]
+[T/F  OPT]Default FALSE value for [-relax]
+[T/F  OPT]Default FALSE value for [-abrelax]
+[T/F  OPT]Default FALSE value for [-abrelax_mode]
+[T/F  OPT]Default FALSE value for [-design]
+[T/F  OPT]Default FALSE value for [-dock]
+[T/F  OPT]Default FALSE value for [-membrane]
+[T/F  OPT]Default FALSE value for [-loops]
+[T/F  OPT]Default FALSE value for [-pdbstats]
+[T/F  OPT]Default FALSE value for [-interface]
+[T/F  OPT]Default FALSE value for [-barcode_stats]
+[T/F  OPT]Default FALSE value for [-featurize]
+[T/F  OPT]Default FALSE value for [-pKa]
+[T/F  OPT]Default FALSE value for [-pose_looping]
+[T/F  OPT]Default FALSE value for [-domain_insertion]
+[T/F  OPT]Default FALSE value for [-antibody_modeler]
+[T/F  OPT]Default FALSE value for [-abinitio_variable_fragments]
+[T/F  OPT]Default FALSE value for [-abrelax_variable_fragments]
+[T/F  OPT]Default FALSE value for [-pose1]
+[T/F  OPT]Default FALSE value for [-bk_min]
+[T/F  OPT]Default FALSE value for [-adna]
+[T/F  OPT]Default FALSE value for [-pdna]
+[T/F  OPT]Default FALSE value for [-prna]
+[T/F  OPT]Default FALSE value for [-jumping]
+[T/F  OPT]Default FALSE value for [-pose_abinitio]
+[T/F  OPT]Default FALSE value for [-pose_rhiju]
+[T/F  OPT]Default FALSE value for [-extract]
+[T/F  OPT]Default FALSE value for [-pose_sse]
+[T/F  OPT]Default FALSE value for [-extract_segment]
+[T/F  OPT]Default FALSE value for [-centroid_information]
+[T/F  OPT]Default FALSE value for [-pose_idealize]
+[T/F  OPT]Default FALSE value for [-close_chainbreaks]
+[T/F  OPT]Default FALSE value for [-pose_barcode_stats]
+[T/F  OPT]Default FALSE value for [-evolution]
+[T/F  OPT]Default FALSE value for [-pose_stats]
+[T/F  OPT]Default FALSE value for [-fibril]
+[T/F  OPT]New TRUE value for [-epi_graft]
+[T/F  OPT]Default FALSE value for [-jump_relax]
+[T/F  OPT]Default FALSE value for [-cst_mode]
+[T/F  OPT]Default FALSE value for [-mj_min]
+Rosetta mode: pose1
+[T/F  OPT]Default FALSE value for [-chain]
+[T/F  OPT]Default FALSE value for [-protein]
+[T/F  OPT]Default FALSE value for [-series]
+[INT  OPT]Default value for [-nstruct]  1000
+[T/F  OPT]Default FALSE value for [-concatenate_pdbs]
+[T/F  OPT]Default FALSE value for [-single_silent_writer]
+[T/F  OPT]Default FALSE value for [-read_all_chains]
+[T/F  OPT]Default FALSE value for [-preserve_header]
+[T/F  OPT]Default FALSE value for [-use_pdb_numbering]
+[T/F  OPT]Default FALSE value for [-flip_symmetric_sidechains]
+[T/F  OPT]Default FALSE value for [-fa_input]
+[T/F  OPT]Default FALSE value for [-overwrite]
+[T/F  OPT]Default FALSE value for [-no_filters]
+[T/F  OPT]Default FALSE value for [-output_pdb_gz]
+[T/F  OPT]Default FALSE value for [-output_silent_gz]
+[T/F  OPT]Default FALSE value for [-output_scorefile_gz]
+[T/F  OPT]Default FALSE value for [-pose_silent_out]
+[T/F  OPT]Default FALSE value for [-sasapack_bvalues]
+[T/F  OPT]Default FALSE value for [-cenlist_values]
+[T/F  OPT]Default FALSE value for [-termini]
+[T/F  OPT]Default FALSE value for [-Nterminus]
+[T/F  OPT]Default FALSE value for [-Cterminus]
+[T/F  OPT]Default FALSE value for [-use_trie]
+[T/F  OPT]Default FALSE value for [-no_trie]
+[T/F  OPT]Default FALSE value for [-use_conformer]
+[T/F  OPT]Default FALSE value for [-use_bbind_conformer]
+[T/F  OPT]Default FALSE value for [-trials_trie]
+[T/F  OPT]Default FALSE value for [-no_trials_trie]
+[T/F  OPT]Default FALSE value for [-pose_relax]
+[T/F  OPT]Default FALSE value for [-output_interaction_graph_memory_usage]
+[T/F  OPT]Default FALSE value for [-read_interaction_graph]
+[T/F  OPT]Default FALSE value for [-write_interaction_graph]
+[STR  OPT]Default value for [-ig_file] .
+[T/F  OPT]Default FALSE value for [-packer_precompute_only]
+[T/F  OPT]Default FALSE value for [-tight_memory_restrictions]
+[T/F  OPT]Default FALSE value for [-lazy_ig]
+[T/F  OPT]Default FALSE value for [-linmem_ig]
+[T/F  OPT]Default FALSE value for [-minimalist_ig]
+[T/F  OPT]Default FALSE value for [-use_sasa_pack_score]
+[T/F  OPT]Default FALSE value for [-output_dot_kinemage]
+[T/F  OPT]Default FALSE value for [-pack_low_temp_annealing]
+[T/F  OPT]Default FALSE value for [-multi_cool_annealer]
+[T/F  OPT]Default FALSE value for [-debug_annealer_design]
+[T/F  OPT]Default FALSE value for [-no_his_his_pairE]
+[T/F  OPT]Default FALSE value for [-silent_input]
+[T/F  OPT]Default FALSE value for [-skip_scorefile_check]
+[T/F  OPT]Default FALSE value for [-timer]
+[T/F  OPT]Default FALSE value for [-count_attempts]
+[T/F  OPT]Default FALSE value for [-status]
+[T/F  OPT]Default FALSE value for [-decoy_status]
+[T/F  OPT]Default FALSE value for [-ise_movie]
+[T/F  OPT]Default FALSE value for [-output_all]
+[T/F  OPT]Default FALSE value for [-output_chi_silent]
+[T/F  OPT]Default FALSE value for [-accept_all]
+[T/F  OPT]Default FALSE value for [-skip_missing_residues]
+[STR  OPT]Default value for [-weightfile] none.
+[STR  OPT]Default value for [-cst] cst.
+[STR  OPT]Default value for [-dpl] dpl.
+[STR  OPT]Default value for [-resfile] none.
+[STR  OPT]Default value for [-equiv_resfile] none.
+[T/F  OPT]Default FALSE value for [-auto_resfile]
+[T/F  OPT]Default FALSE value for [-chain_inc]
+[T/F  OPT]Default FALSE value for [-full_filename]
+[T/F  OPT]Default FALSE value for [-map_sequence]
+[INT  OPT]Default value for [-max_frags]  200
+[T/F  OPT]Default FALSE value for [-output_centroids]
+[STR  OPT]Default value for [-protein_name_prefix] .
+[STR  OPT]Default value for [-frags_name_prefix] .
+[T/F  OPT]Default FALSE value for [-protein_name_prefix_homolog]
+[T/F  OPT]Default FALSE value for [-use_homolog_env_stats]
+[T/F  OPT]Default FALSE value for [-use_homolog_pair_stats]
+[T/F  OPT]Default FALSE value for [-use_homolog_cendist_stats]
+[T/F  OPT]Default FALSE value for [-use_homolog_env_stats_in_farlx]
+[T/F  OPT]Default FALSE value for [-use_homolog_pair_stats_in_farlx]
+[T/F  OPT]Default FALSE value for [-use_homolog_cendist_stats_in_farlx]
+[T/F  OPT]Default FALSE value for [-output_hbond_info]
+[T/F  OPT]Default FALSE value for [-output_interface_hbonds_only]
+[T/F  OPT]Default FALSE value for [-monomer_input]
+[REAL OPT]Default value for [-vdw_reweight]   1
+[REAL OPT]Default value for [-env_reweight]   1
+[REAL OPT]Default value for [-pair_reweight]   1
+[REAL OPT]Default value for [-cb_reweight]   1
+[REAL OPT]Default value for [-sheet_reweight]   1
+[REAL OPT]Default value for [-ss_reweight]   1
+[REAL OPT]Default value for [-hs_reweight]   1
+[REAL OPT]Default value for [-rsigma_reweight]   1
+[REAL OPT]Default value for [-rg_reweight]   1
+[REAL OPT]Default value for [-pc_reweight]   1
+[REAL OPT]Default value for [-fa_atr_reweight]   1
+[REAL OPT]Default value for [-fa_rep_reweight]   1
+[REAL OPT]Default value for [-fa_dun_reweight ]   1
+[REAL OPT]Default value for [-fa_pair_reweight]   1
+[REAL OPT]Default value for [-fa_plane_reweight]   1
+[REAL OPT]Default value for [-fa_solv_reweight]   1
+[REAL OPT]Default value for [-fa_ref_reweight ]   1
+[REAL OPT]Default value for [-fa_pH_reweight]   1
+[REAL OPT]Default value for [-fa_h2o_reweight]   1
+[REAL OPT]Default value for [-fa_prob1b_reweight]   1
+[REAL OPT]Default value for [-fa_gb_elec_reweigh]   1
+[REAL OPT]Default value for [-hb_srbb_reweight]   1
+[REAL OPT]Default value for [-hb_lrbb_reweight]   1
+[REAL OPT]Default value for [-hb_sc_reweight]   1
+[REAL OPT]Default value for [-chainbreak_reweight]   1
+[REAL OPT]Default value for [-electron_density_reweight]   1
+[REAL OPT]Default value for [-dummy_model_reweight]   1
+[REAL OPT]Default value for [-saxs_model_reweight]   1
+[REAL OPT]Default value for [-Wplane_total]   0
+[REAL OPT]Default value for [-barcode_reweight]   1
+[REAL OPT]Default value for [-barcode_energy_reweight]   1
+[T/F  OPT]Default FALSE value for [-fa_max_dis]
+[T/F  OPT]Default FALSE value for [-hydrogen_interaction_cutoff]
+[T/F  OPT]Default FALSE value for [-no_hb_env_dep]
+[T/F  OPT]Default FALSE value for [-find_disulf]
+[T/F  OPT]Default FALSE value for [-fix_disulf]
+[T/F  OPT]Default FALSE value for [-prna]
+[T/F  OPT]Default FALSE value for [-enable_dna]
+[T/F  OPT]Default FALSE value for [-enable_rna]
+[T/F  OPT]Default FALSE value for [-dna_interface]
+[T/F  OPT]Default FALSE value for [-enable_ligand_aa]
+[T/F  OPT]Default FALSE value for [-phospho_ser]
+[T/F  OPT]Default FALSE value for [-surface]
+[T/F  OPT]Default FALSE value for [-loops]
+[T/F  OPT]Default FALSE value for [-taboo]
+[T/F  OPT]Default FALSE value for [-vary_omega]
+[T/F  OPT]Default FALSE value for [-fine_hb_categories]
+[T/F  OPT]Default FALSE value for [-geometric_sol]
+[T/F  OPT]Default FALSE value for [-multi_chain]
+[T/F  OPT]New TRUE value for [-ex1]
+[INT  OPT]Default value for [-ex1]  1
+[T/F  OPT]New TRUE value for [-ex2]
+[INT  OPT]Default value for [-ex2]  1
+[T/F  OPT]Default FALSE value for [-ex3]
+[T/F  OPT]Default FALSE value for [-ex4]
+[T/F  OPT]New TRUE value for [-ex1aro]
+[T/F  OPT]Default FALSE value for [-ex1aro_half]
+[T/F  OPT]Default FALSE value for [-ex2aro_only]
+[T/F  OPT]Default FALSE value for [-ex1aro_exposed]
+[T/F  OPT]Default FALSE value for [-ex2aro_exposed]
+[T/F  OPT]Default FALSE value for [-exOH]
+[INT  OPT]New value for [-extrachi_cutoff]  0
+[T/F  OPT]Default FALSE value for [-rot_pert]
+[T/F  OPT]Default FALSE value for [-rot_pert_input]
+[T/F  OPT]Default FALSE value for [-exdb]
+[T/F  OPT]Default FALSE value for [-rotamer_explosion]
+[T/F  OPT]Default FALSE value for [-min_best_rots]
+[T/F  OPT]Default FALSE value for [-rot_opt]
+[T/F  OPT]Default FALSE value for [-use_electrostatic_repulsion]
+[T/F  OPT]Default FALSE value for [-explicit_h2o]
+[T/F  OPT]Default FALSE value for [-solvate]
+[T/F  OPT]Default FALSE value for [-pH]
+[T/F  OPT]Default FALSE value for [-try_both_his_tautomers]
+[T/F  OPT]New TRUE value for [-epi_graft]
+STATE: try_both_his_tautomers is ON
+[T/F  OPT]Default FALSE value for [-hydrate_dna]
+[T/F  OPT]Default FALSE value for [-ex_dna_waters]
+[T/F  OPT]Default FALSE value for [-minimize_rot]
+[T/F  OPT]Default FALSE value for [-read_hetero_h2o]
+[T/F  OPT]Default FALSE value for [-Wint_score_only]
+[T/F  OPT]Default FALSE value for [-Wint_repack_only]
+[T/F  OPT]Default FALSE value for [-ligand]
+[T/F  OPT]Default FALSE value for [-enzyme_design]
+[T/F  OPT]Default FALSE value for [-score_contact_flag]
+[T/F  OPT]Default FALSE value for [-score_contact_weight]
+[T/F  OPT]Default FALSE value for [-score_contact_threshold]
+[T/F  OPT]Default FALSE value for [-scorefxn]
+default centroid scorefxn:  4
+default fullatom scorefxn:  12
+[INT  OPT]Default value for [-run_level]  0
+[T/F  OPT]Default FALSE value for [-silent]
+[T/F  OPT]Default FALSE value for [-output_silent_gz]
+[T/F  OPT]Default FALSE value for [-verbose]
+[T/F  OPT]Default FALSE value for [-gush]
+[T/F  OPT]Default FALSE value for [-yap]
+[T/F  OPT]Default FALSE value for [-chat]
+[T/F  OPT]Default FALSE value for [-inform]
+[T/F  OPT]Default FALSE value for [-quiet]
+run level:  0
+[T/F  OPT]Default FALSE value for [-benchmark]
+[T/F  OPT]Default FALSE value for [-debug]
+[INT  OPT]Default value for [-sym_des_units]  1
+[T/F  OPT]Default FALSE value for [-mj_min]
+[REAL OPT]Default value for [-mod_hhrep_height]   1
+[REAL OPT]Default value for [-mod_hhrep_width]   1
+[REAL OPT]Default value for [-mod_hhrep_center]   2.79999995
+[REAL OPT]Default value for [-mod_hhrep_exponent]   4
+[REAL OPT]Default value for [-smooth_etable_ljweight]   1.15999997
+[REAL OPT]Default value for [-smooth_etable_solvweight]   1.5
+[STR  OPT]Default value for [-s] none.
+[STR  OPT]Default value for [-l] none.
+Reading /share/home/yangzhiwei/rosetta_database/Rama_smooth_dyn.dat_ss_6.4
+Reading /share/home/yangzhiwei/rosetta_database/phi.theta.36.HS.resmooth
+Reading /share/home/yangzhiwei/rosetta_database/phi.theta.36.SS.resmooth
+[STR  OPT]New value for [-atom_vdw_set] highres.
+WARNING:: atom_vdw_table is not symmetric!!  2 2 4  10.4639997  12.4499998
+[T/F  OPT]Default FALSE value for [-IUPAC]
+Atom_mode set to all
+[STR  OPT]Default value for [-paircutoffs] paircutoffs.
+Reading /share/home/yangzhiwei/rosetta_database/paircutoffs
+[T/F  OPT]Default FALSE value for [-interface_ds]
+[T/F  OPT]Default FALSE value for [-decoystats]
+set_decoystats_flag: from,to F F
+[T/F  OPT]Default FALSE value for [-decoyfeatures]
+[T/F  OPT]Default FALSE value for [-t32s3]
+[T/F  OPT]Default FALSE value for [-evolution]
+[T/F  OPT]Default FALSE value for [-evol_recomb]
+[T/F  OPT]Default FALSE value for [-profile]
+[T/F  OPT]Default FALSE value for [-pose_benchmark]
+[T/F  OPT]Default FALSE value for [-pose_barcode_stats]
+[T/F  OPT]Default FALSE value for [-bk_min]
+[T/F  OPT]Default FALSE value for [-jumping]
+[T/F  OPT]Default FALSE value for [-pose_abinitio]
+[T/F  OPT]Default FALSE value for [-electron_density_score]
+[T/F  OPT]Default FALSE value for [-extract]
+[T/F  OPT]Default FALSE value for [-pose_rhiju]
+[T/F  OPT]Default FALSE value for [-close_chainbreaks]
+[T/F  OPT]Default FALSE value for [-evolution]
+[T/F  OPT]Default FALSE value for [-evol_recomb]
+[T/F  OPT]Default FALSE value for [-pose_idealize]
+[T/F  OPT]Default FALSE value for [-jjh_loops]
+[T/F  OPT]Default FALSE value for [-featurize]
+[T/F  OPT]Default FALSE value for [-centroid_information]
+[T/F  OPT]Default FALSE value for [-dna_water_refine]
+[T/F  OPT]Default FALSE value for [-dna_loop_min]
+[T/F  OPT]Default FALSE value for [-mj_min]
+[T/F  OPT]New TRUE value for [-epi_graft]
+[T/F  OPT]Default FALSE value for [-help]
+[T/F  OPT]Default FALSE value for [-match]
+[T/F  OPT]New TRUE value for [-multigraft]
+[T/F  OPT]Default FALSE value for [-decimated_multigraft]
+[T/F  OPT]Default FALSE value for [-test]
+[T/F  OPT]Default FALSE value for [-scarlet]
+[T/F  OPT]Default FALSE value for [-rough_match]
+[T/F  OPT]Default FALSE value for [-combi_match]
+[T/F  OPT]Default FALSE value for [-superposition_minrepack_refine]
+[T/F  OPT]Default FALSE value for [-screen_with_repack]
+[T/F  OPT]Default FALSE value for [-skip_N2C_align]
+[T/F  OPT]Default FALSE value for [-skip_C2N_align]
+[T/F  OPT]Default FALSE value for [-E_align]
+[T/F  OPT]Default FALSE value for [-S_align]
+[T/F  OPT]Default FALSE value for [-SS_align]
+[STR  OPT]New value for [-native_complex] ./3ztn.pdb.
+[STR  OPT]New value for [-loop_ranges] ./loop_ranges_3ztn.
+[STR  OPT]New value for [-input_file] ./outfile_extrall_1tua.txt.
+[T/F  OPT]New TRUE value for [-use_input_from_match]
+[T/F  OPT]Default FALSE value for [-input_pdb_has_Ab]
+[INT  OPT]New value for [-nres_Ab]  323
+[T/F  OPT]Default FALSE value for [-scaffold_first]
+[INT  OPT]Default value for [-termini_residue_skip]  4
+[INT  OPT]Default value for [-min_match_width]  3
+[INT  OPT]Default value for [-max_match_width_delta]  10
+[INT  OPT]Default value for [-max_rough_match_width_delta]  10
+[INT  OPT]Default value for [-moveable_closure_residues]  3
+[REAL OPT]Default value for [-max_closure_rms]   2
+[REAL OPT]Default value for [-max_rms_over_length]  -1
+[REAL OPT]Default value for [-max_intra_clash]   10000
+[REAL OPT]Default value for [-max_inter_clash]   30000
+[T/F  OPT]Default FALSE value for [-use_full_sidechain_inter_clash]
+[T/F  OPT]Default FALSE value for [-use_epitope_sidechain_during_clash_check]
+[REAL OPT]Default value for [-rough_match_closure_rms]   2
+[REAL OPT]Default value for [-rough_match_ca_distance]   2
+[REAL OPT]Default value for [-combi_match_ca_distance]   1
+[T/F  OPT]Default FALSE value for [-fluidize_landing]
+[T/F  OPT]Default FALSE value for [-fluidize_takeoff]
+[T/F  OPT]Default FALSE value for [-rb_move]
+[REAL OPT]Default value for [-recovery_rms_epsilon]   0
+[REAL OPT]Default value for [-allowed_intra_clash_increase]   10
+[REAL OPT]Default value for [-dihedral_deviation]   5
+[REAL OPT]Default value for [-dihedral_step]   5
+[REAL OPT]Default value for [-rb_cube_side_length]   1
+[REAL OPT]Default value for [-rb_translation_step]   0.5
+[REAL OPT]Default value for [-rb_angle_deviation]   5
+[REAL OPT]Default value for [-rb_angle_step]   5
+[T/F  OPT]Default FALSE value for [-spatial_filter]
+[STR  OPT]Default value for [-spatial_filter] .
+[REAL OPT]Default value for [-spatial_filter_distance_cutoff]   5.5
+[INT  OPT]Default value for [-spatial_filter_min_cbeta]  6
+[INT  OPT]Default value for [-spatial_filter_max_cbeta]  10
+[T/F  OPT]Default FALSE value for [-compute_cbeta_neighbors]
+[REAL OPT]Default value for [-cbeta_neighbors_distance_cutoff]   5.5
+[T/F  OPT]New TRUE value for [-multigraft]
+[STR  OPT]New value for [-output_file] outfile.txt.
+[T/F  OPT]Default FALSE value for [-no_single_match_output]
+[T/F  OPT]Default FALSE value for [-no_partial_match_output]
+[T/F  OPT]Default FALSE value for [-output_aligned_loops]
+[T/F  OPT]Default FALSE value for [-output_predesign_structure]
+[T/F  OPT]Default FALSE value for [-output_predesign_structure_with_Ab]
+[T/F  OPT]Default FALSE value for [-override_pdb_output_path]
+[STR  OPT]Default value for [-override_pdb_output_path] .
+[T/F  OPT]Default FALSE value for [-checkpoint]
+[T/F  OPT]Default FALSE value for [-checkpoint_interval_minutes]
+[STR  OPT]Default value for [-vall] vall.dat.pc60_2002-12-27_v01.2.
+[T/F  OPT]Default FALSE value for [-keep_natro]
+[T/F  OPT]Default FALSE value for [-batch_id]
+[STR  OPT]Default value for [-batch_id] .
+[T/F  OPT]Default FALSE value for [-dump_predesign]
+[STR  OPT]Default value for [-dump_predesign] none.
+[T/F  OPT]Default FALSE value for [-dump_all_closure_attempt_structures]
+[T/F  OPT]Default FALSE value for [-dump_closed]
+[T/F  OPT]Default FALSE value for [-dump_refined]
+[T/F  OPT]Default FALSE value for [-dump_someclosed]
+[T/F  OPT]Default FALSE value for [-no_idealize_loop_geometry]
+[T/F  OPT]Default FALSE value for [-epitope_rb_optimize]
+[INT  OPT]Default value for [-epitope_rb_cycles]  1
+[T/F  OPT]Default FALSE value for [-epitope_rb_min]
+[T/F  OPT]New TRUE value for [-Ab_epitope_optimize]
+[T/F  OPT]Default FALSE value for [-Ab_epitope_optimize_including_rb]
+[T/F  OPT]Default FALSE value for [-epitope_optimize]
+[T/F  OPT]Default FALSE value for [-no_micromanage_termini]
+[T/F  OPT]Default FALSE value for [-randomize_moveable_phipsi]
+[T/F  OPT]New TRUE value for [-build_loops]
+[T/F  OPT]New TRUE value for [-refine_loops]
+[T/F  OPT]Default FALSE value for [-ignore_build_failure]
+[T/F  OPT]Default FALSE value for [-ignore_refine_failure]
+[T/F  OPT]New TRUE value for [-design_after_closure]
+[T/F  OPT]New TRUE value for [-refine_with_Ab_after_design]
+[T/F  OPT]Default FALSE value for [-do_QC]
+[T/F  OPT]Default FALSE value for [-store_top_design_per_backbone]
+[INT  OPT]New value for [-closure_attempts]  200
+[INT  OPT]New value for [-closure_reset_period]  3
+[INT  OPT]New value for [-store_n_best_closures]  5
+[INT  OPT]New value for [-design_attempts]  3
+[INT  OPT]New value for [-store_n_best_designs]  5
+[T/F  OPT]New TRUE value for [-graft_with_Ab]
+[T/F  OPT]Default FALSE value for [-close_as_GLY]
+[T/F  OPT]Default FALSE value for [-grow_as_GLY]
+[REAL OPT]Default value for [-rotation_perturb_magnitude]   1
+[REAL OPT]Default value for [-translation_perturb_magnitude]   0.5
+[T/F  OPT]Default FALSE value for [-no_fragment_insertion]
+[T/F  OPT]Default FALSE value for [-use_sequence_biased_fragments]
+[T/F  OPT]Default FALSE value for [-variable_fragments]
+[T/F  OPT]Default FALSE value for [-allow_any_ss_during_fragment_insertion]
+[INT  OPT]Default value for [-nfrag]  200
+[T/F  OPT]Default FALSE value for [-build_with_adaptive]
+[T/F  OPT]Default FALSE value for [-build_with_arm]
+[T/F  OPT]Default FALSE value for [-build_with_screen]
+[INT  OPT]Default value for [-build_cycles]  10
+[T/F  OPT]Default FALSE value for [-force_refine]
+[T/F  OPT]Default FALSE value for [-refine_with_minrepack]
+[T/F  OPT]Default FALSE value for [-refine_with_classic]
+[T/F  OPT]New TRUE value for [-refine_with_constraints]
+[T/F  OPT]Default FALSE value for [-fast_refine]
+[INT  OPT]Default value for [-refine_cycles]  3
+[REAL OPT]New value for [-max_chainbreak_score]   200
+[REAL OPT]New value for [-max_local_rama]   10
+[T/F  OPT]New TRUE value for [-repack_epitope]
+[T/F  OPT]Default FALSE value for [-design_epitope]
+[T/F  OPT]New TRUE value for [-repack_Ab]
+[T/F  OPT]Default FALSE value for [-allow_AA_at_inter_design]
+[REAL OPT]Default value for [-intra_design_cutoff]   4
+[REAL OPT]Default value for [-inter_design_cutoff]   4
+[REAL OPT]Default value for [-Ab_repack_cutoff]   4.5
+[T/F  OPT]Default FALSE value for [-scan_randomize_moveable]
+[T/F  OPT]Default FALSE value for [-scan_randomize_cutpoints]
+[T/F  OPT]Default FALSE value for [-scan_randomize_ss]
+[REAL OPT]Default value for [-scan_ss_minimum_content]   0.5
+[T/F  OPT]Default FALSE value for [-scan_ss_use_any]
+[T/F  OPT]Default FALSE value for [-complementarity_design]
+[T/F  OPT]Default FALSE value for [-complementarity_rb]
+[REAL OPT]Default value for [-complementarity_design_cutoff]   4
+[INT  OPT]Default value for [-complementarity_design_attempts]  1
+[INT  OPT]Default value for [-complementarity_design_cycles]  3
+[REAL OPT]Default value for [-complementarity_shell_cutoff]   4
+[T/F  OPT]Default FALSE value for [-complementarity_shell_repack]
+[T/F  OPT]Default FALSE value for [-complementarity_shell_redesign]
+[T/F  OPT]New TRUE value for [-export_blueprint]
+[T/F  OPT]New TRUE value for [-export_resfile]
+[T/F  OPT]Default FALSE value for [-use_old_graft_info_format]
+[T/F  OPT]Default FALSE value for [-restart_from]
+[STR  OPT]Default value for [-restart_from] .
+[T/F  OPT]Default FALSE value for [-post_modify_restart]
+[INT  OPT]Default value for [-nstruct]  1
+[REAL OPT]Default value for [-build_attempt_multiplier]   10
+[INT  OPT]Default value for [-max_refine_attempts_per_round]  5
+[T/F  OPT]Default FALSE value for [-water]
+[T/F  OPT]Default FALSE value for [-tea]
+[T/F  OPT]Default FALSE value for [-coffee]
+[T/F  OPT]Default FALSE value for [-milk]
+[T/F  OPT]Default FALSE value for [-port]
+[T/F  OPT]Default FALSE value for [-juice]
+[T/F  OPT]Default FALSE value for [-cola]
+[T/F  OPT]Default FALSE value for [-wine]
+[T/F  OPT]Default FALSE value for [-beer]
+[T/F  OPT]Default FALSE value for [-bubble_tea]
+[T/F  OPT]Default FALSE value for [-mango_lassi]
+[T/F  OPT]Default FALSE value for [-vodka]
+[T/F  OPT]Default FALSE value for [-tequila]
+STATE: find_disulf is ON
+STATE: norepack_disulf is ON
+STATE: score_set_vary_omega is OFF
+[T/F  OPT]Default FALSE value for [-df_file]
+[T/F  OPT]Default FALSE value for [-t32s3]
+Reading /share/home/yangzhiwei/rosetta_database/energy_quantile__atre__aa_ss_sf_nb.data
+Reading /share/home/yangzhiwei/rosetta_database/energy_quantile__repe__aa_ss_sf_nb.data
+Reading /share/home/yangzhiwei/rosetta_database/energy_quantile__tlje__aa_ss_sf_nb.data
+Reading /share/home/yangzhiwei/rosetta_database/energy_quantile__sole__aa_ss_sf_nb.data
+Reading /share/home/yangzhiwei/rosetta_database/energy_quantile__hbe__aa_ss_sf_nb.data
+Reading /share/home/yangzhiwei/rosetta_database/energy_quantile__intrae__aa_ss_sf_nb.data
+Reading /share/home/yangzhiwei/rosetta_database/energy_quantile__paire__aa_ss_sf_nb.data
+Reading /share/home/yangzhiwei/rosetta_database/energy_quantile__probe__aa_ss_sf_nb.data
+Reading /share/home/yangzhiwei/rosetta_database/energy_quantile__spk__aa_ss_sf_nb.data
+Reading /share/home/yangzhiwei/rosetta_database/energy_quantile__dune__aa_ss_sf_nb.data
+Reading /share/home/yangzhiwei/rosetta_database/energy_quantile__rese__aa_ss_sf_nb.data
+Reading /share/home/yangzhiwei/rosetta_database/unsatisfied_buried_polar__pdb__aa_at_ss.data
+DecoyFeatures Mode
+[T/F  OPT]Default FALSE value for [-score_contact_fullatom]
+[T/F  OPT]Default FALSE value for [-long_range_hb_weight]
+[T/F  OPT]Default FALSE value for [-short_range_hb_weight]
+[T/F  OPT]Default FALSE value for [-new_centroid_packing]
+[REAL OPT]Default value for [-centroid_pack_weight]   2
+[T/F  OPT]Default FALSE value for [-separate_centroid_pack_score]
+[REAL OPT]Default value for [-cb_weight]   1
+[REAL OPT]Default value for [-localstrandpair_penalty]   0
+[REAL OPT]Default value for [-rsd_wt_helix]   1
+[REAL OPT]Default value for [-rsd_wt_loop]   1
+[REAL OPT]Default value for [-rsd_wt_strand]   1
+[REAL OPT]Default value for [-strand_dist_cutoff]   6.5
+[T/F  OPT]Default FALSE value for [-stretch_strand_dist_cutoff]
+[REAL OPT]Default value for [-seq_sep_scale]   20
+[REAL OPT]Default value for [-max_strand_dist_cutoff]   12
+[T/F  OPT]Default FALSE value for [-ignore_sspair_barcode_in_score]
+[T/F  OPT]Default FALSE value for [-handedness_score]
+[T/F  OPT]Default FALSE value for [-use_native_centroid]
+initializing full atom functions
+[T/F  OPT]Default FALSE value for [-dna_weights]
+[T/F  OPT]Default FALSE value for [-soft_rep]
+[T/F  OPT]Default FALSE value for [-soft_rep_design]
+[T/F  OPT]Default FALSE value for [-use_aw]
+[T/F  OPT]Default FALSE value for [-use_bw]
+[T/F  OPT]Default FALSE value for [-use_packing_etables_always]
+[T/F  OPT]Default FALSE value for [-smooth_etable]
+[T/F  OPT]Default FALSE value for [-reduce_templates]
+[T/F  OPT]Default FALSE value for [-gen_born]
+[T/F  OPT]Default FALSE value for [-small_radii]
+[STR  OPT]Default value for [-fa_lj_rep_slope] highres.
+Starting energy table calculation
+Energy table parameter set: polh_aroh  Revision: 14367 Date: 2007-04-19 12:08:54 +0300 (Thu, 19 Apr 2007)
+[T/F  OPT]Default FALSE value for [-mod_hhrep]
+Finished calculating energy tables.
+[T/F  OPT]Default FALSE value for [-mod_etable]
+[T/F  OPT]Default FALSE value for [-input_etables]
+[T/F  OPT]Default FALSE value for [-output_etables]
+Reading /share/home/yangzhiwei/rosetta_database/bbdep02.May.sortlib
+Reading /share/home/yangzhiwei/rosetta_database/plane_data_table_1015.dat
+Reading /share/home/yangzhiwei/rosetta_database/pdbpairstats_fine
+Reading /share/home/yangzhiwei/rosetta_database/Paa
+Reading /share/home/yangzhiwei/rosetta_database/Paa_n
+Reading /share/home/yangzhiwei/rosetta_database/Paa_pp
+Reading /share/home/yangzhiwei/rosetta_database/avgE_from_pdb
+Filling missing atoms
+optimizing missing atoms
+[T/F  OPT]Default FALSE value for [-disallow_hbond_o4star]
+[T/F  OPT]Default FALSE value for [-disallow_hbond_ho2star]
+[T/F  OPT]Default FALSE value for [-dun_sd_correction]
+Instantiating PDInteractionGraph
+[T/F  OPT]Default FALSE value for [-simple_elec]
+[T/F  OPT]Default FALSE value for [-record_annealer_trajectory]
+[T/F  OPT]Default FALSE value for [-disallow_quench]
+[T/F  OPT]Default FALSE value for [-use_time_as_seed]
+[INT  OPT]Default value for [-seed_offset]  0
+[T/F  OPT]Default FALSE value for [-delay_at_start]
+[T/F  OPT]Default FALSE value for [-constant_seed]
+# =====================================
+# random seed: 860853285
+# =====================================
+optimizing hydrogen positions
+[T/F  OPT]Default FALSE value for [-pack_bump_cutoff]
+Instantiating PDInteractionGraph
+WARNING:: end of pdb file reached: angle, secstruct, & res info not found
+Looking for dssp file: ./3ztn.dssp
+dssp file not found
+calculating secondary structure from torsion angles
+[T/F  OPT]Default FALSE value for [-use_alpha_rama]
+[T/F  OPT]Default FALSE value for [-ssweight_for_homolog]
+[T/F  OPT]Default FALSE value for [-electron_density_file]
+score-delta from sidechain flip (using score 12): 0
+load_epitope_ranges: read 2 loops as follows:
+loop: 1 nres: 4 full_native_range: [18, 21]
+Primary loop? 1
+   nranges: 1
+     range: [18, 21] [1, 4]
+loop: 2 nres: 17 full_native_range: [38, 54]
+Primary loop? 1
+   nranges: 2
+     range: [38, 49] [1, 12]
+     range: [41, 53] [4, 16]
+THis is a test!::18
+THis is a test!::19
+THis is a test!::20
+THis is a test!::21
+THis is a test!::38
+THis is a test!::39
+THis is a test!::40
+THis is a test!::41
+THis is a test!::42
+THis is a test!::43
+THis is a test!::44
+THis is a test!::45
+THis is a test!::46
+THis is a test!::47
+THis is a test!::48
+THis is a test!::49
+THis is a test!::50
+THis is a test!::51
+THis is a test!::52
+THis is a test!::53
+THis is a test!::54
+MultiGraft: processing scaffold 1tua.pdb
+Filling missing atoms
+optimizing missing atoms
+Instantiating PDInteractionGraph
+optimizing hydrogen positions
+Instantiating PDInteractionGraph
+WARNING:: end of pdb file reached: angle, secstruct, & res info not found
+Looking for dssp file: /share/home/yangzhiwei/pdbID/1tua.dssp
+dssp file not found
+calculating secondary structure from torsion angles
+delete vertex: 171
+bounds: 169 173
+FOLD_TREE  EDGE 1 114 -1  EDGE 114 120 -1  EDGE 114 136 1  EDGE 136 132 -1  EDGE 136 169 -1  EDGE 169 171 -1  EDGE 169 191 2  EDGE 171 173 -1  EDGE 191 185 -1  EDGE 191 192 -1  EDGE 185 179 -1  EDGE 179 126 3  EDGE 126 125 -1  EDGE 126 128 -1  EDGE 179 174 -1  EDGE 125 121 -1  EDGE 128 131 -1 
+delete vertex: 185
+bounds: 191 179
+FOLD_TREE  EDGE 1 114 -1  EDGE 114 120 -1  EDGE 114 136 1  EDGE 136 132 -1  EDGE 136 169 -1  EDGE 169 191 2  EDGE 191 185 -1  EDGE 191 192 -1  EDGE 185 179 -1  EDGE 179 126 3  EDGE 126 125 -1  EDGE 126 128 -1  EDGE 179 174 -1  EDGE 125 121 -1  EDGE 128 131 -1  EDGE 169 173 -1 
+delete vertex: 125
+bounds: 126 121
+FOLD_TREE  EDGE 1 114 -1  EDGE 114 120 -1  EDGE 114 136 1  EDGE 136 132 -1  EDGE 136 169 -1  EDGE 169 191 2  EDGE 191 192 -1  EDGE 179 126 3  EDGE 126 125 -1  EDGE 126 128 -1  EDGE 179 174 -1  EDGE 125 121 -1  EDGE 128 131 -1  EDGE 169 173 -1  EDGE 191 179 -1 
+delete vertex: 128
+bounds: 126 131
+FOLD_TREE  EDGE 1 114 -1  EDGE 114 120 -1  EDGE 114 136 1  EDGE 136 132 -1  EDGE 136 169 -1  EDGE 169 191 2  EDGE 191 192 -1  EDGE 179 126 3  EDGE 126 128 -1  EDGE 179 174 -1  EDGE 128 131 -1  EDGE 169 173 -1  EDGE 191 179 -1  EDGE 126 121 -1 
+WARNING: Pose::set_coords: backbone missing for residue 121
+WARNING: Pose::set_coords: backbone missing for residue 122
+WARNING: Pose::set_coords: backbone missing for residue 123
+WARNING: Pose::set_coords: backbone missing for residue 124
+WARNING: Pose::set_coords: backbone missing for residue 129
+WARNING: Pose::set_coords: backbone missing for residue 130
+WARNING: Pose::set_coords: backbone missing for residue 131
+WARNING: Pose::set_coords: backbone missing for residue 172
+WARNING: Pose::set_coords: backbone missing for residue 173
+WARNING: Pose::set_coords: backbone missing for residue 186
+WARNING: Pose::set_coords: backbone missing for residue 187
+[T/F  OPT]Default FALSE value for [-large_rotamer_set]
+[T/F  OPT]Default FALSE value for [-favor_native_residue]
+[REAL OPT]Default value for [-favor_native_residue]  -1.5
+designing with this many rotamers  11
+Instantiating PDInteractionGraph
+designing with this many rotamers  11
+Instantiating PDInteractionGraph
+MultiGraft: potential primary closures:
+   1 range = [170, 190]   cut = 173   moveable = [ 170 171 172 173 174 185 186 187 188 189 190 ]   cutpoint_weight = 1   chainbreak_score = 155.961   total_rama_moveable = -0.193807   inactive_moveable = [ ]
+MultiGraft: potential secondary closures:
+   0 range = [115, 125]   cut = 120   moveable = [ 115 116 117 118 119 120 121 122 123 124 ]   cutpoint_weight = 1   chainbreak_score = 221.25   total_rama_moveable = -5.019   inactive_moveable = [ ]
+   0 range = [127, 135]   cut = 131   moveable = [ 128 129 130 131 132 133 134 135 ]   cutpoint_weight = 1   chainbreak_score = 227.746   total_rama_moveable = -0.514837   inactive_moveable = [ ]
+designing with this many rotamers  177
+Instantiating PDInteractionGraph
+designing with this many rotamers  354
+Instantiating PDInteractionGraph
+* es Ab_epitope_optimize:
+WARNING:: pose.total_residue() > param::MAX_RES()() -- updating MAX_RES
+This will erase any data in MAX_RES sized arrays, eg fragments.
+ddG before = 732.105
+total atompair constraints: 114272
+[T/F  OPT]Default FALSE value for [-use_inexact_line_search]
+[T/F  OPT]New TRUE value for [-use_non_monotone_line_search]
+[T/F  OPT]Default FALSE value for [-dfunc_dump]
+[T/F  OPT]Default FALSE value for [-deriv_check]
+   cycle 1 : SCORE 1617.47 RAMACHANDRAN 683.397 FA_ATR -1376.56 FA_REP 5994.46 FA_SOL 737.944 FA_ELEC 0 FA_PAIR -19.6632 FA_REF 39.91 FA_DUN 649.545 FA_PROB -44.5348 FA_H2O 0 HB_SRBB -147.002 HB_LRBB -122.366 HB_SC -51.002 FA_INTRA 0.80764 GB 0 PLANE 0 ATOMPAIR_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+   cycle 2 : SCORE 1955.02 RAMACHANDRAN 683.397 FA_ATR -1376.56 FA_REP 5994.46 FA_SOL 737.944 FA_ELEC 0 FA_PAIR -19.6632 FA_REF 39.91 FA_DUN 649.545 FA_PROB -44.5348 FA_H2O 0 HB_SRBB -147.002 HB_LRBB -122.366 HB_SC -51.002 FA_INTRA 0.80764 GB 0 PLANE 0 ATOMPAIR_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+   cycle 3 : SCORE 2355.91 RAMACHANDRAN 683.397 FA_ATR -1376.56 FA_REP 5994.46 FA_SOL 737.944 FA_ELEC 0 FA_PAIR -19.6632 FA_REF 39.91 FA_DUN 649.545 FA_PROB -44.5348 FA_H2O 0 HB_SRBB -147.002 HB_LRBB -122.366 HB_SC -51.002 FA_INTRA 0.80764 GB 0 PLANE 0 ATOMPAIR_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+   cycle 4 : SCORE 2832.04 RAMACHANDRAN 683.397 FA_ATR -1376.56 FA_REP 5994.44 FA_SOL 737.944 FA_ELEC 0 FA_PAIR -19.6632 FA_REF 39.91 FA_DUN 649.546 FA_PROB -44.5348 FA_H2O 0 HB_SRBB -147.002 HB_LRBB -122.366 HB_SC -51.002 FA_INTRA 0.807634 GB 0 PLANE 0 ATOMPAIR_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+   cycle 5 : SCORE 3397.51 RAMACHANDRAN 683.397 FA_ATR -1376.56 FA_REP 5994.42 FA_SOL 737.944 FA_ELEC 0 FA_PAIR -19.6631 FA_REF 39.91 FA_DUN 649.546 FA_PROB -44.5348 FA_H2O 0 HB_SRBB -147.002 HB_LRBB -122.366 HB_SC -51.002 FA_INTRA 0.807637 GB 0 PLANE 0 ATOMPAIR_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+   cycle 6 : SCORE 4054.5 RAMACHANDRAN 683.397 FA_ATR -1378.09 FA_REP 5979.82 FA_SOL 738.98 FA_ELEC 0 FA_PAIR -19.5171 FA_REF 39.91 FA_DUN 645.479 FA_PROB -44.5348 FA_H2O 0 HB_SRBB -147.002 HB_LRBB -122.366 HB_SC -50.8468 FA_INTRA 0.793688 GB 0 PLANE 0 ATOMPAIR_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+   cycle 7 : SCORE 4850.21 RAMACHANDRAN 683.397 FA_ATR -1378.09 FA_REP 5979.82 FA_SOL 738.98 FA_ELEC 0 FA_PAIR -19.5171 FA_REF 39.91 FA_DUN 645.479 FA_PROB -44.5348 FA_H2O 0 HB_SRBB -147.002 HB_LRBB -122.366 HB_SC -50.8468 FA_INTRA 0.793688 GB 0 PLANE 0 ATOMPAIR_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+   cycle 8 : SCORE 5795.25 RAMACHANDRAN 683.397 FA_ATR -1378.09 FA_REP 5979.82 FA_SOL 738.98 FA_ELEC 0 FA_PAIR -19.5171 FA_REF 39.91 FA_DUN 645.479 FA_PROB -44.5348 FA_H2O 0 HB_SRBB -147.002 HB_LRBB -122.366 HB_SC -50.8468 FA_INTRA 0.793688 GB 0 PLANE 0 ATOMPAIR_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+   final : SCORE 5795.25 RAMACHANDRAN 683.397 FA_ATR -1378.09 FA_REP 5979.82 FA_SOL 738.98 FA_ELEC 0 FA_PAIR -19.5171 FA_REF 39.91 FA_DUN 645.479 FA_PROB -44.5348 FA_H2O 0 HB_SRBB -147.002 HB_LRBB -122.366 HB_SC -50.8468 FA_INTRA 0.793688 GB 0 PLANE 0 ATOMPAIR_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+ddG after = 0.0849609
+Instantiating PDInteractionGraph
+* es Ab_epitope_optimize:
+ddG before = -1.36865
+total atompair constraints: 114272
+   cycle 1 : SCORE 1602.85 RAMACHANDRAN 683.397 FA_ATR -1374.15 FA_REP 5976.88 FA_SOL 736.028 FA_ELEC 0 FA_PAIR -19.532 FA_REF 39.91 FA_DUN 639.896 FA_PROB -44.5348 FA_H2O 0 HB_SRBB -147.002 HB_LRBB -122.366 HB_SC -51.3311 FA_INTRA 0.785374 GB 0 PLANE 0 ATOMPAIR_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+   cycle 2 : SCORE 1939.4 RAMACHANDRAN 683.397 FA_ATR -1374.15 FA_REP 5976.88 FA_SOL 736.028 FA_ELEC 0 FA_PAIR -19.532 FA_REF 39.91 FA_DUN 639.896 FA_PROB -44.5348 FA_H2O 0 HB_SRBB -147.002 HB_LRBB -122.366 HB_SC -51.3311 FA_INTRA 0.785374 GB 0 PLANE 0 ATOMPAIR_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+   cycle 3 : SCORE 2339.12 RAMACHANDRAN 683.397 FA_ATR -1374.15 FA_REP 5976.88 FA_SOL 736.028 FA_ELEC 0 FA_PAIR -19.532 FA_REF 39.91 FA_DUN 639.896 FA_PROB -44.5348 FA_H2O 0 HB_SRBB -147.002 HB_LRBB -122.366 HB_SC -51.3311 FA_INTRA 0.785374 GB 0 PLANE 0 ATOMPAIR_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+   cycle 4 : SCORE 2813.85 RAMACHANDRAN 683.397 FA_ATR -1374.15 FA_REP 5976.88 FA_SOL 736.028 FA_ELEC 0 FA_PAIR -19.532 FA_REF 39.91 FA_DUN 639.896 FA_PROB -44.5348 FA_H2O 0 HB_SRBB -147.002 HB_LRBB -122.366 HB_SC -51.3311 FA_INTRA 0.785374 GB 0 PLANE 0 ATOMPAIR_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+   cycle 5 : SCORE 3377.68 RAMACHANDRAN 683.397 FA_ATR -1374.15 FA_REP 5976.88 FA_SOL 736.028 FA_ELEC 0 FA_PAIR -19.532 FA_REF 39.91 FA_DUN 639.896 FA_PROB -44.5348 FA_H2O 0 HB_SRBB -147.002 HB_LRBB -122.366 HB_SC -51.3311 FA_INTRA 0.785374 GB 0 PLANE 0 ATOMPAIR_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+   cycle 6 : SCORE 4047.32 RAMACHANDRAN 683.397 FA_ATR -1374.15 FA_REP 5976.88 FA_SOL 736.028 FA_ELEC 0 FA_PAIR -19.532 FA_REF 39.91 FA_DUN 639.896 FA_PROB -44.5348 FA_H2O 0 HB_SRBB -147.002 HB_LRBB -122.366 HB_SC -51.3311 FA_INTRA 0.785374 GB 0 PLANE 0 ATOMPAIR_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+   cycle 7 : SCORE 4842.64 RAMACHANDRAN 683.397 FA_ATR -1374.15 FA_REP 5976.88 FA_SOL 736.028 FA_ELEC 0 FA_PAIR -19.532 FA_REF 39.91 FA_DUN 639.896 FA_PROB -44.5348 FA_H2O 0 HB_SRBB -147.002 HB_LRBB -122.366 HB_SC -51.3311 FA_INTRA 0.785374 GB 0 PLANE 0 ATOMPAIR_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+   cycle 8 : SCORE 5787.21 RAMACHANDRAN 683.397 FA_ATR -1374.15 FA_REP 5976.88 FA_SOL 736.028 FA_ELEC 0 FA_PAIR -19.532 FA_REF 39.91 FA_DUN 639.896 FA_PROB -44.5348 FA_H2O 0 HB_SRBB -147.002 HB_LRBB -122.366 HB_SC -51.3311 FA_INTRA 0.785374 GB 0 PLANE 0 ATOMPAIR_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+   final : SCORE 5787.21 RAMACHANDRAN 683.397 FA_ATR -1374.15 FA_REP 5976.88 FA_SOL 736.028 FA_ELEC 0 FA_PAIR -19.532 FA_REF 39.91 FA_DUN 639.896 FA_PROB -44.5348 FA_H2O 0 HB_SRBB -147.002 HB_LRBB -122.366 HB_SC -51.3311 FA_INTRA 0.785374 GB 0 PLANE 0 ATOMPAIR_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+ddG after = -1.36865
+designing with this many rotamers  163
+Instantiating PDInteractionGraph
+designing with this many rotamers  326
+Instantiating PDInteractionGraph
+MultiGraft: starting closure attempts
+MultiGraft: closure attempt 1
+* resetting backbone of broken loops
+* es build_all_simul:
+[STR  OPT]Default value for [-vall] vall.dat.pc60_2002-12-27_v01.2.
+Vall_data::add_line(...): index= 100000
+Vall_data::add_line(...): index= 200000
+Vall_data::add_line(...): index= 300000
+Vall_data::add_line(...): index= 400000
+Vall_data::add_line(...): index= 500000
+Vall_data::add_line(...): index= 600000
+Vall_data::add_line(...): index= 700000
+Vall_data::add_line(...): index= 800000
+ss-frags: 115 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 3.375e-06 worst_score: 0.00318837
+ss-frags: 116 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.935e-05 worst_score: 0.00312985
+ss-frags: 117 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.505e-05 worst_score: 0.00338168
+ss-frags: 118 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 6e-06 worst_score: 0.00296967
+ss-frags: 119 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 4.3e-06 worst_score: 0.00324475
+ss-frags: 120 frag_ss: LLLLLLLLH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000211025 worst_score: 0.0252969
+ss-frags: 121 frag_ss: LLLLLLLHL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00001 worst_score: 1.00225
+ss-frags: 122 frag_ss: LLLLLLHLL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1 worst_score: 1.0029
+ss-frags: 123 frag_ss: LLLLLHLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00003 worst_score: 1.00281
+ss-frags: 124 frag_ss: LLLLHLLLE frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00014 worst_score: 1.02613
+ss-frags: 125 frag_ss: LLLHLLLEE frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00014 worst_score: 1.01716
+ss-frags: 170 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 3e-06 worst_score: 0.000307775
+ss-frags: 171 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 4e-07 worst_score: 0.00028365
+ss-frags: 172 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 8.75e-07 worst_score: 0.0003035
+ss-frags: 173 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.4e-06 worst_score: 0.000296475
+ss-frags: 174 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.9e-06 worst_score: 0.00028305
+ss-frags: 175 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 7.725e-06 worst_score: 0.000303475
+ss-frags: 176 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 7.5e-08 worst_score: 0.000298275
+ss-frags: 177 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.55e-06 worst_score: 0.00029805
+ss-frags: 178 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 9.25e-07 worst_score: 0.000302425
+ss-frags: 179 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0 worst_score: 0.000272025
+ss-frags: 180 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 5.25e-07 worst_score: 0.0002651
+ss-frags: 181 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.975e-06 worst_score: 0.000270625
+ss-frags: 182 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.5e-06 worst_score: 0.00032645
+ss-frags: 183 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 3.625e-06 worst_score: 0.0003155
+ss-frags: 184 frag_ss: HHHHHHHHL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.4e-06 worst_score: 0.00198423
+ss-frags: 185 frag_ss: HHHHHHHLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.4825e-05 worst_score: 0.0031815
+ss-frags: 186 frag_ss: HHHHHHLLE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000208875 worst_score: 0.0565414
+ss-frags: 187 frag_ss: HHHHHLLEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.28e-05 worst_score: 0.0575622
+ss-frags: 188 frag_ss: HHHHLLEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.00039795 worst_score: 0.0521942
+ss-frags: 189 frag_ss: HHHLLEEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.9775e-05 worst_score: 0.0469503
+ss-frags: 190 frag_ss: HHLLEEEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000107325 worst_score: 0.0596531
+ss-frags: 115 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.75e-07 worst_score: 0.000188325
+ss-frags: 116 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1e-07 worst_score: 0.000178675
+ss-frags: 117 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.975e-06 worst_score: 0.00019465
+ss-frags: 118 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 9.25e-07 worst_score: 0.0001758
+ss-frags: 119 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 7.25e-07 worst_score: 0.000201375
+ss-frags: 120 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.5e-07 worst_score: 0.0001874
+ss-frags: 121 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 4.75e-07 worst_score: 0.000190325
+ss-frags: 122 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6e-07 worst_score: 0.00021245
+ss-frags: 123 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 4e-07 worst_score: 0.000208125
+ss-frags: 124 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 9e-07 worst_score: 0.00018835
+ss-frags: 125 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.25e-07 worst_score: 0.0002003
+ss-frags: 127 frag_ss: LHL frag_seq: ddd seq-match: 0 exact_matches: 0 best_score: 1 worst_score: 1.00014
+ss-frags: 128 frag_ss: HLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3.75e-07 worst_score: 0.00109188
+ss-frags: 129 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.5e-07 worst_score: 0.00018985
+ss-frags: 130 frag_ss: LLE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3.95e-06 worst_score: 0.00124685
+ss-frags: 131 frag_ss: LEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.25e-06 worst_score: 0.000811675
+ss-frags: 132 frag_ss: EEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 8.5e-07 worst_score: 0.0002068
+ss-frags: 133 frag_ss: EEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 8.25e-07 worst_score: 0.00024015
+ss-frags: 134 frag_ss: EEL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3.5e-07 worst_score: 0.0008396
+ss-frags: 135 frag_ss: ELL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.6175e-05 worst_score: 0.0013503
+ss-frags: 170 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.75e-07 worst_score: 9.585e-05
+ss-frags: 171 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.4e-06 worst_score: 9.4175e-05
+ss-frags: 172 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5.5e-07 worst_score: 8.9625e-05
+ss-frags: 173 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 7.75e-07 worst_score: 9.465e-05
+ss-frags: 174 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3.5e-07 worst_score: 8.21e-05
+ss-frags: 175 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.25e-07 worst_score: 9.92e-05
+ss-frags: 176 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 4.75e-07 worst_score: 8.65e-05
+ss-frags: 177 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5e-08 worst_score: 9.8975e-05
+ss-frags: 178 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6.75e-07 worst_score: 9.49e-05
+ss-frags: 179 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 8e-07 worst_score: 9.4575e-05
+ss-frags: 180 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 9.25e-07 worst_score: 9.7825e-05
+ss-frags: 181 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.25e-07 worst_score: 8.9125e-05
+ss-frags: 182 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3e-07 worst_score: 8.755e-05
+ss-frags: 183 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.75e-07 worst_score: 9.2925e-05
+ss-frags: 184 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1e-07 worst_score: 9.0575e-05
+ss-frags: 185 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 0 worst_score: 8.745e-05
+ss-frags: 186 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.1e-06 worst_score: 0.0001123
+ss-frags: 187 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 4.5e-07 worst_score: 8.325e-05
+ss-frags: 188 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.25e-07 worst_score: 9.895e-05
+ss-frags: 189 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.5e-08 worst_score: 9.9925e-05
+ss-frags: 190 frag_ss: HHL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5.65e-06 worst_score: 0.000813675
+[REAL OPT]Default value for [-looprlx_cycle_ratio]   1
+[T/F  OPT]Default FALSE value for [-do_pose_checkpointing]
+0 | 1 range = [115, 125]   cut = 120   moveable = [ 115 116 117 118 119 120 121 122 123 124 ]   cutpoint_weight = 1   chainbreak_score = 197.402   total_rama_moveable = 2.03893   inactive_moveable = [ ]
+0 | 1 range = [127, 135]   cut = 131   moveable = [ 128 129 130 131 132 133 134 135 ]   cutpoint_weight = 1   chainbreak_score = 181.642   total_rama_moveable = 16.7622   inactive_moveable = [ ]
+0 | 1 range = [170, 190]   cut = 173   moveable = [ 170 171 172 173 174 185 186 187 188 189 190 ]   cutpoint_weight = 1   chainbreak_score = 124.528   total_rama_moveable = 5.47585   inactive_moveable = [ ]
+* es refine_all_simul:
+Instantiating PDInteractionGraph
+start of cycle: 1  SCORE 5796.64 RAMACHANDRAN 760.514 FA_ATR -1374.59 FA_REP 5975.11 FA_SOL 736.545 FA_ELEC 0 FA_PAIR -19.5806 FA_REF 39.91 FA_DUN 635.633 FA_PROB -44.5336 FA_H2O 0 HB_SRBB -147.002 HB_LRBB -122.366 HB_SC -51.3311 FA_INTRA 0.784749 GB 0 PLANE 0 COORD_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+[T/F  OPT]Default FALSE value for [-movie]
+[T/F  OPT]Default FALSE value for [-trajectory]
+[T/F  OPT]Default FALSE value for [-movie]
+[T/F  OPT]Default FALSE value for [-trajectory]
+Instantiating PDInteractionGraph
+start of cycle: 2  SCORE 4337.56 RAMACHANDRAN 762.247 FA_ATR -1373.44 FA_REP 4398.95 FA_SOL 734.34 FA_ELEC 0 FA_PAIR -19.5813 FA_REF 39.91 FA_DUN 635.591 FA_PROB -44.3708 FA_H2O 0 HB_SRBB -146.663 HB_LRBB -121.202 HB_SC -51.7747 FA_INTRA 0.784721 GB 0 PLANE 0 COORD_CST 1.1687 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 1 
+Instantiating PDInteractionGraph
+start of cycle: 3  SCORE 3897.94 RAMACHANDRAN 752.749 FA_ATR -1371.94 FA_REP 4081.6 FA_SOL 732.559 FA_ELEC 0 FA_PAIR -19.6716 FA_REF 39.91 FA_DUN 631.495 FA_PROB -46.5201 FA_H2O 0 HB_SRBB -146.239 HB_LRBB -119.696 HB_SC -51.527 FA_INTRA 0.783805 GB 0 PLANE 0 COORD_CST 0.000773804 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 3 
+Instantiating PDInteractionGraph
+refine_loops_simul_constrained -- final scores:
+SCORE 3894.92 RAMACHANDRAN 743.003 FA_ATR -1372.16 FA_REP 4081.06 FA_SOL 732.596 FA_ELEC 0 FA_PAIR -19.6429 FA_REF 39.91 FA_DUN 631.252 FA_PROB -47.1437 FA_H2O 0 HB_SRBB -146.112 HB_LRBB -119.605 HB_SC -51.4984 FA_INTRA 0.783842 GB 0 PLANE 0 COORD_CST 0.000673077 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 3 
+0 | 1 range = [115, 125]   cut = 120   moveable = [ 115 116 117 118 119 120 121 122 123 124 ]   cutpoint_weight = 1   chainbreak_score = 184.827   total_rama_moveable = 0.798419   inactive_moveable = [ ]
+0 | 0 range = [127, 135]   cut = 131   moveable = [ 128 129 130 131 132 133 134 135 ]   cutpoint_weight = 1   chainbreak_score = 168.781   total_rama_moveable = 25.2642   inactive_moveable = [ ]
+0 | 0 range = [170, 190]   cut = 173   moveable = [ 170 171 172 173 174 185 186 187 188 189 190 ]   cutpoint_weight = 1   chainbreak_score = 134.653   total_rama_moveable = 36.7739   inactive_moveable = [ ]
+designing with this many rotamers  163
+Instantiating PDInteractionGraph
+designing with this many rotamers  326
+Instantiating PDInteractionGraph
+MultiGraft: closure attempt 2
+* es build_all_simul:
+ss-frags: 115 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.2e-06 worst_score: 0.003342
+ss-frags: 116 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 3.37e-05 worst_score: 0.00313912
+ss-frags: 117 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.7275e-05 worst_score: 0.00297235
+ss-frags: 118 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 3.0825e-05 worst_score: 0.00307345
+ss-frags: 119 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.0425e-05 worst_score: 0.00318675
+ss-frags: 120 frag_ss: LLLLLLLLH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000213975 worst_score: 0.0212218
+ss-frags: 121 frag_ss: LLLLLLLHL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00001 worst_score: 1.00284
+ss-frags: 122 frag_ss: LLLLLLHLL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00003 worst_score: 1.00287
+ss-frags: 123 frag_ss: LLLLLHLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00002 worst_score: 1.00336
+ss-frags: 124 frag_ss: LLLLHLLLE frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00023 worst_score: 1.0283
+ss-frags: 125 frag_ss: LLLHLLLEE frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00012 worst_score: 1.01857
+ss-frags: 170 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.5e-08 worst_score: 0.00028835
+ss-frags: 171 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 8.75e-07 worst_score: 0.000289875
+ss-frags: 172 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1e-06 worst_score: 0.00026085
+ss-frags: 173 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.475e-06 worst_score: 0.00026495
+ss-frags: 174 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.7e-06 worst_score: 0.000303825
+ss-frags: 175 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2e-07 worst_score: 0.00029015
+ss-frags: 176 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.425e-06 worst_score: 0.0002964
+ss-frags: 177 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.75e-06 worst_score: 0.00031125
+ss-frags: 178 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.225e-06 worst_score: 0.000329925
+ss-frags: 179 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1e-07 worst_score: 0.00032395
+ss-frags: 180 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 3.775e-06 worst_score: 0.00030325
+ss-frags: 181 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.75e-07 worst_score: 0.00028215
+ss-frags: 182 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 7.5e-08 worst_score: 0.000298875
+ss-frags: 183 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.675e-06 worst_score: 0.000326525
+ss-frags: 184 frag_ss: HHHHHHHHL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.64e-05 worst_score: 0.0014687
+ss-frags: 185 frag_ss: HHHHHHHLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 4.6775e-05 worst_score: 0.00296845
+ss-frags: 186 frag_ss: HHHHHHLLE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.00064395 worst_score: 0.0590985
+ss-frags: 187 frag_ss: HHHHHLLEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.7025e-05 worst_score: 0.0557615
+ss-frags: 188 frag_ss: HHHHLLEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 5.275e-05 worst_score: 0.0546496
+ss-frags: 189 frag_ss: HHHLLEEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 6.0725e-05 worst_score: 0.04701
+ss-frags: 190 frag_ss: HHLLEEEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000387 worst_score: 0.0638653
+ss-frags: 115 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3e-07 worst_score: 0.000186425
+ss-frags: 116 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3e-07 worst_score: 0.000177725
+ss-frags: 117 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6.75e-07 worst_score: 0.000184275
+ss-frags: 118 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.5e-07 worst_score: 0.000181375
+ss-frags: 119 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 8.75e-07 worst_score: 0.0001694
+ss-frags: 120 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.075e-06 worst_score: 0.0002239
+ss-frags: 121 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3.5e-07 worst_score: 0.00017995
+ss-frags: 122 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.1e-06 worst_score: 0.00018145
+ss-frags: 123 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 7.5e-07 worst_score: 0.0001777
+ss-frags: 124 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6.25e-07 worst_score: 0.000185525
+ss-frags: 125 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3.75e-07 worst_score: 0.000198125
+ss-frags: 127 frag_ss: LHL frag_seq: ddd seq-match: 0 exact_matches: 0 best_score: 1 worst_score: 1.00015
+ss-frags: 128 frag_ss: HLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 8.775e-06 worst_score: 0.00133842
+ss-frags: 129 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5e-08 worst_score: 0.00017705
+ss-frags: 130 frag_ss: LLE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.025e-06 worst_score: 0.0013001
+ss-frags: 131 frag_ss: LEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.95e-06 worst_score: 0.000866275
+ss-frags: 132 frag_ss: EEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3e-07 worst_score: 0.000215875
+ss-frags: 133 frag_ss: EEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.5e-07 worst_score: 0.0002154
+ss-frags: 134 frag_ss: EEL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.3e-06 worst_score: 0.000821575
+ss-frags: 135 frag_ss: ELL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6.625e-06 worst_score: 0.00121968
+ss-frags: 170 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5.75e-07 worst_score: 9.525e-05
+ss-frags: 171 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2e-07 worst_score: 0.0001012
+ss-frags: 172 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.25e-07 worst_score: 9.6325e-05
+ss-frags: 173 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.5e-07 worst_score: 9.505e-05
+ss-frags: 174 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5.5e-07 worst_score: 0.0001092
+ss-frags: 175 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1e-07 worst_score: 9.695e-05
+ss-frags: 176 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.5e-07 worst_score: 9.5475e-05
+ss-frags: 177 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.25e-07 worst_score: 9.6625e-05
+ss-frags: 178 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3.5e-07 worst_score: 9.0525e-05
+ss-frags: 179 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.25e-07 worst_score: 9.555e-05
+ss-frags: 180 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3e-07 worst_score: 9.8025e-05
+ss-frags: 181 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.25e-06 worst_score: 0.000104575
+ss-frags: 182 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3e-07 worst_score: 0.00011125
+ss-frags: 183 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.325e-06 worst_score: 0.000100025
+ss-frags: 184 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 8.5e-07 worst_score: 9.63e-05
+ss-frags: 185 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.25e-07 worst_score: 0.000110625
+ss-frags: 186 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.175e-06 worst_score: 0.0001066
+ss-frags: 187 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 0 worst_score: 9.3225e-05
+ss-frags: 188 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.75e-07 worst_score: 9.9275e-05
+ss-frags: 189 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 4.5e-07 worst_score: 9.295e-05
+ss-frags: 190 frag_ss: HHL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6.625e-06 worst_score: 0.000728425
+[T/F  OPT]Default FALSE value for [-ssblocks]
+0 | 1 range = [115, 125]   cut = 120   moveable = [ 115 116 117 118 119 120 121 122 123 124 ]   cutpoint_weight = 1   chainbreak_score = 166.431   total_rama_moveable = 0.798419   inactive_moveable = [ ]
+0 | 1 range = [127, 135]   cut = 131   moveable = [ 128 129 130 131 132 133 134 135 ]   cutpoint_weight = 1   chainbreak_score = 149.852   total_rama_moveable = 19.4347   inactive_moveable = [ ]
+0 | 1 range = [170, 190]   cut = 173   moveable = [ 170 171 172 173 174 185 186 187 188 189 190 ]   cutpoint_weight = 1   chainbreak_score = 63.7825   total_rama_moveable = -3.09143   inactive_moveable = [ ]
+* es refine_all_simul:
+Instantiating PDInteractionGraph
+start of cycle: 1  SCORE 5156.02 RAMACHANDRAN 710.441 FA_ATR -1378.08 FA_REP 5356.53 FA_SOL 734.181 FA_ELEC 0 FA_PAIR -19.8513 FA_REF 40.24 FA_DUN 626.584 FA_PROB -48.4188 FA_H2O 0 HB_SRBB -142.517 HB_LRBB -119.605 HB_SC -50.9057 FA_INTRA 0.784634 GB 0 PLANE 0 COORD_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+Instantiating PDInteractionGraph
+start of cycle: 2  SCORE 5153 RAMACHANDRAN 710.441 FA_ATR -1377.91 FA_REP 5353.52 FA_SOL 733.989 FA_ELEC 0 FA_PAIR -19.8513 FA_REF 40.24 FA_DUN 626.739 FA_PROB -48.4187 FA_H2O 0 HB_SRBB -142.782 HB_LRBB -119.605 HB_SC -50.906 FA_INTRA 0.784912 GB 0 PLANE 0 COORD_CST 6.27779e-07 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 3 
+Instantiating PDInteractionGraph
+start of cycle: 3  SCORE 5152.99 RAMACHANDRAN 710.441 FA_ATR -1377.91 FA_REP 5353.51 FA_SOL 733.989 FA_ELEC 0 FA_PAIR -19.8513 FA_REF 40.24 FA_DUN 626.739 FA_PROB -48.4187 FA_H2O 0 HB_SRBB -142.782 HB_LRBB -119.605 HB_SC -50.9061 FA_INTRA 0.784912 GB 0 PLANE 0 COORD_CST 1.90507e-06 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 3 
+Instantiating PDInteractionGraph
+refine_loops_simul_constrained -- final scores:
+SCORE 5152.99 RAMACHANDRAN 710.441 FA_ATR -1377.91 FA_REP 5353.51 FA_SOL 733.989 FA_ELEC 0 FA_PAIR -19.8513 FA_REF 40.24 FA_DUN 626.739 FA_PROB -48.4187 FA_H2O 0 HB_SRBB -142.782 HB_LRBB -119.605 HB_SC -50.9061 FA_INTRA 0.784912 GB 0 PLANE 0 COORD_CST 1.90507e-06 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 2 
+0 | 1 range = [115, 125]   cut = 120   moveable = [ 115 116 117 118 119 120 121 122 123 124 ]   cutpoint_weight = 1   chainbreak_score = 166.318   total_rama_moveable = 0.905073   inactive_moveable = [ ]
+0 | 1 range = [127, 135]   cut = 131   moveable = [ 128 129 130 131 132 133 134 135 ]   cutpoint_weight = 1   chainbreak_score = 149.831   total_rama_moveable = 18.4407   inactive_moveable = [ ]
+0 | 0 range = [170, 190]   cut = 173   moveable = [ 170 171 172 173 174 185 186 187 188 189 190 ]   cutpoint_weight = 1   chainbreak_score = 69.5933   total_rama_moveable = 10.9314   inactive_moveable = [ ]
+designing with this many rotamers  162
+Instantiating PDInteractionGraph
+designing with this many rotamers  324
+Instantiating PDInteractionGraph
+MultiGraft: closure attempt 3
+* es build_all_simul:
+ss-frags: 115 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 3.475e-06 worst_score: 0.00296667
+ss-frags: 116 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 5.875e-06 worst_score: 0.00323255
+ss-frags: 117 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.55e-05 worst_score: 0.00301225
+ss-frags: 118 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.7425e-05 worst_score: 0.00285055
+ss-frags: 119 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 6.2575e-05 worst_score: 0.0031484
+ss-frags: 120 frag_ss: LLLLLLLLH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000304475 worst_score: 0.0238562
+ss-frags: 121 frag_ss: LLLLLLLHL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00002 worst_score: 1.00282
+ss-frags: 122 frag_ss: LLLLLLHLL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00001 worst_score: 1.00281
+ss-frags: 123 frag_ss: LLLLLHLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00001 worst_score: 1.00317
+ss-frags: 124 frag_ss: LLLLHLLLE frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00004 worst_score: 1.03153
+ss-frags: 125 frag_ss: LLLHLLLEE frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00017 worst_score: 1.01682
+ss-frags: 170 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.75e-07 worst_score: 0.000306
+ss-frags: 171 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.45e-06 worst_score: 0.000264825
+ss-frags: 172 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1e-06 worst_score: 0.00032845
+ss-frags: 173 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.05e-06 worst_score: 0.000274525
+ss-frags: 174 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 8.25e-07 worst_score: 0.000314375
+ss-frags: 175 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 3.75e-07 worst_score: 0.0003198
+ss-frags: 176 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.6e-06 worst_score: 0.00028575
+ss-frags: 177 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.55e-06 worst_score: 0.00027935
+ss-frags: 178 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 8.25e-07 worst_score: 0.00031375
+ss-frags: 179 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 4.775e-06 worst_score: 0.000278575
+ss-frags: 180 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.3e-06 worst_score: 0.00030515
+ss-frags: 181 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 6.75e-07 worst_score: 0.00030635
+ss-frags: 182 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.825e-06 worst_score: 0.000291175
+ss-frags: 183 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 7e-07 worst_score: 0.000284575
+ss-frags: 184 frag_ss: HHHHHHHHL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.275e-05 worst_score: 0.00195838
+ss-frags: 185 frag_ss: HHHHHHHLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 6.25e-06 worst_score: 0.0027953
+ss-frags: 186 frag_ss: HHHHHHLLE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 9.5e-05 worst_score: 0.0566067
+ss-frags: 187 frag_ss: HHHHHLLEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.00023055 worst_score: 0.0530013
+ss-frags: 188 frag_ss: HHHHLLEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.415e-05 worst_score: 0.0560174
+ss-frags: 189 frag_ss: HHHLLEEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000825875 worst_score: 0.0452284
+ss-frags: 190 frag_ss: HHLLEEEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000415175 worst_score: 0.0611985
+ss-frags: 115 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 7.5e-08 worst_score: 0.00016605
+ss-frags: 116 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3e-07 worst_score: 0.00019605
+ss-frags: 117 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2e-07 worst_score: 0.0001988
+ss-frags: 118 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.25e-07 worst_score: 0.000194325
+ss-frags: 119 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.425e-06 worst_score: 0.0002286
+ss-frags: 120 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.175e-06 worst_score: 0.0001983
+ss-frags: 121 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6.5e-07 worst_score: 0.000192825
+ss-frags: 122 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.5e-08 worst_score: 0.00019965
+ss-frags: 123 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.725e-06 worst_score: 0.000190075
+ss-frags: 124 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.15e-06 worst_score: 0.00017055
+ss-frags: 125 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.25e-07 worst_score: 0.00018095
+ss-frags: 127 frag_ss: LHL frag_seq: ddd seq-match: 0 exact_matches: 0 best_score: 1 worst_score: 1.00013
+ss-frags: 128 frag_ss: HLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.75e-06 worst_score: 0.00122647
+ss-frags: 129 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.75e-07 worst_score: 0.00018015
+ss-frags: 130 frag_ss: LLE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3.01e-05 worst_score: 0.0014687
+ss-frags: 131 frag_ss: LEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 7.25e-07 worst_score: 0.0008674
+ss-frags: 132 frag_ss: EEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.575e-06 worst_score: 0.0002135
+ss-frags: 133 frag_ss: EEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6.5e-07 worst_score: 0.000185725
+ss-frags: 134 frag_ss: EEL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.925e-06 worst_score: 0.000915
+ss-frags: 135 frag_ss: ELL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6.25e-06 worst_score: 0.00134353
+ss-frags: 170 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5.75e-07 worst_score: 9.8225e-05
+ss-frags: 171 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 4.5e-07 worst_score: 0.000103
+ss-frags: 172 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.5e-07 worst_score: 0.000100025
+ss-frags: 173 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1e-06 worst_score: 0.000101025
+ss-frags: 174 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 0 worst_score: 8.0325e-05
+ss-frags: 175 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.25e-07 worst_score: 8.7075e-05
+ss-frags: 176 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 7e-07 worst_score: 8.6275e-05
+ss-frags: 177 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.5e-08 worst_score: 9.3325e-05
+ss-frags: 178 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 9.25e-07 worst_score: 9.74e-05
+ss-frags: 179 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.025e-06 worst_score: 0.000103775
+ss-frags: 180 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5.75e-07 worst_score: 0.00010915
+ss-frags: 181 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3.25e-07 worst_score: 0.000101125
+ss-frags: 182 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.1e-06 worst_score: 8.69e-05
+ss-frags: 183 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5e-08 worst_score: 8.6125e-05
+ss-frags: 184 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 7.5e-08 worst_score: 9.175e-05
+ss-frags: 185 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.25e-07 worst_score: 8.5975e-05
+ss-frags: 186 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.25e-07 worst_score: 0.00010035
+ss-frags: 187 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.5e-07 worst_score: 9.565e-05
+ss-frags: 188 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3.5e-07 worst_score: 9.1075e-05
+ss-frags: 189 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.1e-06 worst_score: 9.6e-05
+ss-frags: 190 frag_ss: HHL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.55e-06 worst_score: 0.00079285
+0 | 1 range = [115, 125]   cut = 120   moveable = [ 115 116 117 118 119 120 121 122 123 124 ]   cutpoint_weight = 1   chainbreak_score = 155.037   total_rama_moveable = 0.905073   inactive_moveable = [ ]
+0 | 1 range = [127, 135]   cut = 131   moveable = [ 128 129 130 131 132 133 134 135 ]   cutpoint_weight = 1   chainbreak_score = 142.582   total_rama_moveable = 18.4303   inactive_moveable = [ ]
+0 | 1 range = [170, 190]   cut = 173   moveable = [ 170 171 172 173 174 185 186 187 188 189 190 ]   cutpoint_weight = 1   chainbreak_score = 68.1604   total_rama_moveable = -4.33491   inactive_moveable = [ ]
+* es refine_all_simul:
+Instantiating PDInteractionGraph
+start of cycle: 1  SCORE 4443.37 RAMACHANDRAN 713.759 FA_ATR -1376.18 FA_REP 4637.12 FA_SOL 732.963 FA_ELEC 0 FA_PAIR -19.6726 FA_REF 40.24 FA_DUN 629.883 FA_PROB -46.3192 FA_H2O 0 HB_SRBB -140.566 HB_LRBB -119.605 HB_SC -51.0106 FA_INTRA 0.804485 GB 0 PLANE 0 COORD_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+Instantiating PDInteractionGraph
+start of cycle: 2  SCORE 4389.11 RAMACHANDRAN 713.341 FA_ATR -1375.5 FA_REP 4584.89 FA_SOL 732.262 FA_ELEC 0 FA_PAIR -19.7397 FA_REF 40.24 FA_DUN 629.978 FA_PROB -49.349 FA_H2O 0 HB_SRBB -141.098 HB_LRBB -119.827 HB_SC -51.0257 FA_INTRA 0.800882 GB 0 PLANE 0 COORD_CST 0.000623851 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 3 
+Instantiating PDInteractionGraph
+start of cycle: 3  SCORE 4389.11 RAMACHANDRAN 713.341 FA_ATR -1375.5 FA_REP 4584.89 FA_SOL 732.262 FA_ELEC 0 FA_PAIR -19.7397 FA_REF 40.24 FA_DUN 629.978 FA_PROB -49.349 FA_H2O 0 HB_SRBB -141.098 HB_LRBB -119.827 HB_SC -51.0255 FA_INTRA 0.800882 GB 0 PLANE 0 COORD_CST 0.000606093 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 0 
+Instantiating PDInteractionGraph
+refine_loops_simul_constrained -- final scores:
+SCORE 4389.11 RAMACHANDRAN 713.341 FA_ATR -1375.5 FA_REP 4584.89 FA_SOL 732.262 FA_ELEC 0 FA_PAIR -19.7397 FA_REF 40.24 FA_DUN 629.978 FA_PROB -49.349 FA_H2O 0 HB_SRBB -141.098 HB_LRBB -119.827 HB_SC -51.0255 FA_INTRA 0.800882 GB 0 PLANE 0 COORD_CST 0.000606093 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 3 
+0 | 1 range = [115, 125]   cut = 120   moveable = [ 115 116 117 118 119 120 121 122 123 124 ]   cutpoint_weight = 1   chainbreak_score = 155.047   total_rama_moveable = 1.64603   inactive_moveable = [ ]
+0 | 1 range = [127, 135]   cut = 131   moveable = [ 128 129 130 131 132 133 134 135 ]   cutpoint_weight = 1   chainbreak_score = 142.593   total_rama_moveable = 17.3043   inactive_moveable = [ ]
+0 | 0 range = [170, 190]   cut = 173   moveable = [ 170 171 172 173 174 185 186 187 188 189 190 ]   cutpoint_weight = 1   chainbreak_score = 72.4532   total_rama_moveable = 14.2229   inactive_moveable = [ ]
+designing with this many rotamers  162
+Instantiating PDInteractionGraph
+designing with this many rotamers  324
+Instantiating PDInteractionGraph
+MultiGraft: closure attempt 4
+* resetting backbone of broken loops
+* es build_all_simul:
+ss-frags: 115 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.6275e-05 worst_score: 0.0029646
+ss-frags: 116 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.35e-06 worst_score: 0.00328755
+ss-frags: 117 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 7.675e-06 worst_score: 0.00309697
+ss-frags: 118 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 5.25e-07 worst_score: 0.00330798
+ss-frags: 119 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.44e-05 worst_score: 0.00345525
+ss-frags: 120 frag_ss: LLLLLLLLH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.00018855 worst_score: 0.0236847
+ss-frags: 121 frag_ss: LLLLLLLHL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00001 worst_score: 1.00287
+ss-frags: 122 frag_ss: LLLLLLHLL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00001 worst_score: 1.00317
+ss-frags: 123 frag_ss: LLLLLHLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00001 worst_score: 1.00306
+ss-frags: 124 frag_ss: LLLLHLLLE frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00013 worst_score: 1.02741
+ss-frags: 125 frag_ss: LLLHLLLEE frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00016 worst_score: 1.01778
+ss-frags: 170 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 7e-07 worst_score: 0.00030945
+ss-frags: 171 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 7.5e-07 worst_score: 0.0002666
+ss-frags: 172 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 5e-08 worst_score: 0.0002799
+ss-frags: 173 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.425e-06 worst_score: 0.0002629
+ss-frags: 174 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 4.25e-07 worst_score: 0.0003098
+ss-frags: 175 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.75e-07 worst_score: 0.0002605
+ss-frags: 176 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 3.275e-06 worst_score: 0.00033805
+ss-frags: 177 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.85e-06 worst_score: 0.000318625
+ss-frags: 178 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.5e-06 worst_score: 0.000318325
+ss-frags: 179 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.5e-08 worst_score: 0.000311375
+ss-frags: 180 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 9.25e-07 worst_score: 0.0002857
+ss-frags: 181 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 4e-06 worst_score: 0.000267575
+ss-frags: 182 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 7.75e-07 worst_score: 0.000295925
+ss-frags: 183 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 4.5e-07 worst_score: 0.000290475
+ss-frags: 184 frag_ss: HHHHHHHHL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 5.2e-06 worst_score: 0.00204738
+ss-frags: 185 frag_ss: HHHHHHHLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.625e-05 worst_score: 0.00261017
+ss-frags: 186 frag_ss: HHHHHHLLE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.0003095 worst_score: 0.0570716
+ss-frags: 187 frag_ss: HHHHHLLEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000129575 worst_score: 0.0554541
+ss-frags: 188 frag_ss: HHHHLLEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.00082575 worst_score: 0.0563038
+ss-frags: 189 frag_ss: HHHLLEEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000170575 worst_score: 0.0464228
+ss-frags: 190 frag_ss: HHLLEEEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 7.2225e-05 worst_score: 0.0649273
+ss-frags: 115 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 7.75e-07 worst_score: 0.0002162
+ss-frags: 116 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.8e-06 worst_score: 0.000194975
+ss-frags: 117 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 8.5e-07 worst_score: 0.000199075
+ss-frags: 118 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3e-07 worst_score: 0.000179675
+ss-frags: 119 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1e-07 worst_score: 0.000187075
+ss-frags: 120 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6.25e-07 worst_score: 0.0001843
+ss-frags: 121 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3.5e-07 worst_score: 0.000168225
+ss-frags: 122 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 7.5e-07 worst_score: 0.000206
+ss-frags: 123 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.775e-06 worst_score: 0.000194575
+ss-frags: 124 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.825e-06 worst_score: 0.000207425
+ss-frags: 125 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.75e-07 worst_score: 0.000181975
+ss-frags: 127 frag_ss: LHL frag_seq: ddd seq-match: 0 exact_matches: 0 best_score: 1 worst_score: 1.00016
+ss-frags: 128 frag_ss: HLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.525e-06 worst_score: 0.00131793
+ss-frags: 129 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.25e-07 worst_score: 0.000186225
+ss-frags: 130 frag_ss: LLE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5.65e-06 worst_score: 0.00144595
+ss-frags: 131 frag_ss: LEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6.875e-06 worst_score: 0.000899125
+ss-frags: 132 frag_ss: EEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5.5e-07 worst_score: 0.000236725
+ss-frags: 133 frag_ss: EEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2e-07 worst_score: 0.0002414
+ss-frags: 134 frag_ss: EEL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3.225e-06 worst_score: 0.00103198
+ss-frags: 135 frag_ss: ELL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 4.575e-06 worst_score: 0.0012355
+ss-frags: 170 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6.5e-07 worst_score: 9.585e-05
+ss-frags: 171 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.125e-06 worst_score: 0.0001086
+ss-frags: 172 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1e-07 worst_score: 8.8425e-05
+ss-frags: 173 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6.25e-07 worst_score: 8.615e-05
+ss-frags: 174 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5e-07 worst_score: 0.0001001
+ss-frags: 175 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.25e-07 worst_score: 0.0001009
+ss-frags: 176 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 9e-07 worst_score: 8.995e-05
+ss-frags: 177 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6.5e-07 worst_score: 9.89e-05
+ss-frags: 178 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 0 worst_score: 9.4375e-05
+ss-frags: 179 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.25e-07 worst_score: 9.7625e-05
+ss-frags: 180 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.425e-06 worst_score: 0.0001
+ss-frags: 181 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 4e-07 worst_score: 9.6025e-05
+ss-frags: 182 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 7e-07 worst_score: 8.97e-05
+ss-frags: 183 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.15e-06 worst_score: 0.000104125
+ss-frags: 184 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 8.5e-07 worst_score: 9.795e-05
+ss-frags: 185 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1e-07 worst_score: 9.9975e-05
+ss-frags: 186 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 7.5e-08 worst_score: 0.0001058
+ss-frags: 187 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.075e-06 worst_score: 9.6e-05
+ss-frags: 188 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.5e-08 worst_score: 8.97e-05
+ss-frags: 189 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 7.5e-08 worst_score: 0.00010355
+ss-frags: 190 frag_ss: HHL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3.975e-06 worst_score: 0.0008742
+0 | 1 range = [115, 125]   cut = 120   moveable = [ 115 116 117 118 119 120 121 122 123 124 ]   cutpoint_weight = 1   chainbreak_score = 184.783   total_rama_moveable = 1.64603   inactive_moveable = [ ]
+0 | 1 range = [127, 135]   cut = 131   moveable = [ 128 129 130 131 132 133 134 135 ]   cutpoint_weight = 1   chainbreak_score = 169.576   total_rama_moveable = 17.2939   inactive_moveable = [ ]
+0 | 1 range = [170, 190]   cut = 173   moveable = [ 170 171 172 173 174 185 186 187 188 189 190 ]   cutpoint_weight = 1   chainbreak_score = 124.527   total_rama_moveable = 8.3296   inactive_moveable = [ ]
+* es refine_all_simul:
+Instantiating PDInteractionGraph
+start of cycle: 1  SCORE 3897.14 RAMACHANDRAN 739.793 FA_ATR -1372.8 FA_REP 4084.62 FA_SOL 732.828 FA_ELEC 0 FA_PAIR -19.5344 FA_REF 40.57 FA_DUN 630.171 FA_PROB -45.1327 FA_H2O 0 HB_SRBB -146.38 HB_LRBB -119.826 HB_SC -50.7339 FA_INTRA 0.790612 GB 0 PLANE 0 COORD_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+Instantiating PDInteractionGraph
+start of cycle: 2  SCORE 3896.36 RAMACHANDRAN 739.793 FA_ATR -1372.8 FA_REP 4083.83 FA_SOL 732.829 FA_ELEC 0 FA_PAIR -19.5344 FA_REF 40.57 FA_DUN 630.171 FA_PROB -45.133 FA_H2O 0 HB_SRBB -146.379 HB_LRBB -119.826 HB_SC -50.7343 FA_INTRA 0.790615 GB 0 PLANE 0 COORD_CST 1.15895e-05 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 1 
+Instantiating PDInteractionGraph
+start of cycle: 3  SCORE 3896.36 RAMACHANDRAN 739.793 FA_ATR -1372.8 FA_REP 4083.83 FA_SOL 732.829 FA_ELEC 0 FA_PAIR -19.5344 FA_REF 40.57 FA_DUN 630.171 FA_PROB -45.1331 FA_H2O 0 HB_SRBB -146.38 HB_LRBB -119.826 HB_SC -50.7343 FA_INTRA 0.790617 GB 0 PLANE 0 COORD_CST 1.17784e-05 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 1 
+Instantiating PDInteractionGraph
+refine_loops_simul_constrained -- final scores:
+SCORE 3895.78 RAMACHANDRAN 739.793 FA_ATR -1372.8 FA_REP 4083.25 FA_SOL 732.829 FA_ELEC 0 FA_PAIR -19.5344 FA_REF 40.57 FA_DUN 630.17 FA_PROB -45.1331 FA_H2O 0 HB_SRBB -146.38 HB_LRBB -119.826 HB_SC -50.7342 FA_INTRA 0.790617 GB 0 PLANE 0 COORD_CST 1.26227e-05 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 1 
+0 | 1 range = [115, 125]   cut = 120   moveable = [ 115 116 117 118 119 120 121 122 123 124 ]   cutpoint_weight = 1   chainbreak_score = 184.705   total_rama_moveable = 1.51246   inactive_moveable = [ ]
+0 | 1 range = [127, 135]   cut = 131   moveable = [ 128 129 130 131 132 133 134 135 ]   cutpoint_weight = 1   chainbreak_score = 169.176   total_rama_moveable = 18.4873   inactive_moveable = [ ]
+0 | 0 range = [170, 190]   cut = 173   moveable = [ 170 171 172 173 174 185 186 187 188 189 190 ]   cutpoint_weight = 1   chainbreak_score = 134.651   total_rama_moveable = 39.6274   inactive_moveable = [ ]
+designing with this many rotamers  161
+Instantiating PDInteractionGraph
+designing with this many rotamers  322
+Instantiating PDInteractionGraph
+MultiGraft: closure attempt 5
+* es build_all_simul:
+ss-frags: 115 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.97e-05 worst_score: 0.00323002
+ss-frags: 116 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.045e-05 worst_score: 0.00355325
+ss-frags: 117 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.35e-06 worst_score: 0.00304918
+ss-frags: 118 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 5e-08 worst_score: 0.00315393
+ss-frags: 119 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.085e-05 worst_score: 0.00309078
+ss-frags: 120 frag_ss: LLLLLLLLH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000236 worst_score: 0.0230078
+ss-frags: 121 frag_ss: LLLLLLLHL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00001 worst_score: 1.00249
+ss-frags: 122 frag_ss: LLLLLLHLL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00005 worst_score: 1.00294
+ss-frags: 123 frag_ss: LLLLLHLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1 worst_score: 1.00346
+ss-frags: 124 frag_ss: LLLLHLLLE frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00034 worst_score: 1.02756
+ss-frags: 125 frag_ss: LLLHLLLEE frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00019 worst_score: 1.01561
+ss-frags: 170 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 6.225e-06 worst_score: 0.00029615
+ss-frags: 171 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 8e-07 worst_score: 0.000325075
+ss-frags: 172 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 5e-08 worst_score: 0.0003166
+ss-frags: 173 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.275e-06 worst_score: 0.00028625
+ss-frags: 174 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 8e-07 worst_score: 0.000272225
+ss-frags: 175 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.5e-07 worst_score: 0.000290325
+ss-frags: 176 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.3e-06 worst_score: 0.000266325
+ss-frags: 177 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.75e-07 worst_score: 0.0002914
+ss-frags: 178 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.425e-06 worst_score: 0.000314
+ss-frags: 179 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 5.425e-06 worst_score: 0.000294675
+ss-frags: 180 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 6.5e-07 worst_score: 0.000284
+ss-frags: 181 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 3.35e-06 worst_score: 0.0003339
+ss-frags: 182 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.775e-06 worst_score: 0.0003151
+ss-frags: 183 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 7e-07 worst_score: 0.000280925
+ss-frags: 184 frag_ss: HHHHHHHHL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.675e-06 worst_score: 0.00172157
+ss-frags: 185 frag_ss: HHHHHHHLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.55e-06 worst_score: 0.00290262
+ss-frags: 186 frag_ss: HHHHHHLLE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 9.9975e-05 worst_score: 0.0590778
+ss-frags: 187 frag_ss: HHHHHLLEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000205325 worst_score: 0.054914
+ss-frags: 188 frag_ss: HHHHLLEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.1525e-05 worst_score: 0.0517175
+ss-frags: 189 frag_ss: HHHLLEEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000566025 worst_score: 0.0442375
+ss-frags: 190 frag_ss: HHLLEEEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000109175 worst_score: 0.059127
+ss-frags: 115 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 4.025e-06 worst_score: 0.000200175
+ss-frags: 116 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.175e-06 worst_score: 0.00021305
+ss-frags: 117 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 7.75e-07 worst_score: 0.000200625
+ss-frags: 118 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.15e-06 worst_score: 0.000180575
+ss-frags: 119 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.075e-06 worst_score: 0.00017925
+ss-frags: 120 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1e-07 worst_score: 0.00019895
+ss-frags: 121 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 9.25e-07 worst_score: 0.000185775
+ss-frags: 122 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 9.25e-07 worst_score: 0.000197675
+ss-frags: 123 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.7e-06 worst_score: 0.000190675
+ss-frags: 124 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.5e-07 worst_score: 0.000179225
+ss-frags: 125 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3e-07 worst_score: 0.000204075
+ss-frags: 127 frag_ss: LHL frag_seq: ddd seq-match: 0 exact_matches: 0 best_score: 1 worst_score: 1.00014
+ss-frags: 128 frag_ss: HLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6.325e-06 worst_score: 0.00129977
+ss-frags: 129 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.5e-08 worst_score: 0.0001997
+ss-frags: 130 frag_ss: LLE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 7.575e-06 worst_score: 0.00143405
+ss-frags: 131 frag_ss: LEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.35e-06 worst_score: 0.00090315
+ss-frags: 132 frag_ss: EEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.5e-07 worst_score: 0.00019945
+ss-frags: 133 frag_ss: EEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 8.75e-07 worst_score: 0.00022245
+ss-frags: 134 frag_ss: EEL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 7.575e-06 worst_score: 0.00099755
+ss-frags: 135 frag_ss: ELL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2e-06 worst_score: 0.00125427
+ss-frags: 170 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1e-07 worst_score: 9.8225e-05
+ss-frags: 171 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.75e-07 worst_score: 0.000103575
+ss-frags: 172 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.25e-07 worst_score: 9.82e-05
+ss-frags: 173 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.075e-06 worst_score: 8.69e-05
+ss-frags: 174 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.85e-06 worst_score: 9.285e-05
+ss-frags: 175 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.2e-06 worst_score: 9.925e-05
+ss-frags: 176 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3e-07 worst_score: 9.5775e-05
+ss-frags: 177 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.025e-06 worst_score: 9.14e-05
+ss-frags: 178 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.75e-07 worst_score: 8.925e-05
+ss-frags: 179 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 4.5e-07 worst_score: 9.095e-05
+ss-frags: 180 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 9.5e-07 worst_score: 0.000101
+ss-frags: 181 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.75e-07 worst_score: 9.78e-05
+ss-frags: 182 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.35e-06 worst_score: 0.0001008
+ss-frags: 183 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5e-08 worst_score: 9.1425e-05
+ss-frags: 184 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5e-08 worst_score: 9.3425e-05
+ss-frags: 185 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2e-07 worst_score: 9.6425e-05
+ss-frags: 186 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.25e-07 worst_score: 9.85e-05
+ss-frags: 187 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 7.5e-08 worst_score: 0.0001019
+ss-frags: 188 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.5e-08 worst_score: 9.3575e-05
+ss-frags: 189 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.075e-06 worst_score: 9.73e-05
+ss-frags: 190 frag_ss: HHL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6.675e-06 worst_score: 0.000872825
+0 | 1 range = [115, 125]   cut = 120   moveable = [ 115 116 117 118 119 120 121 122 123 124 ]   cutpoint_weight = 1   chainbreak_score = 177.398   total_rama_moveable = 1.51246   inactive_moveable = [ ]
+0 | 1 range = [127, 135]   cut = 131   moveable = [ 128 129 130 131 132 133 134 135 ]   cutpoint_weight = 1   chainbreak_score = 169.193   total_rama_moveable = 18.4768   inactive_moveable = [ ]
+0 | 1 range = [170, 190]   cut = 173   moveable = [ 170 171 172 173 174 185 186 187 188 189 190 ]   cutpoint_weight = 1   chainbreak_score = 62.9419   total_rama_moveable = -0.901161   inactive_moveable = [ ]
+* es refine_all_simul:
+Instantiating PDInteractionGraph
+start of cycle: 1  SCORE 1987.28 RAMACHANDRAN 737.518 FA_ATR -1367.36 FA_REP 2172.65 FA_SOL 728.635 FA_ELEC 0 FA_PAIR -19.6007 FA_REF 40.9 FA_DUN 627.674 FA_PROB -44.2011 FA_H2O 0 HB_SRBB -138.949 HB_LRBB -119.826 HB_SC -50.7106 FA_INTRA 0.791142 GB 0 PLANE 0 COORD_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+Instantiating PDInteractionGraph
+start of cycle: 2  SCORE 1986.52 RAMACHANDRAN 737.518 FA_ATR -1367.38 FA_REP 2171.83 FA_SOL 728.615 FA_ELEC 0 FA_PAIR -19.6007 FA_REF 40.9 FA_DUN 627.769 FA_PROB -44.2012 FA_H2O 0 HB_SRBB -138.949 HB_LRBB -119.826 HB_SC -50.711 FA_INTRA 0.791326 GB 0 PLANE 0 COORD_CST 4.64176e-07 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 1 
+Instantiating PDInteractionGraph
+start of cycle: 3  SCORE 1986.15 RAMACHANDRAN 737.518 FA_ATR -1367.09 FA_REP 2171.95 FA_SOL 728.48 FA_ELEC 0 FA_PAIR -19.3339 FA_REF 40.9 FA_DUN 628.237 FA_PROB -44.201 FA_H2O 0 HB_SRBB -138.948 HB_LRBB -119.827 HB_SC -52.0903 FA_INTRA 0.791011 GB 0 PLANE 0 COORD_CST 3.34888e-05 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 3 
+Instantiating PDInteractionGraph
+refine_loops_simul_constrained -- final scores:
+SCORE 1986.14 RAMACHANDRAN 737.518 FA_ATR -1367.09 FA_REP 2171.95 FA_SOL 728.48 FA_ELEC 0 FA_PAIR -19.3339 FA_REF 40.9 FA_DUN 628.237 FA_PROB -44.201 FA_H2O 0 HB_SRBB -138.948 HB_LRBB -119.827 HB_SC -52.0907 FA_INTRA 0.791011 GB 0 PLANE 0 COORD_CST 2.39375e-05 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 3 
+0 | 1 range = [115, 125]   cut = 120   moveable = [ 115 116 117 118 119 120 121 122 123 124 ]   cutpoint_weight = 1   chainbreak_score = 177.397   total_rama_moveable = 1.63771   inactive_moveable = [ ]
+0 | 1 range = [127, 135]   cut = 131   moveable = [ 128 129 130 131 132 133 134 135 ]   cutpoint_weight = 1   chainbreak_score = 169.33   total_rama_moveable = 17.303   inactive_moveable = [ ]
+0 | 0 range = [170, 190]   cut = 173   moveable = [ 170 171 172 173 174 185 186 187 188 189 190 ]   cutpoint_weight = 1   chainbreak_score = 63.0336   total_rama_moveable = 38.411   inactive_moveable = [ ]
+designing with this many rotamers  160
+Instantiating PDInteractionGraph
+designing with this many rotamers  320
+Instantiating PDInteractionGraph
+MultiGraft: closure attempt 6
+* es build_all_simul:
+ss-frags: 115 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 4.95e-06 worst_score: 0.00327775
+ss-frags: 116 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 4.31e-05 worst_score: 0.00314645
+ss-frags: 117 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 4.25e-06 worst_score: 0.00330212
+ss-frags: 118 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 6.25e-07 worst_score: 0.00286155
+ss-frags: 119 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 4.25e-06 worst_score: 0.00327345
+ss-frags: 120 frag_ss: LLLLLLLLH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.00026105 worst_score: 0.0202687
+ss-frags: 121 frag_ss: LLLLLLLHL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00001 worst_score: 1.00285
+ss-frags: 122 frag_ss: LLLLLLHLL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00001 worst_score: 1.00302
+ss-frags: 123 frag_ss: LLLLLHLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00001 worst_score: 1.00292
+ss-frags: 124 frag_ss: LLLLHLLLE frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00006 worst_score: 1.02893
+ss-frags: 125 frag_ss: LLLHLLLEE frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00026 worst_score: 1.01745
+ss-frags: 170 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 6.25e-07 worst_score: 0.000332325
+ss-frags: 171 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 8.25e-07 worst_score: 0.00030045
+ss-frags: 172 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.75e-06 worst_score: 0.000262875
+ss-frags: 173 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 6.5e-07 worst_score: 0.00030275
+ss-frags: 174 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 6.575e-06 worst_score: 0.00032935
+ss-frags: 175 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.5e-06 worst_score: 0.0002919
+ss-frags: 176 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 3.675e-06 worst_score: 0.000310525
+ss-frags: 177 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.05e-06 worst_score: 0.000275
+ss-frags: 178 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 5e-08 worst_score: 0.000281725
+ss-frags: 179 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 5.75e-07 worst_score: 0.00027955
+ss-frags: 180 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.7e-06 worst_score: 0.000295675
+ss-frags: 181 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 4.75e-07 worst_score: 0.000285
+ss-frags: 182 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.5e-08 worst_score: 0.0002916
+ss-frags: 183 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.2e-06 worst_score: 0.00033515
+ss-frags: 184 frag_ss: HHHHHHHHL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.2425e-05 worst_score: 0.00184822
+ss-frags: 185 frag_ss: HHHHHHHLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.5675e-05 worst_score: 0.00240522
+ss-frags: 186 frag_ss: HHHHHHLLE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000649225 worst_score: 0.0565833
+ss-frags: 187 frag_ss: HHHHHLLEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000447125 worst_score: 0.0530971
+ss-frags: 188 frag_ss: HHHHLLEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000593025 worst_score: 0.0566215
+ss-frags: 189 frag_ss: HHHLLEEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.0001694 worst_score: 0.0471975
+ss-frags: 190 frag_ss: HHLLEEEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000589325 worst_score: 0.06548
+ss-frags: 115 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 4.5e-07 worst_score: 0.000179275
+ss-frags: 116 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 8e-07 worst_score: 0.0001853
+ss-frags: 117 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.25e-07 worst_score: 0.0002037
+ss-frags: 118 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1e-06 worst_score: 0.00017605
+ss-frags: 119 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.5e-08 worst_score: 0.000184225
+ss-frags: 120 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 8.5e-07 worst_score: 0.000166675
+ss-frags: 121 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5.5e-07 worst_score: 0.00018975
+ss-frags: 122 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5.275e-06 worst_score: 0.000203275
+ss-frags: 123 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 4.75e-07 worst_score: 0.00017635
+ss-frags: 124 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.35e-06 worst_score: 0.000181625
+ss-frags: 125 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.9e-06 worst_score: 0.000182725
+ss-frags: 127 frag_ss: LHL frag_seq: ddd seq-match: 0 exact_matches: 0 best_score: 1 worst_score: 1.00014
+ss-frags: 128 frag_ss: HLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.405e-05 worst_score: 0.001243
+ss-frags: 129 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 4e-07 worst_score: 0.00019415
+ss-frags: 130 frag_ss: LLE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 9e-07 worst_score: 0.001426
+ss-frags: 131 frag_ss: LEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 4.525e-06 worst_score: 0.000966725
+ss-frags: 132 frag_ss: EEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6.5e-07 worst_score: 0.00019565
+ss-frags: 133 frag_ss: EEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.25e-07 worst_score: 0.0001944
+ss-frags: 134 frag_ss: EEL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3.6e-06 worst_score: 0.0008836
+ss-frags: 135 frag_ss: ELL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.025e-06 worst_score: 0.0011821
+ss-frags: 170 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3.75e-07 worst_score: 9.505e-05
+ss-frags: 171 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3e-07 worst_score: 0.000102325
+ss-frags: 172 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 4.5e-07 worst_score: 0.000108175
+ss-frags: 173 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.75e-07 worst_score: 8.8225e-05
+ss-frags: 174 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 4.5e-07 worst_score: 9.465e-05
+ss-frags: 175 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 0 worst_score: 9.12e-05
+ss-frags: 176 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.5e-08 worst_score: 8.745e-05
+ss-frags: 177 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.5e-07 worst_score: 7.6475e-05
+ss-frags: 178 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5e-07 worst_score: 9.4875e-05
+ss-frags: 179 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6.5e-07 worst_score: 9.0725e-05
+ss-frags: 180 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.25e-06 worst_score: 8.51e-05
+ss-frags: 181 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.5e-07 worst_score: 9.925e-05
+ss-frags: 182 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5e-08 worst_score: 0.0001048
+ss-frags: 183 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.5e-07 worst_score: 9.8975e-05
+ss-frags: 184 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3e-07 worst_score: 0.000110075
+ss-frags: 185 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 4e-07 worst_score: 9.735e-05
+ss-frags: 186 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.5e-07 worst_score: 8.8325e-05
+ss-frags: 187 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5e-08 worst_score: 9.545e-05
+ss-frags: 188 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.8e-06 worst_score: 0.000102925
+ss-frags: 189 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.075e-06 worst_score: 9.0825e-05
+ss-frags: 190 frag_ss: HHL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.725e-06 worst_score: 0.000796175
+0 | 1 range = [115, 125]   cut = 120   moveable = [ 115 116 117 118 119 120 121 122 123 124 ]   cutpoint_weight = 1   chainbreak_score = 177.397   total_rama_moveable = 1.63771   inactive_moveable = [ ]
+0 | 1 range = [127, 135]   cut = 131   moveable = [ 128 129 130 131 132 133 134 135 ]   cutpoint_weight = 1   chainbreak_score = 169.33   total_rama_moveable = 17.2925   inactive_moveable = [ ]
+0 | 1 range = [170, 190]   cut = 173   moveable = [ 170 171 172 173 174 185 186 187 188 189 190 ]   cutpoint_weight = 1   chainbreak_score = 55.7606   total_rama_moveable = -0.533702   inactive_moveable = [ ]
+* es refine_all_simul:
+Instantiating PDInteractionGraph
+start of cycle: 1  SCORE 2101.12 RAMACHANDRAN 731.142 FA_ATR -1367.4 FA_REP 2289.7 FA_SOL 728.386 FA_ELEC 0 FA_PAIR -19.3339 FA_REF 40.9 FA_DUN 628.347 FA_PROB -44.3497 FA_H2O 0 HB_SRBB -141.203 HB_LRBB -119.827 HB_SC -52.0903 FA_INTRA 0.790716 GB 0 PLANE 0 COORD_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+Instantiating PDInteractionGraph
+start of cycle: 2  SCORE 2100.32 RAMACHANDRAN 731.142 FA_ATR -1367.39 FA_REP 2288.96 FA_SOL 728.405 FA_ELEC 0 FA_PAIR -19.3339 FA_REF 40.9 FA_DUN 628.252 FA_PROB -44.3497 FA_H2O 0 HB_SRBB -141.203 HB_LRBB -119.827 HB_SC -52.0907 FA_INTRA 0.790531 GB 0 PLANE 0 COORD_CST 4.49599e-06 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 3 
+Instantiating PDInteractionGraph
+start of cycle: 3  SCORE 2100.3 RAMACHANDRAN 731.142 FA_ATR -1367.39 FA_REP 2288.95 FA_SOL 728.405 FA_ELEC 0 FA_PAIR -19.3339 FA_REF 40.9 FA_DUN 628.252 FA_PROB -44.3492 FA_H2O 0 HB_SRBB -141.203 HB_LRBB -119.827 HB_SC -52.0908 FA_INTRA 0.790531 GB 0 PLANE 0 COORD_CST 1.54399e-05 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 3 
+Instantiating PDInteractionGraph
+refine_loops_simul_constrained -- final scores:
+SCORE 2097.85 RAMACHANDRAN 731.142 FA_ATR -1367.39 FA_REP 2286.5 FA_SOL 728.405 FA_ELEC 0 FA_PAIR -19.3339 FA_REF 40.9 FA_DUN 628.251 FA_PROB -44.3498 FA_H2O 0 HB_SRBB -141.204 HB_LRBB -119.827 HB_SC -52.0908 FA_INTRA 0.790533 GB 0 PLANE 0 COORD_CST 2.52213e-05 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 3 
+0 | 1 range = [115, 125]   cut = 120   moveable = [ 115 116 117 118 119 120 121 122 123 124 ]   cutpoint_weight = 1   chainbreak_score = 177.398   total_rama_moveable = 1.63772   inactive_moveable = [ ]
+0 | 1 range = [127, 135]   cut = 131   moveable = [ 128 129 130 131 132 133 134 135 ]   cutpoint_weight = 1   chainbreak_score = 169.33   total_rama_moveable = 17.3029   inactive_moveable = [ ]
+0 | 0 range = [170, 190]   cut = 173   moveable = [ 170 171 172 173 174 185 186 187 188 189 190 ]   cutpoint_weight = 1   chainbreak_score = 55.5118   total_rama_moveable = 32.0325   inactive_moveable = [ ]
+designing with this many rotamers  160
+Instantiating PDInteractionGraph
+designing with this many rotamers  320
+Instantiating PDInteractionGraph
+MultiGraft: closure attempt 7
+* resetting backbone of broken loops
+* es build_all_simul:
+ss-frags: 115 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 7.375e-06 worst_score: 0.00327822
+ss-frags: 116 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.775e-06 worst_score: 0.00306
+ss-frags: 117 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 3.025e-06 worst_score: 0.00301435
+ss-frags: 118 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.06e-05 worst_score: 0.00287698
+ss-frags: 119 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 9.075e-06 worst_score: 0.00320172
+ss-frags: 120 frag_ss: LLLLLLLLH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.0002325 worst_score: 0.0224965
+ss-frags: 121 frag_ss: LLLLLLLHL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00001 worst_score: 1.00251
+ss-frags: 122 frag_ss: LLLLLLHLL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1 worst_score: 1.00308
+ss-frags: 123 frag_ss: LLLLLHLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1 worst_score: 1.00299
+ss-frags: 124 frag_ss: LLLLHLLLE frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00048 worst_score: 1.02736
+ss-frags: 125 frag_ss: LLLHLLLEE frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00003 worst_score: 1.01691
+ss-frags: 170 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 9.75e-07 worst_score: 0.000290775
+ss-frags: 171 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.575e-06 worst_score: 0.000310275
+ss-frags: 172 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 3.425e-06 worst_score: 0.00030925
+ss-frags: 173 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2e-07 worst_score: 0.0003097
+ss-frags: 174 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 7.25e-07 worst_score: 0.0002781
+ss-frags: 175 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.55e-06 worst_score: 0.000283925
+ss-frags: 176 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 4.25e-07 worst_score: 0.000281675
+ss-frags: 177 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.75e-07 worst_score: 0.000284575
+ss-frags: 178 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 7.5e-07 worst_score: 0.000282575
+ss-frags: 179 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 7.75e-07 worst_score: 0.000301525
+ss-frags: 180 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.075e-06 worst_score: 0.000312475
+ss-frags: 181 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.025e-06 worst_score: 0.000327
+ss-frags: 182 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 3.5e-07 worst_score: 0.00029365
+ss-frags: 183 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.75e-07 worst_score: 0.000278725
+ss-frags: 184 frag_ss: HHHHHHHHL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 3.2275e-05 worst_score: 0.00212632
+ss-frags: 185 frag_ss: HHHHHHHLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 3.6e-06 worst_score: 0.0027561
+ss-frags: 186 frag_ss: HHHHHHLLE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.00093005 worst_score: 0.0545728
+ss-frags: 187 frag_ss: HHHHHLLEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 5.71e-05 worst_score: 0.0543257
+ss-frags: 188 frag_ss: HHHHLLEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 4.635e-05 worst_score: 0.0574502
+ss-frags: 189 frag_ss: HHHLLEEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.00046135 worst_score: 0.0499247
+ss-frags: 190 frag_ss: HHLLEEEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 8.6175e-05 worst_score: 0.0637936
+ss-frags: 115 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3e-06 worst_score: 0.00019445
+ss-frags: 116 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.55e-06 worst_score: 0.000192775
+ss-frags: 117 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.025e-06 worst_score: 0.00016375
+ss-frags: 118 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6e-07 worst_score: 0.000182975
+ss-frags: 119 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.075e-06 worst_score: 0.0001881
+ss-frags: 120 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1e-07 worst_score: 0.000188
+ss-frags: 121 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 0 worst_score: 0.000217275
+ss-frags: 122 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 9e-07 worst_score: 0.000205725
+ss-frags: 123 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 8.5e-07 worst_score: 0.00019275
+ss-frags: 124 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.825e-06 worst_score: 0.0001909
+ss-frags: 125 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 8.5e-07 worst_score: 0.000165875
+ss-frags: 127 frag_ss: LHL frag_seq: ddd seq-match: 0 exact_matches: 0 best_score: 1 worst_score: 1.00014
+ss-frags: 128 frag_ss: HLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3.525e-06 worst_score: 0.00136852
+ss-frags: 129 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.45e-06 worst_score: 0.0001915
+ss-frags: 130 frag_ss: LLE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 4.525e-06 worst_score: 0.00140937
+ss-frags: 131 frag_ss: LEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.625e-06 worst_score: 0.0009698
+ss-frags: 132 frag_ss: EEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.5e-07 worst_score: 0.0002146
+ss-frags: 133 frag_ss: EEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5.075e-06 worst_score: 0.0002529
+ss-frags: 134 frag_ss: EEL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.7025e-05 worst_score: 0.00098175
+ss-frags: 135 frag_ss: ELL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.4e-06 worst_score: 0.00117383
+ss-frags: 170 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.75e-07 worst_score: 9.6425e-05
+ss-frags: 171 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6.5e-07 worst_score: 9.4e-05
+ss-frags: 172 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6.75e-07 worst_score: 0.000105425
+ss-frags: 173 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 4.5e-07 worst_score: 9.76e-05
+ss-frags: 174 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5.75e-07 worst_score: 9.17e-05
+ss-frags: 175 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 9.25e-07 worst_score: 9.6425e-05
+ss-frags: 176 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1e-07 worst_score: 8.7225e-05
+ss-frags: 177 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 0 worst_score: 9.9575e-05
+ss-frags: 178 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3e-07 worst_score: 0.0001017
+ss-frags: 179 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.7e-06 worst_score: 9.21e-05
+ss-frags: 180 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3.5e-07 worst_score: 9.17e-05
+ss-frags: 181 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.5e-07 worst_score: 9.345e-05
+ss-frags: 182 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3.75e-07 worst_score: 9.3475e-05
+ss-frags: 183 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5e-08 worst_score: 0.0001003
+ss-frags: 184 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 7.5e-08 worst_score: 9.775e-05
+ss-frags: 185 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6.5e-07 worst_score: 9.6325e-05
+ss-frags: 186 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.5e-08 worst_score: 9.9875e-05
+ss-frags: 187 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.25e-07 worst_score: 9.55e-05
+ss-frags: 188 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3.5e-07 worst_score: 9.01e-05
+ss-frags: 189 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.25e-07 worst_score: 9.1175e-05
+ss-frags: 190 frag_ss: HHL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.27e-05 worst_score: 0.000816175
+0 | 1 range = [115, 125]   cut = 120   moveable = [ 115 116 117 118 119 120 121 122 123 124 ]   cutpoint_weight = 1   chainbreak_score = 184.885   total_rama_moveable = 1.63772   inactive_moveable = [ ]
+0 | 1 range = [127, 135]   cut = 131   moveable = [ 128 129 130 131 132 133 134 135 ]   cutpoint_weight = 1   chainbreak_score = 169.808   total_rama_moveable = 17.2925   inactive_moveable = [ ]
+0 | 1 range = [170, 190]   cut = 173   moveable = [ 170 171 172 173 174 185 186 187 188 189 190 ]   cutpoint_weight = 1   chainbreak_score = 124.526   total_rama_moveable = 9.6104   inactive_moveable = [ ]
+* es refine_all_simul:
+Instantiating PDInteractionGraph
+start of cycle: 1  SCORE 3892.63 RAMACHANDRAN 741.074 FA_ATR -1371.34 FA_REP 4081.74 FA_SOL 732.397 FA_ELEC 0 FA_PAIR -19.3412 FA_REF 40.9 FA_DUN 628.37 FA_PROB -44.3426 FA_H2O 0 HB_SRBB -146.379 HB_LRBB -119.827 HB_SC -52.104 FA_INTRA 0.789149 GB 0 PLANE 0 COORD_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+Instantiating PDInteractionGraph
+start of cycle: 2  SCORE 3891.84 RAMACHANDRAN 741.074 FA_ATR -1371.34 FA_REP 4080.94 FA_SOL 732.397 FA_ELEC 0 FA_PAIR -19.3412 FA_REF 40.9 FA_DUN 628.371 FA_PROB -44.3427 FA_H2O 0 HB_SRBB -146.379 HB_LRBB -119.827 HB_SC -52.1045 FA_INTRA 0.78915 GB 0 PLANE 0 COORD_CST 1.79506e-06 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 3 
+Instantiating PDInteractionGraph
+start of cycle: 3  SCORE 3891.83 RAMACHANDRAN 741.074 FA_ATR -1371.34 FA_REP 4080.94 FA_SOL 732.397 FA_ELEC 0 FA_PAIR -19.3412 FA_REF 40.9 FA_DUN 628.37 FA_PROB -44.3425 FA_H2O 0 HB_SRBB -146.379 HB_LRBB -119.828 HB_SC -52.1043 FA_INTRA 0.789153 GB 0 PLANE 0 COORD_CST 1.26783e-05 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 3 
+Instantiating PDInteractionGraph
+refine_loops_simul_constrained -- final scores:
+SCORE 3891.83 RAMACHANDRAN 741.074 FA_ATR -1371.34 FA_REP 4080.94 FA_SOL 732.396 FA_ELEC 0 FA_PAIR -19.3412 FA_REF 40.9 FA_DUN 628.37 FA_PROB -44.3425 FA_H2O 0 HB_SRBB -146.379 HB_LRBB -119.828 HB_SC -52.1046 FA_INTRA 0.789153 GB 0 PLANE 0 COORD_CST 4.66187e-06 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 3 
+0 | 1 range = [115, 125]   cut = 120   moveable = [ 115 116 117 118 119 120 121 122 123 124 ]   cutpoint_weight = 1   chainbreak_score = 184.704   total_rama_moveable = 1.51251   inactive_moveable = [ ]
+0 | 1 range = [127, 135]   cut = 131   moveable = [ 128 129 130 131 132 133 134 135 ]   cutpoint_weight = 1   chainbreak_score = 169.175   total_rama_moveable = 18.4873   inactive_moveable = [ ]
+0 | 0 range = [170, 190]   cut = 173   moveable = [ 170 171 172 173 174 185 186 187 188 189 190 ]   cutpoint_weight = 1   chainbreak_score = 134.651   total_rama_moveable = 40.9081   inactive_moveable = [ ]
+designing with this many rotamers  160
+Instantiating PDInteractionGraph
+designing with this many rotamers  320
+Instantiating PDInteractionGraph
+MultiGraft: closure attempt 8
+* es build_all_simul:
+ss-frags: 115 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.4175e-05 worst_score: 0.002977
+ss-frags: 116 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.225e-05 worst_score: 0.00275648
+ss-frags: 117 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.175e-05 worst_score: 0.00279332
+ss-frags: 118 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 3.93e-05 worst_score: 0.0035443
+ss-frags: 119 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.41e-05 worst_score: 0.00305345
+ss-frags: 120 frag_ss: LLLLLLLLH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000145975 worst_score: 0.0227245
+ss-frags: 121 frag_ss: LLLLLLLHL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00001 worst_score: 1.00285
+ss-frags: 122 frag_ss: LLLLLLHLL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00001 worst_score: 1.00326
+ss-frags: 123 frag_ss: LLLLLHLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00002 worst_score: 1.00306
+ss-frags: 124 frag_ss: LLLLHLLLE frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00042 worst_score: 1.0254
+ss-frags: 125 frag_ss: LLLHLLLEE frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00013 worst_score: 1.01904
+ss-frags: 170 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 3.05e-06 worst_score: 0.00029405
+ss-frags: 171 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.225e-06 worst_score: 0.00029965
+ss-frags: 172 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 6.95e-06 worst_score: 0.00028355
+ss-frags: 173 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.75e-07 worst_score: 0.000293725
+ss-frags: 174 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0 worst_score: 0.00029245
+ss-frags: 175 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 4.25e-07 worst_score: 0.000265125
+ss-frags: 176 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 5.15e-06 worst_score: 0.000335575
+ss-frags: 177 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 3.225e-06 worst_score: 0.00027245
+ss-frags: 178 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.2e-06 worst_score: 0.000297825
+ss-frags: 179 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 7e-06 worst_score: 0.00026785
+ss-frags: 180 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.1e-06 worst_score: 0.00030995
+ss-frags: 181 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 6.425e-06 worst_score: 0.0003007
+ss-frags: 182 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 4.85e-06 worst_score: 0.0003173
+ss-frags: 183 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 7.5e-07 worst_score: 0.00029085
+ss-frags: 184 frag_ss: HHHHHHHHL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.75e-07 worst_score: 0.00173258
+ss-frags: 185 frag_ss: HHHHHHHLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 4.365e-05 worst_score: 0.0030225
+ss-frags: 186 frag_ss: HHHHHHLLE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 8.85e-06 worst_score: 0.0575714
+ss-frags: 187 frag_ss: HHHHHLLEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000255875 worst_score: 0.0561918
+ss-frags: 188 frag_ss: HHHHLLEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000137375 worst_score: 0.0563719
+ss-frags: 189 frag_ss: HHHLLEEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.00023635 worst_score: 0.0449755
+ss-frags: 190 frag_ss: HHLLEEEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.905e-05 worst_score: 0.0645417
+ss-frags: 115 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.35e-06 worst_score: 0.00018205
+ss-frags: 116 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.75e-07 worst_score: 0.0001993
+ss-frags: 117 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.1e-06 worst_score: 0.0001902
+ss-frags: 118 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.5e-08 worst_score: 0.00017835
+ss-frags: 119 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.025e-06 worst_score: 0.0001722
+ss-frags: 120 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.5e-07 worst_score: 0.0001844
+ss-frags: 121 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 7.5e-07 worst_score: 0.00017695
+ss-frags: 122 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2e-07 worst_score: 0.0001914
+ss-frags: 123 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 6e-07 worst_score: 0.00017925
+ss-frags: 124 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.15e-06 worst_score: 0.000156175
+ss-frags: 125 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.25e-07 worst_score: 0.000180225
+ss-frags: 127 frag_ss: LHL frag_seq: ddd seq-match: 0 exact_matches: 0 best_score: 1 worst_score: 1.00013
+ss-frags: 128 frag_ss: HLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.085e-05 worst_score: 0.00121728
+ss-frags: 129 frag_ss: LLL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 4.25e-07 worst_score: 0.00020255
+ss-frags: 130 frag_ss: LLE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.075e-06 worst_score: 0.00145612
+ss-frags: 131 frag_ss: LEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.675e-06 worst_score: 0.000907925
+ss-frags: 132 frag_ss: EEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.1e-06 worst_score: 0.000235775
+ss-frags: 133 frag_ss: EEE frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.225e-06 worst_score: 0.0002048
+ss-frags: 134 frag_ss: EEL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.025e-06 worst_score: 0.000866675
+ss-frags: 135 frag_ss: ELL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.375e-06 worst_score: 0.00126288
+ss-frags: 170 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 8e-07 worst_score: 9.9e-05
+ss-frags: 171 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5e-07 worst_score: 9.93e-05
+ss-frags: 172 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 4e-07 worst_score: 9.6425e-05
+ss-frags: 173 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.85e-06 worst_score: 9.0275e-05
+ss-frags: 174 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5.5e-07 worst_score: 0.000108975
+ss-frags: 175 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3.5e-07 worst_score: 9.33e-05
+ss-frags: 176 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.25e-07 worst_score: 8.8075e-05
+ss-frags: 177 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 4.25e-07 worst_score: 9.7775e-05
+ss-frags: 178 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 3.75e-07 worst_score: 8.5425e-05
+ss-frags: 179 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 0 worst_score: 9.235e-05
+ss-frags: 180 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 0 worst_score: 9.58e-05
+ss-frags: 181 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.075e-06 worst_score: 9.9075e-05
+ss-frags: 182 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 5.25e-07 worst_score: 9.35e-05
+ss-frags: 183 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.5e-07 worst_score: 9.745e-05
+ss-frags: 184 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.5e-07 worst_score: 0.00010625
+ss-frags: 185 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 8.25e-07 worst_score: 0.000100525
+ss-frags: 186 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.25e-07 worst_score: 9.75e-05
+ss-frags: 187 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 9.75e-07 worst_score: 9e-05
+ss-frags: 188 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 2.75e-07 worst_score: 9.2575e-05
+ss-frags: 189 frag_ss: HHH frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.5e-07 worst_score: 9.2475e-05
+ss-frags: 190 frag_ss: HHL frag_seq: ddd seq-match: 0 exact_matches: 200 best_score: 1.775e-06 worst_score: 0.000792925
+0 | 1 range = [115, 125]   cut = 120   moveable = [ 115 116 117 118 119 120 121 122 123 124 ]   cutpoint_weight = 1   chainbreak_score = 166.319   total_rama_moveable = 1.51251   inactive_moveable = [ ]
+0 | 1 range = [127, 135]   cut = 131   moveable = [ 128 129 130 131 132 133 134 135 ]   cutpoint_weight = 1   chainbreak_score = 152.749   total_rama_moveable = 18.4769   inactive_moveable = [ ]
+0 | 1 range = [170, 190]   cut = 173   moveable = [ 170 171 172 173 174 185 186 187 188 189 190 ]   cutpoint_weight = 1   chainbreak_score = 63.4663   total_rama_moveable = -1.33444   inactive_moveable = [ ]
+* es refine_all_simul:
+Instantiating PDInteractionGraph
+start of cycle: 1  SCORE 4324.56 RAMACHANDRAN 711.23 FA_ATR -1372.7 FA_REP 4520.08 FA_SOL 731.586 FA_ELEC 0 FA_PAIR -19.4318 FA_REF 40.9 FA_DUN 628.283 FA_PROB -43.8253 FA_H2O 0 HB_SRBB -142.707 HB_LRBB -119.828 HB_SC -52.2946 FA_INTRA 0.790733 GB 0 PLANE 0 COORD_CST 0 BARCODE 0 BAR_ENRG 0 CST 0 
+Instantiating PDInteractionGraph
+start of cycle: 2  SCORE 4301.08 RAMACHANDRAN 711.23 FA_ATR -1372.23 FA_REP 4495 FA_SOL 731.157 FA_ELEC 0 FA_PAIR -19.4318 FA_REF 40.9 FA_DUN 629.84 FA_PROB -43.8252 FA_H2O 0 HB_SRBB -142.707 HB_LRBB -119.828 HB_SC -52.2954 FA_INTRA 0.792266 GB 0 PLANE 0 COORD_CST 4.84083e-06 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 3 
+Instantiating PDInteractionGraph
+start of cycle: 3  SCORE 4301.13 RAMACHANDRAN 711.23 FA_ATR -1372.09 FA_REP 4494.98 FA_SOL 730.815 FA_ELEC 0 FA_PAIR -19.4318 FA_REF 40.9 FA_DUN 630.108 FA_PROB -43.8253 FA_H2O 0 HB_SRBB -142.706 HB_LRBB -119.829 HB_SC -52.2953 FA_INTRA 0.791938 GB 0 PLANE 0 COORD_CST 6.63233e-06 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 1 
+Instantiating PDInteractionGraph
+refine_loops_simul_constrained -- final scores:
+SCORE 4301.08 RAMACHANDRAN 711.23 FA_ATR -1372.23 FA_REP 4494.99 FA_SOL 731.157 FA_ELEC 0 FA_PAIR -19.4318 FA_REF 40.9 FA_DUN 629.84 FA_PROB -43.8252 FA_H2O 0 HB_SRBB -142.706 HB_LRBB -119.829 HB_SC -52.2952 FA_INTRA 0.792266 GB 0 PLANE 0 COORD_CST 6.63233e-06 BARCODE 0 BAR_ENRG 0 CST 0 MC_ACCEPTED 3 
+0 | 1 range = [115, 125]   cut = 120   moveable = [ 115 116 117 118 119 120 121 122 123 124 ]   cutpoint_weight = 1   chainbreak_score = 166.266   total_rama_moveable = 1.64501   inactive_moveable = [ ]
+0 | 1 range = [127, 135]   cut = 131   moveable = [ 128 129 130 131 132 133 134 135 ]   cutpoint_weight = 1   chainbreak_score = 152.781   total_rama_moveable = 17.3979   inactive_moveable = [ ]
+0 | 0 range = [170, 190]   cut = 173   moveable = [ 170 171 172 173 174 185 186 187 188 189 190 ]   cutpoint_weight = 1   chainbreak_score = 66.9427   total_rama_moveable = 12.0205   inactive_moveable = [ ]
+designing with this many rotamers  160
+Instantiating PDInteractionGraph
+designing with this many rotamers  320
+Instantiating PDInteractionGraph
+MultiGraft: closure attempt 9
+* es build_all_simul:
+ss-frags: 115 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.5e-08 worst_score: 0.0028942
+ss-frags: 116 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 4.875e-06 worst_score: 0.00296545
+ss-frags: 117 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 4.32e-05 worst_score: 0.003151
+ss-frags: 118 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.5e-06 worst_score: 0.0036035
+ss-frags: 119 frag_ss: LLLLLLLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 3.725e-06 worst_score: 0.00328355
+ss-frags: 120 frag_ss: LLLLLLLLH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000161525 worst_score: 0.0229515
+ss-frags: 121 frag_ss: LLLLLLLHL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1 worst_score: 1.00298
+ss-frags: 122 frag_ss: LLLLLLHLL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1 worst_score: 1.00318
+ss-frags: 123 frag_ss: LLLLLHLLL frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00001 worst_score: 1.00301
+ss-frags: 124 frag_ss: LLLLHLLLE frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00009 worst_score: 1.02555
+ss-frags: 125 frag_ss: LLLHLLLEE frag_seq: ddddddddd seq-match: 0 exact_matches: 0 best_score: 1.00002 worst_score: 1.01946
+ss-frags: 170 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.25e-07 worst_score: 0.00029795
+ss-frags: 171 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 4.25e-07 worst_score: 0.000280775
+ss-frags: 172 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 3.225e-06 worst_score: 0.000284475
+ss-frags: 173 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 6e-07 worst_score: 0.0002867
+ss-frags: 174 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.15e-06 worst_score: 0.00029615
+ss-frags: 175 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 8.25e-07 worst_score: 0.00026
+ss-frags: 176 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.55e-06 worst_score: 0.00031685
+ss-frags: 177 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.175e-06 worst_score: 0.000290825
+ss-frags: 178 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 9.5e-07 worst_score: 0.0002828
+ss-frags: 179 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1e-07 worst_score: 0.000290575
+ss-frags: 180 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.75e-07 worst_score: 0.000274875
+ss-frags: 181 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 1.425e-06 worst_score: 0.0003387
+ss-frags: 182 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 4.525e-06 worst_score: 0.00027395
+ss-frags: 183 frag_ss: HHHHHHHHH frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 5.25e-07 worst_score: 0.0003057
+ss-frags: 184 frag_ss: HHHHHHHHL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 4.75e-06 worst_score: 0.00188705
+ss-frags: 185 frag_ss: HHHHHHHLL frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 2.6025e-05 worst_score: 0.00267927
+ss-frags: 186 frag_ss: HHHHHHLLE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.0003415 worst_score: 0.0521374
+ss-frags: 187 frag_ss: HHHHHLLEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000175775 worst_score: 0.0536402
+ss-frags: 188 frag_ss: HHHHLLEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.0002189 worst_score: 0.0520894
+ss-frags: 189 frag_ss: HHHLLEEEE frag_seq: ddddddddd seq-match: 0 exact_matches: 200 best_score: 0.000330225 worst_score: 0.0494155

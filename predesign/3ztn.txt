@@ -1,0 +1,15 @@
+#######filename     loop_id     align_sys     gap_begin     gap_end     native_loop_begin     native_loop_end
+       1ll7.pdb           2             S           544         555                    38                  49
+              *           1             -           586         588                    18                  21
+       1ll7.pdb           2             S           152         163                    38                  49
+              *           1             -           194         196                    18                  21
+       1tua.pdb           2         C2N_N           171         182                    38                  49
+              *           1             -           125         127                    18                  21
+       1ukf.pdb           2             S            55          67                    41                  53
+              *           1             -            14          18                    18                  21
+       2qff.pdb           2             S            54          65                    38                  49
+              *           1             -             6          11                    18                  21
+       4x0j.pdb           2             S           508         519                    38                  49
+              *           1             -           327         332                    18                  21
+       4x0j.pdb           2             S           247         258                    38                  49
+              *           1             -            66          71                    18                  21

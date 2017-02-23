@@ -1,0 +1,143 @@
+##### 1tua.pdb  match  1
+#####       1tua.pdb           2         C2N_N           171         182                    38                  49                      -                      -                      -                      -                      -                      -                      -                      -       0.94320053      -0.30476409       0.13225561       0.31117478       0.94986773      -0.03035550      -0.11637406       0.06978591       0.99075061       13.49789524       37.55027390      -16.49000931             inf              0.153                inf                 inf          68.888         652.976         6.960           inf                  -1                 0                      
+#####              *           1             -           125         127                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              1.483              2.347                 inf        2941.835               -        30.096         5.381                  -1                 0                      
+#### 1tua.pdb   125   127   graft_bb   graft_sc   @   LLLLLLxxxx|llll***.lll|xxxEEEE   &   ??????|????.**.???|????
+#### 1tua.pdb   171   182   graft_bb   graft_sc   @   HHhh|.**********.hh|xx...   &   ????|.***********.?|???
+#
+### 1tua.m1.c66.d1
+# NOTICE -- Ab-epitope interaction versus epitope-scaffold was optimized before closure
+# NOTICE -- closure was performed with Ab
+# WARNING -- this design failed refinement with Ab after design!  QC will be of ORIGINAL designed structure.
+#
+#   epitope native range = [18, 21]   new range = [125, 128]
+#      Closed  :   0 | 1 range = [115, 125]   cut = 120   moveable = [ 115 116 117 118 119 120 121 122 123 124 ]   cutpoint_weight = 1   chainbreak_score = 174.277   total_rama_moveable = 3.73284   inactive_moveable = [ ]
+#      Designed:   0 | 1 range = [115, 125]   cut = 120   moveable = [ 115 116 117 118 119 120 121 122 123 124 ]   cutpoint_weight = 1   chainbreak_score = 174.276   total_rama_moveable = 2.79953   inactive_moveable = [ ]
+#      Refined :   0 | 1 range = [115, 125]   cut = 120   moveable = [ 115 116 117 118 119 120 121 122 123 124 ]   cutpoint_weight = 1   chainbreak_score = 174.276   total_rama_moveable = 2.79961   inactive_moveable = [ ]
+#
+#         Rama per residue:
+#         ss res    Closed       Designed     Refined  
+#         L  115    -0.878       -0.423       -0.423   
+#         L  116    -0.974       -0.843       -0.843   
+#         L  117    -1.673       -1.673       -1.673   
+#         L  118    -1.301       -1.301       -1.301   
+#         L  119    0.759        -0.165       -0.165   
+#         L  120    1.388        2.707        2.707    
+#         L  121    1.249        1.249        1.249    
+#         L  122    2.577        0.663        0.663    
+#         L  123    0.537        0.537        0.537    
+#         L  124    2.048        2.048        2.048    
+#      Closed  :   0 | 1 range = [127, 135]   cut = 131   moveable = [ 128 129 130 131 132 133 134 135 ]   cutpoint_weight = 1   chainbreak_score = 134.947   total_rama_moveable = 3.89465   inactive_moveable = [ ]
+#      Designed:   0 | 0 range = [127, 135]   cut = 131   moveable = [ 128 129 130 131 132 133 134 135 ]   cutpoint_weight = 1   chainbreak_score = 169.241   total_rama_moveable = 20.1373   inactive_moveable = [ ]
+#      Refined :   0 | 0 range = [127, 135]   cut = 131   moveable = [ 128 129 130 131 132 133 134 135 ]   cutpoint_weight = 1   chainbreak_score = 169.24   total_rama_moveable = 20.1373   inactive_moveable = [ ]
+#
+#         Rama per residue:
+#         ss res    Closed       Designed     Refined  
+#         H  128    -0.374       -0.374       -0.374   
+#         L  129    2.716        -0.341       -0.341   
+#         L  130    0.444        -1.318       -1.318   
+#         L  131    -0.164       -1.168       -1.168   
+#         E  132    0.735        20.000       20.000   
+#         E  133    0.053        2.702        2.702    
+#         E  134    -0.915       -0.764       -0.764   
+#         E  135    1.401        1.401        1.401    
+#
+#   epitope native range = [38, 49]   new range = [174, 185]
+#      Closed  :   0 | 1 range = [170, 190]   cut = 173   moveable = [ 170 171 172 173 174 185 186 187 188 189 190 ]   cutpoint_weight = 1   chainbreak_score = 58.5241   total_rama_moveable = 6.28748   inactive_moveable = [ ]
+#      Designed:   0 | 0 range = [170, 190]   cut = 173   moveable = [ 170 171 172 173 174 185 186 187 188 189 190 ]   cutpoint_weight = 1   chainbreak_score = 66.3982   total_rama_moveable = 7.79903   inactive_moveable = [ ]
+#      Refined :   0 | 0 range = [170, 190]   cut = 173   moveable = [ 170 171 172 173 174 185 186 187 188 189 190 ]   cutpoint_weight = 1   chainbreak_score = 66.3975   total_rama_moveable = 7.79902   inactive_moveable = [ ]
+#
+#         Rama per residue:
+#         ss res    Closed       Designed     Refined  
+#         H  170    -0.651       -0.651       -0.651   
+#         H  171    -0.432       -0.355       -0.355   
+#         H  172    0.352        -1.127       -1.127   
+#         H  173    7.787        10.250       10.250   
+#         H  174    1.957        1.957        1.957    
+#         H  185    -0.170       -0.170       -0.170   
+#         H  186    0.097        0.097        0.097    
+#         H  187    0.097        -0.520       -0.520   
+#         H  188    -0.998       -0.998       -0.998   
+#         H  189    -0.622       -0.130       -0.130   
+#         H  190    -1.130       -0.554       -0.554   
+#
+# * Design Positions
+#
+# Epitope positions:
+#    18  ->  125  VAL
+#    19  ->  126  ASP
+#    20  ->  127  GLY
+#    21  ->  128  TRP
+#    38  ->  174  LEU
+#    39  ->  175  LYS
+#    40  ->  176  SER
+#    41  ->  177  THR
+#    42  ->  178  GLN
+#    43  ->  179  ASN
+#    44  ->  180  ALA
+#    45  ->  181  ILE
+#    46  ->  182  ASP
+#    47  ->  183  GLU
+#    48  ->  184  ILE
+#    49  ->  185  THR
+#
+# Intra design positions
+#    73  GLY  ->  GLY
+#    74  PHE  ->  PHE
+#    81  ARG  ->  ARG
+#    109  LYS  ->  LYS
+#    112  ILE  ->  ILE
+#    113  ILE  ->  PHE
+#    114  GLY  ->  GLY
+#    115  GLU  ->  PRO
+#    116  GLY  ->  ASN
+#    117  GLY  ->  GLY
+#    118  ARG  ->  ALA
+#    119  ALA  ->  ALA
+#    120  ARG  ->  TYR
+#    121  ALA  ->  GLY
+#    122  ALA  ->  ASP
+#    123  ALA  ->  GLY
+#    124  ALA  ->  GLY
+#    129  ALA  ->  TYR
+#    130  ALA  ->  LEU
+#    131  ALA  ->  ARG
+#    132  ILE  ->  PRO
+#    133  ASN  ->  GLY
+#    134  VAL  ->  LYS
+#    135  GLY  ->  GLY
+#    139  VAL  ->  ILE
+#    140  ALA  ->  PRO
+#    141  ILE  ->  ILE
+#    146  GLU  ->  VAL
+#    149  MET  ->  GLN
+#    150  ALA  ->  GLY
+#    151  ALA  ->  LEU
+#    152  LYS  ->  ALA
+#    153  GLN  ->  MET
+#    155  ILE  ->  VAL
+#    157  MET  ->  MET
+#    158  LEU  ->  LEU
+#    168  TYR  ->  TRP
+#    170  HIS  ->  ALA
+#    171  LEU  ->  LEU
+#    186  ALA  ->  ALA
+#    187  ALA  ->  HIS
+#    190  ALA  ->  LEU
+#    191  ARG  ->  GLN
+#
+# Inter design positions:
+#    147  ARG  ->  THR
+#    172  ALA  ->  ALA
+#    173  ALA  ->  THR
+#    188  MET  ->  ALA
+#    189  TRP  ->  THR
+#    192  GLU  ->  THR
+#
+#                              es_only       total       ddG
+# * Designed ES          :     -79.725     736.581      -4.344
+# * Refined ES (with Ab) :     -88.461     728.149      -3.581
+#
+# * Stability Scores
+#
+# Score12_WT_scaffold = -283.808
+#

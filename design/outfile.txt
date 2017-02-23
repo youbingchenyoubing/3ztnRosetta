@@ -1,0 +1,1080 @@
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         135.945         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLL|.**L|EEEEE....   &   ????|***?|?????....
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHH|.***********.|HHH   &   ????|???????????*?|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 20/200
+#   Refine -- 
+#      successes/attempts = 20/20
+#   Refine with Ab after design -- 
+#      successes/attempts = 5/5
+#
+# Individual Statistics:
+#   Build -- 
+#      [10, 15] cut = 13   successes/attempts = 157/200   min/max_break = 0.65580/24.27927   break associated total min/max_local_rama = 7.87096/11.57081   total min/max_local_rama = -4.03792/24.84209
+#      [16, 26] cut = 17   successes/attempts = 48/200   min/max_break = 0.08934/11.69621   break associated total min/max_local_rama = 1.55102/-1.61352   total min/max_local_rama = -4.81730/3.80213
+#      [50, 55] cut = 53   successes/attempts = 130/200   min/max_break = 1.01973/5.30582   break associated total min/max_local_rama = -2.61716/-3.32575   total min/max_local_rama = -3.88180/-0.95435
+#      [65, 69] cut = 66   successes/attempts = 200/200   min/max_break = 0.28119/3.27390   break associated total min/max_local_rama = -4.06250/-1.04789   total min/max_local_rama = -5.19596/-1.04789
+#   Refine -- 
+#      [10, 15] cut = 13   successes/attempts = 20/20   min/max_break = 0.65580/24.27927   break associated total min/max_local_rama = 7.87096/11.57081   total min/max_local_rama = -0.86764/24.84209
+#      [16, 26] cut = 17   successes/attempts = 20/20   min/max_break = 0.08934/1.97207   break associated total min/max_local_rama = 1.55102/-1.99276   total min/max_local_rama = -1.99276/3.80213
+#      [50, 55] cut = 53   successes/attempts = 20/20   min/max_break = 1.01973/5.08826   break associated total min/max_local_rama = -2.61716/-2.48062   total min/max_local_rama = -3.88180/-1.50895
+#      [65, 69] cut = 66   successes/attempts = 20/20   min/max_break = 0.28119/3.27389   break associated total min/max_local_rama = -4.06250/-1.04789   total min/max_local_rama = -4.88035/-1.04789
+#   Refine with Ab after design -- 
+#      [10, 15] cut = 13   successes/attempts = 5/5   min/max_break = 1.80014/26.43035   break associated total min/max_local_rama = -2.32601/5.07435   total min/max_local_rama = -2.32601/5.07435
+#      [16, 26] cut = 17   successes/attempts = 5/5   min/max_break = 1.46727/2.17052   break associated total min/max_local_rama = 13.95056/18.35585   total min/max_local_rama = 13.00703/18.35585
+#      [50, 55] cut = 53   successes/attempts = 5/5   min/max_break = 2.37288/5.08207   break associated total min/max_local_rama = -1.55974/-1.63875   total min/max_local_rama = -1.63875/-1.55974
+#      [65, 69] cut = 66   successes/attempts = 5/5   min/max_break = 1.02150/1.23614   break associated total min/max_local_rama = -2.24495/-2.96172   total min/max_local_rama = -2.96172/-2.24495
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790          84.395         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLL|.***|EEEEE....   &   ...|?***|.....????
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHH|.***********.|HHH   &   ????|???????????*?|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 1/200
+#   Refine -- 
+#      successes/attempts = 1/1
+#   Refine with Ab after design -- 
+#      successes/attempts = 3/3
+#
+# Individual Statistics:
+#   Build -- 
+#      [11, 15] cut = 13   successes/attempts = 196/200   min/max_break = 1.32570/16.47255   break associated total min/max_local_rama = 1.15278/-0.00686   total min/max_local_rama = -0.13494/4.28515
+#      [17, 26] cut = 17   successes/attempts = 1/200   min/max_break = 1.97346/27.30995   break associated total min/max_local_rama = 19.27661/3.13019   total min/max_local_rama = -5.52533/22.67251
+#      [50, 55] cut = 53   successes/attempts = 199/200   min/max_break = 0.86222/4.36194   break associated total min/max_local_rama = -2.89164/-1.20970   total min/max_local_rama = -2.89164/-1.20970
+#      [65, 69] cut = 66   successes/attempts = 200/200   min/max_break = 1.20156/1.86236   break associated total min/max_local_rama = -2.78536/-1.63666   total min/max_local_rama = -4.38161/-1.63666
+#   Refine -- 
+#      [11, 15] cut = 13   successes/attempts = 1/1   min/max_break = 1.32570/1.32570   break associated total min/max_local_rama = 1.15278/1.15278   total min/max_local_rama = 1.15278/1.15278
+#      [17, 26] cut = 17   successes/attempts = 1/1   min/max_break = 1.97346/1.97346   break associated total min/max_local_rama = 19.27661/19.27661   total min/max_local_rama = 19.27661/19.27661
+#      [50, 55] cut = 53   successes/attempts = 1/1   min/max_break = 4.36193/4.36193   break associated total min/max_local_rama = -1.20970/-1.20970   total min/max_local_rama = -1.20970/-1.20970
+#      [65, 69] cut = 66   successes/attempts = 1/1   min/max_break = 1.20156/1.20156   break associated total min/max_local_rama = -2.78536/-2.78536   total min/max_local_rama = -2.78536/-2.78536
+#   Refine with Ab after design -- 
+#      [11, 15] cut = 13   successes/attempts = 3/3   min/max_break = 1.68127/1.68127   break associated total min/max_local_rama = 16.81573/16.81573   total min/max_local_rama = 16.81573/16.81573
+#      [17, 26] cut = 17   successes/attempts = 3/3   min/max_break = 2.50407/2.50407   break associated total min/max_local_rama = 7.47906/7.47906   total min/max_local_rama = 7.47906/7.55509
+#      [50, 55] cut = 53   successes/attempts = 3/3   min/max_break = 5.08211/5.08211   break associated total min/max_local_rama = -3.54123/-3.54123   total min/max_local_rama = -3.54123/-2.90723
+#      [65, 69] cut = 66   successes/attempts = 3/3   min/max_break = 1.19208/1.19208   break associated total min/max_local_rama = -3.44529/-3.44529   total min/max_local_rama = -3.44529/-3.44529
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         105.767         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLL|****llllllllll|xxxxxxxxxxLLL   &   ...|****??????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHH|.***********.|HHH   &   ????|???????????*?|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [11, 14] cut = 13   successes/attempts = 0/200   min/max_break = 3.71093/20.68557   break associated total min/max_local_rama = 1.63261/1.43232   total min/max_local_rama = -2.14988/12.23327
+#      [17, 30] cut = 27   successes/attempts = 200/200   min/max_break = 1.48811/186.14589   break associated total min/max_local_rama = 29.42977/20.64868   total min/max_local_rama = 16.93327/29.42977
+#      [50, 55] cut = 53   successes/attempts = 200/200   min/max_break = 1.88494/5.08829   break associated total min/max_local_rama = -1.99021/-2.48061   total min/max_local_rama = -3.43275/-1.20970
+#      [65, 69] cut = 66   successes/attempts = 200/200   min/max_break = 1.49494/1.58460   break associated total min/max_local_rama = -2.92596/-2.92597   total min/max_local_rama = -2.92597/-2.92596
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         112.375         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLL|****llllllllll|xxxxxxxxxxLLL   &   ...|****??????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHH|.***********.|HHH   &   ????|???????????*?|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [11, 14] cut = 13   successes/attempts = 0/200   min/max_break = 5.94543/16.80612   break associated total min/max_local_rama = -1.10926/2.43536   total min/max_local_rama = -2.05674/10.36956
+#      [17, 30] cut = 27   successes/attempts = 200/200   min/max_break = 0.04866/0.12969   break associated total min/max_local_rama = -2.83932/-2.66674   total min/max_local_rama = -2.83932/-2.66674
+#      [50, 55] cut = 53   successes/attempts = 200/200   min/max_break = 1.83624/5.08828   break associated total min/max_local_rama = -2.10335/-2.48061   total min/max_local_rama = -3.54802/-1.20970
+#      [65, 69] cut = 66   successes/attempts = 200/200   min/max_break = 0.56641/1.53941   break associated total min/max_local_rama = -3.68250/-2.13571   total min/max_local_rama = -3.68251/-2.13571
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         112.375         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLL|****llllllllll|xxxxxxxxxxLLL   &   ...|****??????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHH|.***********.|HHH   &   ????|???????????*?|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 25/200
+#   Refine -- 
+#      successes/attempts = 25/25
+#   Refine with Ab after design -- 
+#      successes/attempts = 5/5
+#
+# Individual Statistics:
+#   Build -- 
+#      [11, 14] cut = 13   successes/attempts = 26/200   min/max_break = 7.23785/20.93944   break associated total min/max_local_rama = 7.98991/0.08696   total min/max_local_rama = -2.75871/16.84776
+#      [17, 30] cut = 27   successes/attempts = 193/200   min/max_break = 0.00343/9.60482   break associated total min/max_local_rama = 4.21536/9.40217   total min/max_local_rama = -5.50319/29.91141
+#      [50, 55] cut = 53   successes/attempts = 200/200   min/max_break = 4.36191/4.36191   break associated total min/max_local_rama = -1.20970/-1.20970   total min/max_local_rama = -1.20970/-1.20970
+#      [65, 69] cut = 66   successes/attempts = 200/200   min/max_break = 3.25651/3.27362   break associated total min/max_local_rama = -1.04789/-1.04789   total min/max_local_rama = -1.04789/-1.04789
+#   Refine -- 
+#      [11, 14] cut = 13   successes/attempts = 25/25   min/max_break = 7.23785/9.95280   break associated total min/max_local_rama = 7.98991/6.12862   total min/max_local_rama = 0.33600/16.84776
+#      [17, 30] cut = 27   successes/attempts = 25/25   min/max_break = 0.00343/9.52482   break associated total min/max_local_rama = 4.21536/10.08359   total min/max_local_rama = -5.50319/27.32723
+#      [50, 55] cut = 53   successes/attempts = 25/25   min/max_break = 4.36191/4.36191   break associated total min/max_local_rama = -1.20970/-1.20970   total min/max_local_rama = -1.20970/-1.20970
+#      [65, 69] cut = 66   successes/attempts = 25/25   min/max_break = 3.25651/3.27362   break associated total min/max_local_rama = -1.04789/-1.04789   total min/max_local_rama = -1.04789/-1.04789
+#   Refine with Ab after design -- 
+#      [11, 14] cut = 13   successes/attempts = 5/5   min/max_break = 10.14630/11.52608   break associated total min/max_local_rama = 8.43603/9.43669   total min/max_local_rama = 6.86857/9.43669
+#      [17, 30] cut = 27   successes/attempts = 5/5   min/max_break = 0.30353/1.99505   break associated total min/max_local_rama = -3.53612/1.68466   total min/max_local_rama = -8.34005/1.68466
+#      [50, 55] cut = 53   successes/attempts = 5/5   min/max_break = 5.08210/5.08210   break associated total min/max_local_rama = -3.38728/-3.38728   total min/max_local_rama = -3.38728/-2.80699
+#      [65, 69] cut = 66   successes/attempts = 5/5   min/max_break = 3.27554/3.27554   break associated total min/max_local_rama = -2.21064/-2.21064   total min/max_local_rama = -2.21064/-2.21064
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         112.375         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll****eeeeeeeeee|xxxxxxxxxxLLL   &   ...|???****??????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHH|hh.***********.hh|xxHHH   &   ????|?????????????*???|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 14] cut = 10   successes/attempts = 200/200   min/max_break = 1.40715/1.68563   break associated total min/max_local_rama = 2.63597/2.63597   total min/max_local_rama = 2.63597/2.63597
+#      [17, 30] cut = 27   successes/attempts = 199/200   min/max_break = 1.59015/20.52556   break associated total min/max_local_rama = 22.07595/22.52564   total min/max_local_rama = 22.07595/23.32971
+#      [50, 57] cut = 53   successes/attempts = 0/200   min/max_break = 7.83726/58.60341   break associated total min/max_local_rama = 17.75966/8.94965   total min/max_local_rama = 4.78064/28.66809
+#      [67, 73] cut = 70   successes/attempts = 0/200   min/max_break = 9.14732/45.06272   break associated total min/max_local_rama = 21.45113/2.60373   total min/max_local_rama = -3.67856/22.76977
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         112.375         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll****eeeeeeeeee|xxxxxxxxxxLLL   &   ...|???****??????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHH|hh.***********.hh|xxHHH   &   ????|?????????????*???|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 14] cut = 10   successes/attempts = 200/200   min/max_break = 1.13087/1.16631   break associated total min/max_local_rama = 3.91175/3.91176   total min/max_local_rama = 3.91175/3.91176
+#      [17, 30] cut = 27   successes/attempts = 199/200   min/max_break = 0.13764/2.39832   break associated total min/max_local_rama = 28.75411/20.11397   total min/max_local_rama = 20.11397/28.75411
+#      [50, 57] cut = 53   successes/attempts = 58/200   min/max_break = 9.62410/41.24035   break associated total min/max_local_rama = 26.92709/4.84947   total min/max_local_rama = 2.89504/26.92709
+#      [67, 73] cut = 70   successes/attempts = 0/200   min/max_break = 11.29620/45.45874   break associated total min/max_local_rama = 19.53615/3.58323   total min/max_local_rama = -1.53197/20.21627
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         158.916         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll****eeeeeeeeee|xxxxxxxxxxLLL   &   ...|???****??????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hh.***********.hh|xxHHH   &   ????|?????????????*???|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 1/200
+#   Refine -- 
+#      successes/attempts = 1/1
+#   Refine with Ab after design -- 
+#      successes/attempts = 3/3
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 14] cut = 10   successes/attempts = 200/200   min/max_break = 0.57793/1.81770   break associated total min/max_local_rama = 3.25636/8.28323   total min/max_local_rama = 3.25636/8.28323
+#      [17, 30] cut = 27   successes/attempts = 197/200   min/max_break = 0.84259/186.14565   break associated total min/max_local_rama = 14.87288/23.52121   total min/max_local_rama = 14.87288/36.11352
+#      [48, 55] cut = 51   successes/attempts = 198/200   min/max_break = 1.14221/95.13490   break associated total min/max_local_rama = -4.68683/-0.66698   total min/max_local_rama = -4.68684/-0.66698
+#      [65, 71] cut = 68   successes/attempts = 1/200   min/max_break = 1.60535/49.24989   break associated total min/max_local_rama = -1.59537/0.59942   total min/max_local_rama = -1.59537/21.27933
+#   Refine -- 
+#      [8, 14] cut = 10   successes/attempts = 1/1   min/max_break = 1.81586/1.81586   break associated total min/max_local_rama = 8.28321/8.28321   total min/max_local_rama = 8.28321/8.28321
+#      [17, 30] cut = 27   successes/attempts = 1/1   min/max_break = 1.50102/1.50102   break associated total min/max_local_rama = 14.87288/14.87288   total min/max_local_rama = 14.87288/14.87288
+#      [48, 55] cut = 51   successes/attempts = 1/1   min/max_break = 1.14221/1.14221   break associated total min/max_local_rama = -4.68683/-4.68683   total min/max_local_rama = -4.68683/-4.68683
+#      [65, 71] cut = 68   successes/attempts = 1/1   min/max_break = 1.60535/1.60535   break associated total min/max_local_rama = -1.59537/-1.59537   total min/max_local_rama = -1.59537/-1.59537
+#   Refine with Ab after design -- 
+#      [8, 14] cut = 10   successes/attempts = 3/3   min/max_break = 2.71330/2.71330   break associated total min/max_local_rama = 1.19007/1.19007   total min/max_local_rama = 1.19007/1.50087
+#      [17, 30] cut = 27   successes/attempts = 3/3   min/max_break = 1.88458/1.88458   break associated total min/max_local_rama = -6.10793/-6.10793   total min/max_local_rama = -6.10793/-3.83045
+#      [48, 55] cut = 51   successes/attempts = 3/3   min/max_break = 1.14142/1.14142   break associated total min/max_local_rama = -5.58928/-5.58928   total min/max_local_rama = -5.58928/-5.29482
+#      [65, 71] cut = 68   successes/attempts = 3/3   min/max_break = 1.65056/1.65056   break associated total min/max_local_rama = -2.86070/-2.86070   total min/max_local_rama = -2.86070/-2.86070
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790          59.576         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLL|****llllllllll|xxxxxxxxxxLLL   &   ...|****??????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hh.***********.hh|xxHHH   &   ????|?????????????*???|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [11, 14] cut = 13   successes/attempts = 0/200   min/max_break = 7.10253/15.72923   break associated total min/max_local_rama = 6.67667/-2.87179   total min/max_local_rama = -2.87179/12.79170
+#      [17, 30] cut = 27   successes/attempts = 200/200   min/max_break = 0.21772/0.37116   break associated total min/max_local_rama = 13.50515/13.83112   total min/max_local_rama = 13.50515/13.83112
+#      [48, 55] cut = 51   successes/attempts = 199/200   min/max_break = 0.64764/2.86138   break associated total min/max_local_rama = -3.52251/-1.16156   total min/max_local_rama = -3.52251/-1.16156
+#      [65, 71] cut = 68   successes/attempts = 0/200   min/max_break = 17.83059/49.62173   break associated total min/max_local_rama = 10.64686/1.27273   total min/max_local_rama = -1.31391/24.85604
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         112.375         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLL|****llllllllll|xxxxxxxxxxLLL   &   ...|****??????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hh.***********.hh|xxHHH   &   ????|?????????????*???|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [11, 14] cut = 13   successes/attempts = 0/200   min/max_break = 3.00497/19.37592   break associated total min/max_local_rama = 0.86203/-2.47265   total min/max_local_rama = -2.47265/11.43281
+#      [17, 30] cut = 27   successes/attempts = 179/200   min/max_break = 0.00216/1.76825   break associated total min/max_local_rama = 4.26353/10.73197   total min/max_local_rama = -1.99530/12.99238
+#      [48, 55] cut = 51   successes/attempts = 200/200   min/max_break = 1.87670/1.96359   break associated total min/max_local_rama = -3.12731/-2.95828   total min/max_local_rama = -3.12731/-2.95828
+#      [65, 71] cut = 68   successes/attempts = 0/200   min/max_break = 0.94005/45.08940   break associated total min/max_local_rama = 11.04602/0.64027   total min/max_local_rama = -0.42667/23.32700
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790          59.368         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|llll.**.eeeeeeeeee|xxxxxxxxxxLLL   &   ???|????.**.??????????|LLL
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   EHHHxxxx|hhhh.***********.hhhh|xxxxHHHL   &   ????|????.***********.????|????
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 16] cut = 10   successes/attempts = 200/200   min/max_break = 0.48611/0.68540   break associated total min/max_local_rama = 1.85304/3.17219   total min/max_local_rama = 1.85304/3.17219
+#      [17, 31] cut = 28   successes/attempts = 200/200   min/max_break = 1.32845/1.33861   break associated total min/max_local_rama = 19.89046/20.72685   total min/max_local_rama = 19.89046/20.72685
+#      [47, 56] cut = 50   successes/attempts = 199/200   min/max_break = 0.44742/3.12780   break associated total min/max_local_rama = -0.26237/-2.44682   total min/max_local_rama = -2.44682/2.81726
+#      [66, 75] cut = 71   successes/attempts = 0/200   min/max_break = 2.98649/73.78670   break associated total min/max_local_rama = 20.15449/5.47505   total min/max_local_rama = -3.68361/28.12005
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790          59.576         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|llll.**.eeeeeeeeee|xxxxxxxxxxLLL   &   ???|????.**.??????????|LLL
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   EHHHxxxx|hhhh.***********.hhhh|xxxxHHHL   &   ????|????.***********.????|????
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 16] cut = 10   successes/attempts = 200/200   min/max_break = 0.34074/0.90471   break associated total min/max_local_rama = 2.53444/0.50983   total min/max_local_rama = 0.50983/2.53444
+#      [17, 31] cut = 28   successes/attempts = 197/200   min/max_break = 0.00628/11.23591   break associated total min/max_local_rama = 19.89367/27.73378   total min/max_local_rama = 19.89365/34.40108
+#      [47, 56] cut = 50   successes/attempts = 198/200   min/max_break = 1.82648/126.25457   break associated total min/max_local_rama = -1.97200/6.71442   total min/max_local_rama = -3.20313/6.71442
+#      [66, 75] cut = 71   successes/attempts = 0/200   min/max_break = 9.99385/80.74004   break associated total min/max_local_rama = 22.21786/0.80600   total min/max_local_rama = -2.91201/30.90771
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         112.375         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|llll.**.eeeeeeeeee|xxxxxxxxxxLLL   &   ???|????.**.??????????|LLL
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   EHHHxxxx|hhhh.***********.hhhh|xxxxHHHL   &   ????|????.***********.????|????
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 16] cut = 10   successes/attempts = 200/200   min/max_break = 0.33367/1.13309   break associated total min/max_local_rama = 16.94189/16.67943   total min/max_local_rama = 16.67943/16.94189
+#      [17, 31] cut = 28   successes/attempts = 198/200   min/max_break = 0.43344/6.04745   break associated total min/max_local_rama = 20.78083/17.68020   total min/max_local_rama = 17.68020/23.05834
+#      [47, 56] cut = 50   successes/attempts = 200/200   min/max_break = 1.38804/1.50456   break associated total min/max_local_rama = -0.90511/-2.25133   total min/max_local_rama = -2.25133/-0.90511
+#      [66, 75] cut = 71   successes/attempts = 0/200   min/max_break = 5.58220/76.35805   break associated total min/max_local_rama = 14.73522/-0.20341   total min/max_local_rama = -2.56833/35.17992
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790          67.499         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|llll.**.eeeeeeeeee|xxxxxxxxxxLLL   &   ???|????.**.??????????|LLL
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   EHHHxxxx|hhhh.***********.hhhh|xxxxHHHL   &   ????|????.***********.????|????
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 3/200
+#   Refine -- 
+#      successes/attempts = 3/3
+#   Refine with Ab after design -- 
+#      successes/attempts = 5/5
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 16] cut = 10   successes/attempts = 200/200   min/max_break = 0.14005/7.79720   break associated total min/max_local_rama = 7.60364/2.29958   total min/max_local_rama = 2.29958/12.59897
+#      [17, 31] cut = 28   successes/attempts = 200/200   min/max_break = 0.28040/7.93509   break associated total min/max_local_rama = 17.84280/16.60397   total min/max_local_rama = 15.84135/34.41736
+#      [47, 56] cut = 50   successes/attempts = 200/200   min/max_break = 3.39472/5.74738   break associated total min/max_local_rama = -2.99266/-2.67619   total min/max_local_rama = -2.99267/-1.15759
+#      [66, 75] cut = 71   successes/attempts = 3/200   min/max_break = 1.18306/77.96526   break associated total min/max_local_rama = 21.96697/-1.19771   total min/max_local_rama = -1.19771/30.45125
+#   Refine -- 
+#      [8, 16] cut = 10   successes/attempts = 3/3   min/max_break = 3.32463/7.79720   break associated total min/max_local_rama = 12.59897/2.29958   total min/max_local_rama = 2.29958/12.59897
+#      [17, 31] cut = 28   successes/attempts = 3/3   min/max_break = 0.28040/7.93509   break associated total min/max_local_rama = 17.84280/16.60397   total min/max_local_rama = 16.60397/34.41728
+#      [47, 56] cut = 50   successes/attempts = 3/3   min/max_break = 4.86158/5.71235   break associated total min/max_local_rama = -2.90423/-2.67619   total min/max_local_rama = -2.90423/-1.15759
+#      [66, 75] cut = 71   successes/attempts = 3/3   min/max_break = 4.15412/7.57646   break associated total min/max_local_rama = 8.30904/14.10881   total min/max_local_rama = 8.30904/14.10881
+#   Refine with Ab after design -- 
+#      [8, 16] cut = 10   successes/attempts = 5/5   min/max_break = 4.01446/7.10198   break associated total min/max_local_rama = 8.08476/-2.94179   total min/max_local_rama = -2.94179/8.08476
+#      [17, 31] cut = 28   successes/attempts = 5/5   min/max_break = 0.44800/6.58602   break associated total min/max_local_rama = 31.85723/32.28170   total min/max_local_rama = 30.31604/35.30416
+#      [47, 56] cut = 50   successes/attempts = 5/5   min/max_break = 4.84790/5.58904   break associated total min/max_local_rama = -1.94770/-3.21354   total min/max_local_rama = -3.51493/-1.94770
+#      [66, 75] cut = 71   successes/attempts = 5/5   min/max_break = 9.39614/11.09293   break associated total min/max_local_rama = 0.27776/1.09492   total min/max_local_rama = 0.27776/1.97818
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         158.916         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll.**.eeeeeeeeee|xxxxxxxxxxDDD   &   ???|????**???????????|ddd
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   EHHHxxx|hhh.***********.hhh|xxxHHHL   &   ????|????***********????|????
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 15] cut = 10   successes/attempts = 200/200   min/max_break = 0.04719/69.07023   break associated total min/max_local_rama = 3.11316/29.86686   total min/max_local_rama = 3.11316/29.86686
+#      [16, 30] cut = 27   successes/attempts = 0/200   min/max_break = 0.00245/22.30684   break associated total min/max_local_rama = 23.75519/44.58118   total min/max_local_rama = 11.49603/56.04992
+#      [47, 55] cut = 50   successes/attempts = 200/200   min/max_break = 1.67298/1.67612   break associated total min/max_local_rama = -2.24331/-1.08836   total min/max_local_rama = -2.24331/-1.08836
+#      [65, 73] cut = 69   successes/attempts = 0/200   min/max_break = 6.50633/75.36144   break associated total min/max_local_rama = 26.72503/6.44242   total min/max_local_rama = -0.13254/28.58402
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         135.945         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll.**.eeeeeeeeee|xxxxxxxxxxDDD   &   ???|????**???????????|ddd
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   EHHHxxx|hhh.***********.hhh|xxxHHHL   &   ????|????***********????|????
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 15] cut = 10   successes/attempts = 197/200   min/max_break = 1.62074/9.00976   break associated total min/max_local_rama = 2.00701/3.96036   total min/max_local_rama = 0.58275/6.45019
+#      [16, 30] cut = 27   successes/attempts = 0/200   min/max_break = 0.00339/26.51033   break associated total min/max_local_rama = 27.38722/22.21119   total min/max_local_rama = 10.69503/54.52911
+#      [47, 55] cut = 50   successes/attempts = 200/200   min/max_break = 4.86473/5.60894   break associated total min/max_local_rama = -2.33095/-0.91023   total min/max_local_rama = -2.33095/-0.91023
+#      [65, 73] cut = 69   successes/attempts = 0/200   min/max_break = 7.54488/79.69376   break associated total min/max_local_rama = 12.40046/3.70253   total min/max_local_rama = -2.23036/31.73280
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790          84.395         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll.**.eeeeeeeeee|xxxxxxxxxxDDD   &   ???|????**???????????|ddd
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   EHHHxxx|hhh.***********.hhh|xxxHHHL   &   ????|????***********????|????
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 1/200
+#   Refine -- 
+#      successes/attempts = 1/1
+#   Refine with Ab after design -- 
+#      successes/attempts = 3/3
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 15] cut = 10   successes/attempts = 199/200   min/max_break = 2.38740/8.39646   break associated total min/max_local_rama = 10.33618/5.54826   total min/max_local_rama = 3.97925/10.33618
+#      [16, 30] cut = 27   successes/attempts = 170/200   min/max_break = 0.00766/23.03377   break associated total min/max_local_rama = 25.98074/23.96314   total min/max_local_rama = 18.08489/45.08482
+#      [47, 55] cut = 50   successes/attempts = 200/200   min/max_break = 2.60519/4.48239   break associated total min/max_local_rama = -1.95918/-2.70216   total min/max_local_rama = -2.70216/-1.95917
+#      [65, 73] cut = 69   successes/attempts = 1/200   min/max_break = 4.05543/67.53303   break associated total min/max_local_rama = 6.19086/3.63912   total min/max_local_rama = -1.62818/26.45421
+#   Refine -- 
+#      [8, 15] cut = 10   successes/attempts = 1/1   min/max_break = 2.85236/2.85236   break associated total min/max_local_rama = 3.97926/3.97926   total min/max_local_rama = 3.97926/3.97926
+#      [16, 30] cut = 27   successes/attempts = 1/1   min/max_break = 0.13218/0.13218   break associated total min/max_local_rama = 21.58894/21.58894   total min/max_local_rama = 21.58894/21.58894
+#      [47, 55] cut = 50   successes/attempts = 1/1   min/max_break = 4.48239/4.48239   break associated total min/max_local_rama = -2.70216/-2.70216   total min/max_local_rama = -2.70216/-2.70216
+#      [65, 73] cut = 69   successes/attempts = 1/1   min/max_break = 4.05543/4.05543   break associated total min/max_local_rama = 6.19086/6.19086   total min/max_local_rama = 6.19086/6.19086
+#   Refine with Ab after design -- 
+#      [8, 15] cut = 10   successes/attempts = 3/3   min/max_break = 4.52448/4.52448   break associated total min/max_local_rama = 6.69767/6.69767   total min/max_local_rama = 4.22344/6.69767
+#      [16, 30] cut = 27   successes/attempts = 3/3   min/max_break = 0.15938/0.15938   break associated total min/max_local_rama = 4.28714/4.28714   total min/max_local_rama = 1.72131/4.97881
+#      [47, 55] cut = 50   successes/attempts = 3/3   min/max_break = 6.02200/6.02200   break associated total min/max_local_rama = -4.82278/-4.82278   total min/max_local_rama = -5.19840/-4.82278
+#      [65, 73] cut = 69   successes/attempts = 3/3   min/max_break = 5.24495/5.24495   break associated total min/max_local_rama = 1.95960/1.95960   total min/max_local_rama = 1.95960/2.38772
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790          84.395         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll.**.eeeeeeeeee|xxxxxxxxxxDDD   &   ???|????**???????????|ddd
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   EHHHxxx|hhh.***********.hhh|xxxHHHL   &   ????|????***********????|????
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 15] cut = 10   successes/attempts = 198/200   min/max_break = 0.00262/0.90798   break associated total min/max_local_rama = 6.34434/3.10980   total min/max_local_rama = 3.10980/6.34434
+#      [16, 30] cut = 27   successes/attempts = 0/200   min/max_break = 0.00331/31.35524   break associated total min/max_local_rama = 36.19228/33.86089   total min/max_local_rama = 9.87433/73.90693
+#      [47, 55] cut = 50   successes/attempts = 200/200   min/max_break = 3.27725/3.59746   break associated total min/max_local_rama = -1.06575/0.38230   total min/max_local_rama = -1.06575/0.38230
+#      [65, 73] cut = 69   successes/attempts = 0/200   min/max_break = 3.32250/68.64989   break associated total min/max_local_rama = 9.39152/9.02846   total min/max_local_rama = -0.22527/28.40668
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790          59.576         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll.**.llllllllll|xxxxxxxxxxLLL   &   ???|???.***.?????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hhh.***********.hhh|xxHHH   &   ????|???????????????*???|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 3/200
+#   Refine -- 
+#      successes/attempts = 3/3
+#   Refine with Ab after design -- 
+#      successes/attempts = 5/5
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 15] cut = 10   successes/attempts = 172/200   min/max_break = 0.00186/59.23830   break associated total min/max_local_rama = 9.40007/2.90168   total min/max_local_rama = 0.18941/19.39247
+#      [16, 30] cut = 27   successes/attempts = 154/200   min/max_break = 0.00189/95.12013   break associated total min/max_local_rama = 10.27166/15.53279   total min/max_local_rama = 2.20792/24.64768
+#      [48, 56] cut = 51   successes/attempts = 179/200   min/max_break = 3.80855/21.34531   break associated total min/max_local_rama = 5.14004/1.34133   total min/max_local_rama = 1.34133/9.42573
+#      [66, 73] cut = 70   successes/attempts = 3/200   min/max_break = 3.11105/64.70730   break associated total min/max_local_rama = 3.84430/0.54903   total min/max_local_rama = -3.28235/23.32628
+#   Refine -- 
+#      [8, 15] cut = 10   successes/attempts = 3/3   min/max_break = 0.88032/4.57894   break associated total min/max_local_rama = 3.07302/3.38353   total min/max_local_rama = 3.07302/3.38353
+#      [16, 30] cut = 27   successes/attempts = 3/3   min/max_break = 0.04267/0.51037   break associated total min/max_local_rama = 5.01247/4.40170   total min/max_local_rama = 4.40170/7.00745
+#      [48, 56] cut = 51   successes/attempts = 3/3   min/max_break = 3.80855/4.91553   break associated total min/max_local_rama = 5.14004/5.15544   total min/max_local_rama = 5.14004/6.04035
+#      [66, 73] cut = 70   successes/attempts = 3/3   min/max_break = 3.11105/4.60617   break associated total min/max_local_rama = 3.84430/0.51918   total min/max_local_rama = -1.12803/3.84430
+#   Refine with Ab after design -- 
+#      [8, 15] cut = 10   successes/attempts = 5/5   min/max_break = 1.63014/5.70195   break associated total min/max_local_rama = 0.23727/-2.75434   total min/max_local_rama = -2.75434/0.23727
+#      [16, 30] cut = 27   successes/attempts = 5/5   min/max_break = 0.59041/0.64221   break associated total min/max_local_rama = -7.13930/3.62903   total min/max_local_rama = -7.13930/3.62903
+#      [48, 56] cut = 51   successes/attempts = 5/5   min/max_break = 3.81518/6.50570   break associated total min/max_local_rama = 3.82250/3.18023   total min/max_local_rama = 2.59564/3.82250
+#      [66, 73] cut = 70   successes/attempts = 5/5   min/max_break = 4.62250/4.88514   break associated total min/max_local_rama = -0.20273/-3.44188   total min/max_local_rama = -4.24165/-0.20273
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         112.375         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll.**.llllllllll|xxxxxxxxxxLLL   &   ???|???.***.?????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hhh.***********.hhh|xxHHH   &   ????|???????????????*???|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 15] cut = 10   successes/attempts = 187/200   min/max_break = 0.00451/11.28525   break associated total min/max_local_rama = 4.64560/6.45842   total min/max_local_rama = 2.68319/22.28495
+#      [16, 30] cut = 27   successes/attempts = 178/200   min/max_break = 0.00365/97.52370   break associated total min/max_local_rama = 5.54076/22.93588   total min/max_local_rama = 4.15393/28.58358
+#      [48, 56] cut = 51   successes/attempts = 0/200   min/max_break = 1.16654/34.93091   break associated total min/max_local_rama = 13.92152/2.56522   total min/max_local_rama = 0.69204/22.75545
+#      [66, 73] cut = 70   successes/attempts = 0/200   min/max_break = 3.31681/65.40449   break associated total min/max_local_rama = 1.14691/3.44153   total min/max_local_rama = -2.92461/23.63723
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790          84.395         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll.**.llllllllll|xxxxxxxxxxLLL   &   ???|????.**.?????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hh.***********.hh|xxHHH   &   ????|?????????????*???|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 15] cut = 10   successes/attempts = 195/200   min/max_break = 0.02542/69.07086   break associated total min/max_local_rama = 12.86568/29.86686   total min/max_local_rama = 1.63091/29.86686
+#      [16, 30] cut = 27   successes/attempts = 199/200   min/max_break = 0.05406/0.20414   break associated total min/max_local_rama = 9.45623/-3.18574   total min/max_local_rama = -3.18574/9.45623
+#      [48, 55] cut = 51   successes/attempts = 200/200   min/max_break = 1.07333/1.83407   break associated total min/max_local_rama = -2.92951/-4.34262   total min/max_local_rama = -4.34262/-2.92951
+#      [65, 71] cut = 68   successes/attempts = 0/200   min/max_break = 14.78405/44.88971   break associated total min/max_local_rama = 8.71967/0.50548   total min/max_local_rama = -1.12652/26.10540
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790          59.576         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll.**.llllllllll|xxxxxxxxxxLLL   &   ???|????.**.?????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hh.***********.hh|xxHHH   &   ????|?????????????*???|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 1/200
+#   Refine -- 
+#      successes/attempts = 1/1
+#   Refine with Ab after design -- 
+#      successes/attempts = 3/3
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 15] cut = 10   successes/attempts = 194/200   min/max_break = 0.17219/12.89134   break associated total min/max_local_rama = 9.74566/9.88073   total min/max_local_rama = 4.67939/9.88073
+#      [16, 30] cut = 27   successes/attempts = 184/200   min/max_break = 0.00425/4.34423   break associated total min/max_local_rama = 7.38343/4.05335   total min/max_local_rama = 2.88755/28.12377
+#      [48, 55] cut = 51   successes/attempts = 200/200   min/max_break = 2.26411/2.86976   break associated total min/max_local_rama = -1.86956/-2.81116   total min/max_local_rama = -3.36898/-1.86956
+#      [65, 71] cut = 68   successes/attempts = 5/200   min/max_break = 0.00441/46.24579   break associated total min/max_local_rama = -0.54177/0.38983   total min/max_local_rama = -0.95117/18.98141
+#   Refine -- 
+#      [8, 15] cut = 10   successes/attempts = 1/1   min/max_break = 0.68133/0.68133   break associated total min/max_local_rama = 4.70297/4.70297   total min/max_local_rama = 4.70297/4.70297
+#      [16, 30] cut = 27   successes/attempts = 1/1   min/max_break = 1.28572/1.28572   break associated total min/max_local_rama = 2.88755/2.88755   total min/max_local_rama = 2.88755/2.88755
+#      [48, 55] cut = 51   successes/attempts = 1/1   min/max_break = 2.74819/2.74819   break associated total min/max_local_rama = -3.36898/-3.36898   total min/max_local_rama = -3.36898/-3.36898
+#      [65, 71] cut = 68   successes/attempts = 1/1   min/max_break = 0.01615/0.01615   break associated total min/max_local_rama = -0.95115/-0.95115   total min/max_local_rama = -0.95115/-0.95115
+#   Refine with Ab after design -- 
+#      [8, 15] cut = 10   successes/attempts = 3/3   min/max_break = 0.92278/0.92278   break associated total min/max_local_rama = 3.94884/3.94884   total min/max_local_rama = 3.94884/4.61885
+#      [16, 30] cut = 27   successes/attempts = 3/3   min/max_break = 0.88010/0.88010   break associated total min/max_local_rama = -6.19715/-6.19715   total min/max_local_rama = -6.19715/-5.25165
+#      [48, 55] cut = 51   successes/attempts = 3/3   min/max_break = 2.74523/2.74523   break associated total min/max_local_rama = -2.83687/-2.83687   total min/max_local_rama = -3.03319/-2.83687
+#      [65, 71] cut = 68   successes/attempts = 3/3   min/max_break = 0.01795/0.01795   break associated total min/max_local_rama = -1.64247/-1.64247   total min/max_local_rama = -2.00273/-1.64247
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790          59.332         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll****llllllllll|xxxxxxxxxxLLL   &   ??.|????****?????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hh.***********.hh|xxHH   &   ????|???***********???|??
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 3/200
+#   Refine -- 
+#      successes/attempts = 3/3
+#   Refine with Ab after design -- 
+#      successes/attempts = 5/5
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 14] cut = 10   successes/attempts = 197/200   min/max_break = 0.64323/2.20492   break associated total min/max_local_rama = 4.41198/4.60874   total min/max_local_rama = 2.89114/7.20951
+#      [17, 30] cut = 27   successes/attempts = 148/200   min/max_break = 0.00274/4.22552   break associated total min/max_local_rama = 7.85097/22.51199   total min/max_local_rama = 1.97798/33.65288
+#      [48, 55] cut = 51   successes/attempts = 200/200   min/max_break = 1.98035/95.13491   break associated total min/max_local_rama = -2.40927/-1.93790   total min/max_local_rama = -4.17401/-0.66698
+#      [65, 70] cut = 68   successes/attempts = 3/200   min/max_break = 0.86296/57.92128   break associated total min/max_local_rama = -2.14547/-0.33358   total min/max_local_rama = -3.60840/20.95194
+#   Refine -- 
+#      [8, 14] cut = 10   successes/attempts = 3/3   min/max_break = 0.64323/1.65041   break associated total min/max_local_rama = 4.41198/4.07199   total min/max_local_rama = 3.04292/4.41198
+#      [17, 30] cut = 27   successes/attempts = 3/3   min/max_break = 0.06785/2.44174   break associated total min/max_local_rama = 4.41170/3.25182   total min/max_local_rama = 3.25182/4.41170
+#      [48, 55] cut = 51   successes/attempts = 3/3   min/max_break = 2.70342/95.13488   break associated total min/max_local_rama = -4.02675/-0.66698   total min/max_local_rama = -4.02675/-0.66698
+#      [65, 70] cut = 68   successes/attempts = 3/3   min/max_break = 0.86296/2.62910   break associated total min/max_local_rama = -2.14547/-3.60840   total min/max_local_rama = -3.60840/-0.60616
+#   Refine with Ab after design -- 
+#      [8, 14] cut = 10   successes/attempts = 5/5   min/max_break = 1.02275/2.22658   break associated total min/max_local_rama = 0.17605/-3.30422   total min/max_local_rama = -3.30422/0.57422
+#      [17, 30] cut = 27   successes/attempts = 5/5   min/max_break = 0.07484/3.07401   break associated total min/max_local_rama = -0.70519/11.38404   total min/max_local_rama = -2.90046/12.75275
+#      [48, 55] cut = 51   successes/attempts = 5/5   min/max_break = 2.70545/84.90568   break associated total min/max_local_rama = -4.49674/0.66964   total min/max_local_rama = -4.61680/0.66964
+#      [65, 70] cut = 68   successes/attempts = 5/5   min/max_break = 1.29182/2.79503   break associated total min/max_local_rama = -3.28653/-2.36171   total min/max_local_rama = -3.28653/-2.36171
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790          84.395         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll****llllllllll|xxxxxxxxxxLLL   &   ??.|????****?????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hh.***********.hh|xxHH   &   ????|???***********???|??
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 4/200
+#   Refine -- 
+#      successes/attempts = 4/4
+#   Refine with Ab after design -- 
+#      successes/attempts = 5/5
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 14] cut = 10   successes/attempts = 174/200   min/max_break = 0.00253/69.07037   break associated total min/max_local_rama = 7.80255/29.02892   total min/max_local_rama = 2.18070/29.02892
+#      [17, 30] cut = 27   successes/attempts = 166/200   min/max_break = 0.00231/5.64838   break associated total min/max_local_rama = 13.88449/7.18410   total min/max_local_rama = 0.16931/37.21496
+#      [48, 55] cut = 51   successes/attempts = 198/200   min/max_break = 0.48993/95.13491   break associated total min/max_local_rama = -2.91119/-0.66698   total min/max_local_rama = -4.92716/-0.66698
+#      [65, 70] cut = 68   successes/attempts = 24/200   min/max_break = 0.07584/58.30954   break associated total min/max_local_rama = 0.06584/1.26734   total min/max_local_rama = -3.63614/15.53493
+#   Refine -- 
+#      [8, 14] cut = 10   successes/attempts = 4/4   min/max_break = 0.35890/69.07034   break associated total min/max_local_rama = 4.77579/29.02892   total min/max_local_rama = 3.98687/29.02892
+#      [17, 30] cut = 27   successes/attempts = 4/4   min/max_break = 0.19799/0.80282   break associated total min/max_local_rama = 2.61438/1.41578   total min/max_local_rama = 0.16931/4.57540
+#      [48, 55] cut = 51   successes/attempts = 4/4   min/max_break = 1.85677/95.13490   break associated total min/max_local_rama = -4.10515/-0.66698   total min/max_local_rama = -4.22002/-0.66698
+#      [65, 70] cut = 68   successes/attempts = 4/4   min/max_break = 0.07584/1.92350   break associated total min/max_local_rama = 0.06584/-3.02808   total min/max_local_rama = -3.63614/0.68751
+#   Refine with Ab after design -- 
+#      [8, 14] cut = 10   successes/attempts = 5/5   min/max_break = 0.46925/79.02267   break associated total min/max_local_rama = -1.42891/20.63566   total min/max_local_rama = -1.77831/20.63566
+#      [17, 30] cut = 27   successes/attempts = 5/5   min/max_break = 0.60112/1.01604   break associated total min/max_local_rama = 13.36566/-8.31676   total min/max_local_rama = -8.31676/13.36566
+#      [48, 55] cut = 51   successes/attempts = 5/5   min/max_break = 95.10503/95.10509   break associated total min/max_local_rama = 18.30570/16.64429   total min/max_local_rama = -1.59732/18.30570
+#      [65, 70] cut = 68   successes/attempts = 5/5   min/max_break = 1.74697/2.52637   break associated total min/max_local_rama = -3.51304/-4.32609   total min/max_local_rama = -4.32609/-2.96942
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790          84.395         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll****llllllllll|xxxxxxxxxxLLL   &   ??.|????****?????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hh.***********.hh|xxHH   &   ????|???***********???|??
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 14] cut = 10   successes/attempts = 0/200   min/max_break = 0.00142/11.23394   break associated total min/max_local_rama = 14.85276/4.72036   total min/max_local_rama = 1.13865/22.49506
+#      [17, 30] cut = 27   successes/attempts = 0/200   min/max_break = 0.00095/35.63210   break associated total min/max_local_rama = 15.12389/31.07593   total min/max_local_rama = -5.18810/31.07593
+#      [48, 55] cut = 51   successes/attempts = 0/200   min/max_break = 0.09519/3.13691   break associated total min/max_local_rama = -0.23513/-1.31741   total min/max_local_rama = -4.29272/2.76489
+#      [65, 70] cut = 68   successes/attempts = 0/200   min/max_break = 0.00359/52.28970   break associated total min/max_local_rama = -0.70960/2.34163   total min/max_local_rama = -2.64361/22.09936
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790          59.368         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll****llllllllll|xxxxxxxxxxLLL   &   ??.|????****?????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hh.***********.hh|xxHH   &   ????|???***********???|??
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 1/200
+#   Refine -- 
+#      successes/attempts = 1/1
+#   Refine with Ab after design -- 
+#      successes/attempts = 3/3
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 14] cut = 10   successes/attempts = 163/200   min/max_break = 0.00328/6.09360   break associated total min/max_local_rama = 11.98578/7.82434   total min/max_local_rama = 0.71805/15.73059
+#      [17, 30] cut = 27   successes/attempts = 1/200   min/max_break = 0.00163/96.55739   break associated total min/max_local_rama = 7.46332/20.97493   total min/max_local_rama = -1.02222/39.74599
+#      [48, 55] cut = 51   successes/attempts = 191/200   min/max_break = 0.39202/81.41301   break associated total min/max_local_rama = -4.40747/0.73148   total min/max_local_rama = -5.37247/3.58524
+#      [65, 70] cut = 68   successes/attempts = 3/200   min/max_break = 0.40024/56.54586   break associated total min/max_local_rama = 0.06072/2.00790   total min/max_local_rama = -3.24410/21.69140
+#   Refine -- 
+#      [8, 14] cut = 10   successes/attempts = 1/1   min/max_break = 0.79213/0.79213   break associated total min/max_local_rama = 2.96728/2.96728   total min/max_local_rama = 2.96728/2.96728
+#      [17, 30] cut = 27   successes/attempts = 1/1   min/max_break = 0.06802/0.06802   break associated total min/max_local_rama = 1.06394/1.06394   total min/max_local_rama = 1.06394/1.06394
+#      [48, 55] cut = 51   successes/attempts = 1/1   min/max_break = 0.87837/0.87837   break associated total min/max_local_rama = -4.40747/-4.40747   total min/max_local_rama = -4.40747/-4.40747
+#      [65, 70] cut = 68   successes/attempts = 1/1   min/max_break = 0.40024/0.40024   break associated total min/max_local_rama = 0.06072/0.06072   total min/max_local_rama = 0.06072/0.06072
+#   Refine with Ab after design -- 
+#      [8, 14] cut = 10   successes/attempts = 3/3   min/max_break = 1.03865/1.03865   break associated total min/max_local_rama = -1.85935/-1.85935   total min/max_local_rama = -1.85935/-0.35745
+#      [17, 30] cut = 27   successes/attempts = 3/3   min/max_break = 0.08418/0.08418   break associated total min/max_local_rama = 0.42050/0.42050   total min/max_local_rama = -0.02201/0.71889
+#      [48, 55] cut = 51   successes/attempts = 3/3   min/max_break = 0.87798/0.87798   break associated total min/max_local_rama = -4.21101/-4.21101   total min/max_local_rama = -5.19170/-4.21101
+#      [65, 70] cut = 68   successes/attempts = 3/3   min/max_break = 0.39888/0.39888   break associated total min/max_local_rama = -0.49262/-0.49262   total min/max_local_rama = -0.49262/-0.49262
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         112.375         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll****llllllllll|xxxxxxxxxxLLL   &   ??.|????****?????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hh.***********.hh|xxHH   &   ????|???***********???|??
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 1/200
+#   Refine -- 
+#      successes/attempts = 1/1
+#   Refine with Ab after design -- 
+#      successes/attempts = 3/3
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 14] cut = 10   successes/attempts = 27/200   min/max_break = 0.00130/9.07633   break associated total min/max_local_rama = 4.71281/6.19040   total min/max_local_rama = 1.78058/17.52262
+#      [17, 30] cut = 27   successes/attempts = 86/200   min/max_break = 0.00229/7.58569   break associated total min/max_local_rama = 13.62446/19.64993   total min/max_local_rama = -0.05639/28.25707
+#      [48, 55] cut = 51   successes/attempts = 182/200   min/max_break = 0.26284/3.47935   break associated total min/max_local_rama = -1.57447/-3.91516   total min/max_local_rama = -5.20325/-1.57447
+#      [65, 70] cut = 68   successes/attempts = 161/200   min/max_break = 0.32354/54.96309   break associated total min/max_local_rama = -2.38031/4.20937   total min/max_local_rama = -2.38031/19.77952
+#   Refine -- 
+#      [8, 14] cut = 10   successes/attempts = 1/1   min/max_break = 0.32321/0.32321   break associated total min/max_local_rama = 2.13843/2.13843   total min/max_local_rama = 2.13843/2.13843
+#      [17, 30] cut = 27   successes/attempts = 1/1   min/max_break = 0.10304/0.10304   break associated total min/max_local_rama = -0.05639/-0.05639   total min/max_local_rama = -0.05639/-0.05639
+#      [48, 55] cut = 51   successes/attempts = 1/1   min/max_break = 0.62568/0.62568   break associated total min/max_local_rama = -1.57447/-1.57447   total min/max_local_rama = -1.57447/-1.57447
+#      [65, 70] cut = 68   successes/attempts = 1/1   min/max_break = 0.40463/0.40463   break associated total min/max_local_rama = -0.44812/-0.44812   total min/max_local_rama = -0.44812/-0.44812
+#   Refine with Ab after design -- 
+#      [8, 14] cut = 10   successes/attempts = 3/3   min/max_break = 0.49405/0.49405   break associated total min/max_local_rama = -1.88266/-1.88266   total min/max_local_rama = -2.55704/-1.88266
+#      [17, 30] cut = 27   successes/attempts = 3/3   min/max_break = 0.11699/0.11699   break associated total min/max_local_rama = -11.07405/-11.07405   total min/max_local_rama = -11.07405/-9.58219
+#      [48, 55] cut = 51   successes/attempts = 3/3   min/max_break = 0.74679/0.74679   break associated total min/max_local_rama = -3.35828/-3.35828   total min/max_local_rama = -4.41811/-3.35828
+#      [65, 70] cut = 68   successes/attempts = 3/3   min/max_break = 0.44777/0.44777   break associated total min/max_local_rama = -1.27975/-1.27975   total min/max_local_rama = -1.27975/-1.27975
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         105.767         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll****llllllllll|xxxxxxxxxxLLL   &   ??.|????****?????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hh.***********.hh|xxHH   &   ????|???***********???|??
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 14] cut = 10   successes/attempts = 0/200   min/max_break = 0.00202/14.65905   break associated total min/max_local_rama = 12.99894/3.40303   total min/max_local_rama = 2.65801/21.25958
+#      [17, 30] cut = 27   successes/attempts = 42/200   min/max_break = 0.00133/110.09164   break associated total min/max_local_rama = 15.33921/18.69239   total min/max_local_rama = -1.96662/26.17931
+#      [48, 55] cut = 51   successes/attempts = 200/200   min/max_break = 0.95974/95.13466   break associated total min/max_local_rama = -2.76015/-1.93790   total min/max_local_rama = -4.24190/3.58148
+#      [65, 70] cut = 68   successes/attempts = 188/200   min/max_break = 0.97226/31.47009   break associated total min/max_local_rama = -3.75242/-3.33178   total min/max_local_rama = -3.75243/14.26979
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790          59.576         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll****llllllllll|xxxxxxxxxxLLL   &   ??.|????****?????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hh.***********.hh|xxHH   &   ????|???***********???|??
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 14] cut = 10   successes/attempts = 0/200   min/max_break = 0.00111/10.12442   break associated total min/max_local_rama = 12.82915/4.55851   total min/max_local_rama = 0.72253/23.02000
+#      [17, 30] cut = 27   successes/attempts = 31/200   min/max_break = 0.00135/92.92683   break associated total min/max_local_rama = -0.45661/31.25381   total min/max_local_rama = -2.82474/32.70582
+#      [48, 55] cut = 51   successes/attempts = 196/200   min/max_break = 0.67636/95.13502   break associated total min/max_local_rama = -3.62961/-0.66698   total min/max_local_rama = -4.59602/2.18678
+#      [65, 70] cut = 68   successes/attempts = 0/200   min/max_break = 4.73909/56.41439   break associated total min/max_local_rama = 5.97098/2.15567   total min/max_local_rama = -1.35151/24.89591
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         105.767         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll****llllllllll|xxxxxxxxxxLLL   &   ??.|????****?????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hh.***********.hh|xxHH   &   ????|???***********???|??
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 3/200
+#   Refine -- 
+#      successes/attempts = 3/3
+#   Refine with Ab after design -- 
+#      successes/attempts = 5/5
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 14] cut = 10   successes/attempts = 176/200   min/max_break = 0.00852/69.07035   break associated total min/max_local_rama = 12.35162/29.02892   total min/max_local_rama = 1.59664/29.02892
+#      [17, 30] cut = 27   successes/attempts = 172/200   min/max_break = 0.00315/186.14603   break associated total min/max_local_rama = 6.28273/32.06373   total min/max_local_rama = -5.08716/32.06373
+#      [48, 55] cut = 51   successes/attempts = 192/200   min/max_break = 0.38641/95.13483   break associated total min/max_local_rama = -2.69341/-0.66698   total min/max_local_rama = -5.36262/3.58524
+#      [65, 70] cut = 68   successes/attempts = 3/200   min/max_break = 0.07869/58.87531   break associated total min/max_local_rama = -1.54362/-1.12410   total min/max_local_rama = -2.46834/21.66414
+#   Refine -- 
+#      [8, 14] cut = 10   successes/attempts = 3/3   min/max_break = 0.32797/69.07022   break associated total min/max_local_rama = 2.42593/29.02892   total min/max_local_rama = 1.59664/29.02892
+#      [17, 30] cut = 27   successes/attempts = 3/3   min/max_break = 0.59925/186.14563   break associated total min/max_local_rama = -2.31911/32.06373   total min/max_local_rama = -5.08716/32.06373
+#      [48, 55] cut = 51   successes/attempts = 3/3   min/max_break = 0.43379/71.21339   break associated total min/max_local_rama = -4.16525/3.58524   total min/max_local_rama = -4.77934/3.58524
+#      [65, 70] cut = 68   successes/attempts = 3/3   min/max_break = 0.07869/0.88833   break associated total min/max_local_rama = -1.54362/-0.11331   total min/max_local_rama = -1.54362/-0.11331
+#   Refine with Ab after design -- 
+#      [8, 14] cut = 10   successes/attempts = 5/5   min/max_break = 0.45318/79.02254   break associated total min/max_local_rama = 18.85216/20.48349   total min/max_local_rama = 18.85216/20.63569
+#      [17, 30] cut = 27   successes/attempts = 5/5   min/max_break = 0.83749/0.92322   break associated total min/max_local_rama = -10.07671/-10.80382   total min/max_local_rama = -10.80382/-10.07671
+#      [48, 55] cut = 51   successes/attempts = 5/5   min/max_break = 0.59432/84.90543   break associated total min/max_local_rama = -4.52162/-1.07972   total min/max_local_rama = -4.52162/-1.07972
+#      [65, 70] cut = 68   successes/attempts = 5/5   min/max_break = 0.09291/1.19898   break associated total min/max_local_rama = -3.16717/-2.54616   total min/max_local_rama = -3.16717/-2.54616
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         112.375         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll****llllllllll|xxxxxxxxxxLLL   &   ??.|????****?????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hh.***********.hh|xxHH   &   ????|???***********???|??
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 14] cut = 10   successes/attempts = 0/200   min/max_break = 0.00134/17.87501   break associated total min/max_local_rama = 8.37156/10.12193   total min/max_local_rama = 2.36097/21.49278
+#      [17, 30] cut = 27   successes/attempts = 0/200   min/max_break = 0.00112/104.43011   break associated total min/max_local_rama = 13.18639/50.98101   total min/max_local_rama = 0.35906/51.98132
+#      [48, 55] cut = 51   successes/attempts = 192/200   min/max_break = 0.98770/95.13486   break associated total min/max_local_rama = -5.65498/-0.66698   total min/max_local_rama = -5.65498/3.58148
+#      [65, 70] cut = 68   successes/attempts = 63/200   min/max_break = 0.38745/54.19548   break associated total min/max_local_rama = -1.50964/3.70556   total min/max_local_rama = -1.50964/26.63738
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790          59.368         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll****llllllllll|xxxxxxxxxxLLL   &   ??.|????****?????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hh.***********.hh|xxHH   &   ????|???***********???|??
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 14] cut = 10   successes/attempts = 0/200   min/max_break = 0.00230/11.27783   break associated total min/max_local_rama = 6.42032/7.38313   total min/max_local_rama = 2.06650/20.17846
+#      [17, 30] cut = 27   successes/attempts = 182/200   min/max_break = 0.00497/3.21647   break associated total min/max_local_rama = 11.25136/11.81079   total min/max_local_rama = -0.52453/13.66059
+#      [48, 55] cut = 51   successes/attempts = 200/200   min/max_break = 0.85733/95.13478   break associated total min/max_local_rama = -3.06168/-0.66698   total min/max_local_rama = -4.49178/-0.66698
+#      [65, 70] cut = 68   successes/attempts = 183/200   min/max_break = 0.03903/51.17002   break associated total min/max_local_rama = 0.06260/4.03929   total min/max_local_rama = -1.85046/21.72163
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         112.375         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll****llllllllll|xxxxxxxxxxLLL   &   ??.|????****?????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hh.***********.hh|xxHH   &   ????|???***********???|??
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 14] cut = 10   successes/attempts = 193/200   min/max_break = 0.00387/2.75565   break associated total min/max_local_rama = 4.61581/3.77391   total min/max_local_rama = 1.85941/4.61581
+#      [17, 30] cut = 27   successes/attempts = 0/200   min/max_break = 0.00154/85.27419   break associated total min/max_local_rama = 5.56876/20.29177   total min/max_local_rama = -2.35921/34.09019
+#      [48, 55] cut = 51   successes/attempts = 196/200   min/max_break = 0.84796/95.13493   break associated total min/max_local_rama = -4.54625/-0.66698   total min/max_local_rama = -4.91008/3.58148
+#      [65, 70] cut = 68   successes/attempts = 0/200   min/max_break = 3.10805/60.40028   break associated total min/max_local_rama = 2.33270/1.41166   total min/max_local_rama = -1.14364/21.60859
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         105.767         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll****llllllllll|xxxxxxxxxxLLL   &   ??.|????****?????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hh.***********.hh|xxHH   &   ????|???***********???|??
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 14] cut = 10   successes/attempts = 0/200   min/max_break = 0.00165/34.27207   break associated total min/max_local_rama = 11.53899/5.03026   total min/max_local_rama = 2.73310/21.35966
+#      [17, 30] cut = 27   successes/attempts = 136/200   min/max_break = 0.00200/89.57346   break associated total min/max_local_rama = 10.59422/8.67383   total min/max_local_rama = 2.51531/27.42949
+#      [48, 55] cut = 51   successes/attempts = 186/200   min/max_break = 0.63129/2.24694   break associated total min/max_local_rama = -2.65851/-4.64147   total min/max_local_rama = -5.21839/-1.41367
+#      [65, 70] cut = 68   successes/attempts = 83/200   min/max_break = 0.26293/56.65830   break associated total min/max_local_rama = -0.77252/1.36842   total min/max_local_rama = -2.09185/24.49557
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         112.375         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll****llllllllll|xxxxxxxxxxLLL   &   ??.|????****?????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hh.***********.hh|xxHH   &   ????|???***********???|??
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 1/200
+#   Refine -- 
+#      successes/attempts = 1/1
+#   Refine with Ab after design -- 
+#      successes/attempts = 3/3
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 14] cut = 10   successes/attempts = 55/200   min/max_break = 0.00198/9.55573   break associated total min/max_local_rama = 8.47964/3.04229   total min/max_local_rama = 2.43035/19.37239
+#      [17, 30] cut = 27   successes/attempts = 187/200   min/max_break = 0.00510/9.30620   break associated total min/max_local_rama = 7.46610/14.74424   total min/max_local_rama = -5.31093/21.53979
+#      [48, 55] cut = 51   successes/attempts = 189/200   min/max_break = 0.67883/95.13486   break associated total min/max_local_rama = -3.52889/-1.93790   total min/max_local_rama = -4.75032/5.04054
+#      [65, 70] cut = 68   successes/attempts = 117/200   min/max_break = 0.51113/55.80235   break associated total min/max_local_rama = 0.74468/1.47116   total min/max_local_rama = -3.05899/15.74363
+#   Refine -- 
+#      [8, 14] cut = 10   successes/attempts = 1/1   min/max_break = 0.94942/0.94942   break associated total min/max_local_rama = 2.43035/2.43035   total min/max_local_rama = 2.43035/2.43035
+#      [17, 30] cut = 27   successes/attempts = 1/1   min/max_break = 0.30425/0.30425   break associated total min/max_local_rama = -5.31093/-5.31093   total min/max_local_rama = -5.31093/-5.31093
+#      [48, 55] cut = 51   successes/attempts = 1/1   min/max_break = 95.13485/95.13485   break associated total min/max_local_rama = -0.66698/-0.66698   total min/max_local_rama = -0.66698/-0.66698
+#      [65, 70] cut = 68   successes/attempts = 1/1   min/max_break = 0.51113/0.51113   break associated total min/max_local_rama = 0.74468/0.74468   total min/max_local_rama = 0.74468/0.74468
+#   Refine with Ab after design -- 
+#      [8, 14] cut = 10   successes/attempts = 3/3   min/max_break = 1.29695/1.29695   break associated total min/max_local_rama = -2.29441/-2.29441   total min/max_local_rama = -2.29441/-1.05681
+#      [17, 30] cut = 27   successes/attempts = 3/3   min/max_break = 0.41017/0.41017   break associated total min/max_local_rama = -9.02116/-9.02116   total min/max_local_rama = -9.72298/-9.02116
+#      [48, 55] cut = 51   successes/attempts = 3/3   min/max_break = 95.10500/95.10500   break associated total min/max_local_rama = 17.41756/17.41756   total min/max_local_rama = 17.41756/17.41756
+#      [65, 70] cut = 68   successes/attempts = 3/3   min/max_break = 0.61402/0.61402   break associated total min/max_local_rama = -1.77306/-1.77306   total min/max_local_rama = -1.77306/-1.77306
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790          84.395         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll****llllllllll|xxxxxxxxxxLLL   &   ??.|????****?????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hh.***********.hh|xxHH   &   ????|???***********???|??
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 14] cut = 10   successes/attempts = 0/200   min/max_break = 0.00161/12.01008   break associated total min/max_local_rama = 8.36050/13.60282   total min/max_local_rama = 1.64548/23.43793
+#      [17, 30] cut = 27   successes/attempts = 153/200   min/max_break = 0.00365/86.86935   break associated total min/max_local_rama = 7.94617/18.00770   total min/max_local_rama = -0.50877/36.85656
+#      [48, 55] cut = 51   successes/attempts = 199/200   min/max_break = 0.63643/95.13482   break associated total min/max_local_rama = -4.20586/-1.93790   total min/max_local_rama = -4.20589/0.72772
+#      [65, 70] cut = 68   successes/attempts = 186/200   min/max_break = 0.81801/38.97981   break associated total min/max_local_rama = -0.03388/6.03422   total min/max_local_rama = -3.82736/12.15161
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         112.375         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll****llllllllll|xxxxxxxxxxLLL   &   ??.|????****?????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hh.***********.hh|xxHH   &   ????|???***********???|??
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 14] cut = 10   successes/attempts = 0/200   min/max_break = 0.00162/31.32227   break associated total min/max_local_rama = 3.45228/4.68530   total min/max_local_rama = 2.38609/20.54694
+#      [17, 30] cut = 27   successes/attempts = 69/200   min/max_break = 0.00152/186.14589   break associated total min/max_local_rama = 4.79534/32.06373   total min/max_local_rama = -0.46836/39.58674
+#      [48, 55] cut = 51   successes/attempts = 198/200   min/max_break = 0.65970/2.65203   break associated total min/max_local_rama = -3.77648/-3.33073   total min/max_local_rama = -5.14511/-3.33073
+#      [65, 70] cut = 68   successes/attempts = 0/200   min/max_break = 4.44148/55.52713   break associated total min/max_local_rama = 4.28613/3.25815   total min/max_local_rama = -2.03101/19.01567
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         158.916         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll****llllllllll|xxxxxxxxxxLLL   &   ??.|????****?????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hh.***********.hh|xxHH   &   ????|???***********???|??
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 1/200
+#   Refine -- 
+#      successes/attempts = 1/1
+#   Refine with Ab after design -- 
+#      successes/attempts = 3/3
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 14] cut = 10   successes/attempts = 152/200   min/max_break = 0.00306/69.07074   break associated total min/max_local_rama = 4.49346/31.88268   total min/max_local_rama = 2.24911/31.88268
+#      [17, 30] cut = 27   successes/attempts = 126/200   min/max_break = 0.00202/96.35307   break associated total min/max_local_rama = 3.96877/10.88578   total min/max_local_rama = -0.73532/26.54440
+#      [48, 55] cut = 51   successes/attempts = 189/200   min/max_break = 0.27132/81.41278   break associated total min/max_local_rama = -3.39920/2.31433   total min/max_local_rama = -4.74921/6.43900
+#      [65, 70] cut = 68   successes/attempts = 1/200   min/max_break = 0.28154/56.81186   break associated total min/max_local_rama = -1.82551/1.76905   total min/max_local_rama = -1.82551/18.36402
+#   Refine -- 
+#      [8, 14] cut = 10   successes/attempts = 1/1   min/max_break = 0.85437/0.85437   break associated total min/max_local_rama = 2.24911/2.24911   total min/max_local_rama = 2.24911/2.24911
+#      [17, 30] cut = 27   successes/attempts = 1/1   min/max_break = 0.71184/0.71184   break associated total min/max_local_rama = -0.73532/-0.73532   total min/max_local_rama = -0.73532/-0.73532
+#      [48, 55] cut = 51   successes/attempts = 1/1   min/max_break = 0.83643/0.83643   break associated total min/max_local_rama = -4.74921/-4.74921   total min/max_local_rama = -4.74921/-4.74921
+#      [65, 70] cut = 68   successes/attempts = 1/1   min/max_break = 0.28154/0.28154   break associated total min/max_local_rama = -1.82551/-1.82551   total min/max_local_rama = -1.82551/-1.82551
+#   Refine with Ab after design -- 
+#      [8, 14] cut = 10   successes/attempts = 3/3   min/max_break = 1.24307/1.24307   break associated total min/max_local_rama = -2.63172/-2.63172   total min/max_local_rama = -3.14003/-2.63172
+#      [17, 30] cut = 27   successes/attempts = 3/3   min/max_break = 0.88288/0.88288   break associated total min/max_local_rama = -6.03286/-6.03286   total min/max_local_rama = -6.51046/-5.74124
+#      [48, 55] cut = 51   successes/attempts = 3/3   min/max_break = 0.83648/0.83648   break associated total min/max_local_rama = -4.09200/-4.09200   total min/max_local_rama = -4.09200/-4.09200
+#      [65, 70] cut = 68   successes/attempts = 3/3   min/max_break = 0.34546/0.34546   break associated total min/max_local_rama = -2.39735/-2.39735   total min/max_local_rama = -2.39735/-2.39735
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         158.916         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLxxx|lll****llllllllll|xxxxxxxxxxLLL   &   ??.|????****?????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   HHHHxx|hh.***********.hh|xxHH   &   ????|???***********???|??
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 1/200
+#   Refine -- 
+#      successes/attempts = 1/1
+#   Refine with Ab after design -- 
+#      successes/attempts = 3/3
+#
+# Individual Statistics:
+#   Build -- 
+#      [8, 14] cut = 10   successes/attempts = 193/200   min/max_break = 0.01121/1.79630   break associated total min/max_local_rama = 4.66914/0.41166   total min/max_local_rama = 0.41166/7.69509
+#      [17, 30] cut = 27   successes/attempts = 16/200   min/max_break = 0.00158/7.50650   break associated total min/max_local_rama = 6.50597/20.40176   total min/max_local_rama = -3.25376/31.96991
+#      [48, 55] cut = 51   successes/attempts = 193/200   min/max_break = 0.50484/81.41283   break associated total min/max_local_rama = -4.49462/0.73148   total min/max_local_rama = -4.94445/3.58524
+#      [65, 70] cut = 68   successes/attempts = 169/200   min/max_break = 0.91737/53.24394   break associated total min/max_local_rama = -2.38128/3.05911   total min/max_local_rama = -3.64344/12.73330
+#   Refine -- 
+#      [8, 14] cut = 10   successes/attempts = 1/1   min/max_break = 0.51519/0.51519   break associated total min/max_local_rama = 1.18640/1.18640   total min/max_local_rama = 1.18640/1.18640
+#      [17, 30] cut = 27   successes/attempts = 1/1   min/max_break = 0.66034/0.66034   break associated total min/max_local_rama = 3.28993/3.28993   total min/max_local_rama = 3.28993/3.28993
+#      [48, 55] cut = 51   successes/attempts = 1/1   min/max_break = 71.21343/71.21343   break associated total min/max_local_rama = 3.58524/3.58524   total min/max_local_rama = 3.58524/3.58524
+#      [65, 70] cut = 68   successes/attempts = 1/1   min/max_break = 0.91737/0.91737   break associated total min/max_local_rama = -2.38128/-2.38128   total min/max_local_rama = -2.38128/-2.38128
+#   Refine with Ab after design -- 
+#      [8, 14] cut = 10   successes/attempts = 3/3   min/max_break = 0.75996/0.75996   break associated total min/max_local_rama = -2.12673/-2.12673   total min/max_local_rama = -2.12673/-2.12673
+#      [17, 30] cut = 27   successes/attempts = 3/3   min/max_break = 0.87999/0.87999   break associated total min/max_local_rama = -4.14293/-4.14293   total min/max_local_rama = -4.36065/-4.14293
+#      [48, 55] cut = 51   successes/attempts = 3/3   min/max_break = 84.90553/84.90553   break associated total min/max_local_rama = -0.40495/-0.40495   total min/max_local_rama = -0.70627/-0.40495
+#      [65, 70] cut = 68   successes/attempts = 3/3   min/max_break = 0.91739/0.91739   break associated total min/max_local_rama = -1.61299/-1.61299   total min/max_local_rama = -1.61299/-1.61299
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790          59.576         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLhhl|LLLLleeeee|xxxxxxxxxxLLL   &   ...???|....??????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   LLLLLLLxx|hhhHHHHHHHHHHHHH|hhhhLLL   &   ???????|??..............|????...
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [11, 18] cut = 16   successes/attempts = 187/200   min/max_break = 0.01066/16.73606   break associated total min/max_local_rama = 1.49247/3.73246   total min/max_local_rama = 1.48482/40.33020
+#      [18, 29] cut = 26   successes/attempts = 0/200   min/max_break = 0.00208/21.21203   break associated total min/max_local_rama = 13.81948/14.02549   total min/max_local_rama = 7.78358/44.87775
+#      [44, 54] cut = 50   successes/attempts = 70/200   min/max_break = 0.06580/15.65991   break associated total min/max_local_rama = 7.04234/2.72288   total min/max_local_rama = 0.03805/23.41768
+#      [66, 73] cut = 66   successes/attempts = 0/200   min/max_break = 0.79799/44.26143   break associated total min/max_local_rama = 6.68665/3.80074   total min/max_local_rama = -1.99988/20.12569
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         112.375         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLhhl|LLLLleeeee|xxxxxxxxxxLLL   &   ...???|....??????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   LLLLLLLxx|hhhHHHHHHHHHHHHH|hhhhLLL   &   ???????|??..............|????...
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 2/200
+#   Refine -- 
+#      successes/attempts = 2/2
+#   Refine with Ab after design -- 
+#      successes/attempts = 5/5
+#
+# Individual Statistics:
+#   Build -- 
+#      [11, 18] cut = 16   successes/attempts = 190/200   min/max_break = 0.23854/14.65922   break associated total min/max_local_rama = 1.05275/2.96408   total min/max_local_rama = 0.24153/10.43832
+#      [18, 29] cut = 26   successes/attempts = 50/200   min/max_break = 0.00503/102.18572   break associated total min/max_local_rama = 12.72210/11.86406   total min/max_local_rama = 0.53058/36.31195
+#      [44, 54] cut = 50   successes/attempts = 162/200   min/max_break = 0.13206/98.59322   break associated total min/max_local_rama = 16.08632/8.73213   total min/max_local_rama = -2.22684/17.99545
+#      [66, 73] cut = 66   successes/attempts = 82/200   min/max_break = 1.72825/51.89432   break associated total min/max_local_rama = 3.44123/11.58682   total min/max_local_rama = -1.38328/19.76893
+#   Refine -- 
+#      [11, 18] cut = 16   successes/attempts = 2/2   min/max_break = 1.50196/1.92421   break associated total min/max_local_rama = 0.24153/1.05274   total min/max_local_rama = 0.24153/1.05274
+#      [18, 29] cut = 26   successes/attempts = 2/2   min/max_break = 0.17368/0.68071   break associated total min/max_local_rama = 6.92954/1.11198   total min/max_local_rama = 1.11198/6.92954
+#      [44, 54] cut = 50   successes/attempts = 2/2   min/max_break = 1.96447/98.59313   break associated total min/max_local_rama = 2.63062/8.73213   total min/max_local_rama = 2.63062/8.73213
+#      [66, 73] cut = 66   successes/attempts = 2/2   min/max_break = 1.83204/1.95574   break associated total min/max_local_rama = 3.15223/2.52384   total min/max_local_rama = 2.52384/3.15223
+#   Refine with Ab after design -- 
+#      [11, 18] cut = 16   successes/attempts = 5/5   min/max_break = 1.84697/2.19577   break associated total min/max_local_rama = 4.66226/7.34149   total min/max_local_rama = 4.66226/7.34149
+#      [18, 29] cut = 26   successes/attempts = 5/5   min/max_break = 0.22907/0.96771   break associated total min/max_local_rama = -0.53573/-1.86252   total min/max_local_rama = -1.86252/-0.53573
+#      [44, 54] cut = 50   successes/attempts = 5/5   min/max_break = 2.86776/98.59313   break associated total min/max_local_rama = -4.11290/4.03245   total min/max_local_rama = -4.11290/4.03245
+#      [66, 73] cut = 66   successes/attempts = 5/5   min/max_break = 2.22402/2.42015   break associated total min/max_local_rama = 10.58083/21.43152   total min/max_local_rama = 10.58083/21.43152
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         112.375         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLhhl|LLLLleeeee|xxxxxxxxxxLLL   &   ...???|....??????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   LLLLLLLxx|hhhHHHHHHHHHHHHH|hhhhLLL   &   ???????|??..............|????...
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [11, 18] cut = 16   successes/attempts = 196/200   min/max_break = 0.24744/10.63745   break associated total min/max_local_rama = 1.76725/-0.05234   total min/max_local_rama = -0.05234/5.44790
+#      [18, 29] cut = 26   successes/attempts = 0/200   min/max_break = 0.00582/17.17345   break associated total min/max_local_rama = 16.65097/16.24673   total min/max_local_rama = 4.94190/47.56288
+#      [44, 54] cut = 50   successes/attempts = 198/200   min/max_break = 1.15280/98.59344   break associated total min/max_local_rama = 3.02009/8.77823   total min/max_local_rama = 1.27847/8.77823
+#      [66, 73] cut = 66   successes/attempts = 148/200   min/max_break = 1.89313/32.82393   break associated total min/max_local_rama = 1.74770/3.59677   total min/max_local_rama = -2.34962/9.63465
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790          84.395         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLhhl|LLLLleeeeellll|xxxxxxxxxxLLL   &   ...???|....??????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   LLLLLLLxx|hhhHHHHHHHHHHHHH|hhhhLLL   &   ???????|??..............|????...
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [11, 18] cut = 16   successes/attempts = 194/200   min/max_break = 1.13386/15.88528   break associated total min/max_local_rama = 4.23391/-0.45875   total min/max_local_rama = -0.45875/11.06856
+#      [18, 33] cut = 30   successes/attempts = 0/200   min/max_break = 0.00172/116.77135   break associated total min/max_local_rama = 33.41623/7.33091   total min/max_local_rama = 5.77717/57.23912
+#      [48, 58] cut = 54   successes/attempts = 188/200   min/max_break = 1.41397/24.23229   break associated total min/max_local_rama = 3.09930/-3.26806   total min/max_local_rama = -3.26806/13.17647
+#      [70, 77] cut = 70   successes/attempts = 15/200   min/max_break = 1.41389/49.07100   break associated total min/max_local_rama = 5.31039/10.57552   total min/max_local_rama = -1.76982/22.45366
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790          67.499         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLhhl|LLLLleeeeellll|xxxxxxxxxxLLL   &   ...???|....??????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   LLLLLLLxx|hhhHHHHHHHHHHHHH|hhhhLLL   &   ???????|??..............|????...
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [11, 18] cut = 16   successes/attempts = 188/200   min/max_break = 0.07777/14.93073   break associated total min/max_local_rama = 2.76569/3.69208   total min/max_local_rama = 1.12258/10.08062
+#      [18, 33] cut = 30   successes/attempts = 189/200   min/max_break = 0.00174/5.57634   break associated total min/max_local_rama = 15.55107/9.15096   total min/max_local_rama = 3.54239/28.78424
+#      [48, 58] cut = 54   successes/attempts = 196/200   min/max_break = 0.88974/20.19669   break associated total min/max_local_rama = 0.41330/0.51706   total min/max_local_rama = -0.84974/1.73861
+#      [70, 77] cut = 70   successes/attempts = 0/200   min/max_break = 1.08350/40.54696   break associated total min/max_local_rama = 6.51052/18.94273   total min/max_local_rama = -0.81861/27.85727
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         112.375         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLhhl|LLLLleeeeellll|xxxxxxxxxxLLL   &   ...???|....??????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   LLLLLLLxx|hhhHHHHHHHHHHHHH|hhhhLLL   &   ???????|??..............|????...
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 14/200
+#   Refine -- 
+#      successes/attempts = 14/14
+#   Refine with Ab after design -- 
+#      successes/attempts = 5/5
+#
+# Individual Statistics:
+#   Build -- 
+#      [11, 18] cut = 16   successes/attempts = 164/200   min/max_break = 0.05234/97.31305   break associated total min/max_local_rama = 5.75220/13.51686   total min/max_local_rama = -1.83765/26.27758
+#      [18, 33] cut = 30   successes/attempts = 106/200   min/max_break = 0.00324/112.79031   break associated total min/max_local_rama = 15.37543/17.70095   total min/max_local_rama = 5.01580/42.25388
+#      [48, 58] cut = 54   successes/attempts = 175/200   min/max_break = 0.35895/98.59332   break associated total min/max_local_rama = 3.79490/8.74778   total min/max_local_rama = -3.71615/16.76458
+#      [70, 77] cut = 70   successes/attempts = 45/200   min/max_break = 2.22998/36.75078   break associated total min/max_local_rama = 8.46496/-1.36790   total min/max_local_rama = -1.58448/22.30917
+#   Refine -- 
+#      [11, 18] cut = 16   successes/attempts = 14/14   min/max_break = 1.04082/97.31305   break associated total min/max_local_rama = 6.60530/13.51686   total min/max_local_rama = 0.80795/13.51686
+#      [18, 33] cut = 30   successes/attempts = 14/14   min/max_break = 0.09717/4.15581   break associated total min/max_local_rama = 20.10879/19.96996   total min/max_local_rama = 5.22807/20.10879
+#      [48, 58] cut = 54   successes/attempts = 14/14   min/max_break = 0.35895/98.59332   break associated total min/max_local_rama = 3.79490/8.74778   total min/max_local_rama = -3.71615/12.68617
+#      [70, 77] cut = 70   successes/attempts = 14/14   min/max_break = 3.23226/4.96394   break associated total min/max_local_rama = 5.67647/1.75333   total min/max_local_rama = -1.50745/8.83392
+#   Refine with Ab after design -- 
+#      [11, 18] cut = 16   successes/attempts = 5/5   min/max_break = 4.73031/6.69813   break associated total min/max_local_rama = 1.87711/4.20119   total min/max_local_rama = 1.87711/4.20119
+#      [18, 33] cut = 30   successes/attempts = 5/5   min/max_break = 0.28727/3.13826   break associated total min/max_local_rama = -4.29905/2.29282   total min/max_local_rama = -5.48092/2.29282
+#      [48, 58] cut = 54   successes/attempts = 5/5   min/max_break = 3.06100/7.14034   break associated total min/max_local_rama = -2.77241/-5.82534   total min/max_local_rama = -5.82534/-2.16463
+#      [70, 77] cut = 70   successes/attempts = 5/5   min/max_break = 3.25509/4.26337   break associated total min/max_local_rama = 1.90423/24.78445   total min/max_local_rama = 1.90423/24.78445
+##### 1ukf.pdb  match  1
+#####       1ukf.pdb           2             S            55          67                    41                  53                      -                      -                      -                      -                      -                      -                      -                      -      -0.22960830      -0.34522384       0.91000032       0.59751576      -0.78804392      -0.14819451       0.76828051       0.50971282       0.38721803        5.77339172        5.64804840       -8.80887413           0.268              0.251              0.154               0.021        5260.790         112.375         4.319         2.084                  -1                 0                      
+#####              *           1             -            14          18                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              2.049              2.069                 inf         119.059               -        35.862        32.494                  -1                 0                      
+#### 1ukf.pdb   14   18   graft_bb   graft_sc   @   LLLhhl|LLLLleeeeellll|xxxxxxxxxxLLL   &   ...???|....??????????|???
+#### 1ukf.pdb   55   67   graft_bb   graft_sc   @   LLLLLLLxx|hhhHHHHHHHHHHHHH|hhhhLLL   &   ???????|??..............|????...
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [11, 18] cut = 16   successes/attempts = 193/200   min/max_break = 0.46921/9.88617   break associated total min/max_local_rama = 3.25426/18.06545   total min/max_local_rama = 0.56508/20.26414
+#      [18, 33] cut = 30   successes/attempts = 0/200   min/max_break = 0.00123/104.09436   break associated total min/max_local_rama = 22.77137/6.30415   total min/max_local_rama = 5.72330/65.57038
+#      [48, 58] cut = 54   successes/attempts = 187/200   min/max_break = 0.07289/14.10810   break associated total min/max_local_rama = -0.62156/4.94864   total min/max_local_rama = -1.11327/10.05577
+#      [70, 77] cut = 70   successes/attempts = 146/200   min/max_break = 1.22453/39.80445   break associated total min/max_local_rama = 1.92623/4.50823   total min/max_local_rama = 0.29816/20.52792
+##### 1tua.pdb  match  1
+#####       1tua.pdb           2         C2N_N           171         182                    38                  49                      -                      -                      -                      -                      -                      -                      -                      -       0.94320053      -0.30476409       0.13225561       0.31117478       0.94986773      -0.03035550      -0.11637406       0.06978591       0.99075061       13.49789524       37.55027390      -16.49000931             inf              0.153                inf                 inf          68.888         652.976         6.960           inf                  -1                 0                      
+#####              *           1             -           125         127                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              1.483              2.347                 inf        2941.835               -        30.096         5.381                  -1                 0                      
+#### 1tua.pdb   125   127   graft_bb   graft_sc   @   LLLLLLxxxx|llll***.lll|xxxEEEE   &   ??????|????.**.???|????
+#### 1tua.pdb   171   182   graft_bb   graft_sc   @   HHhh|.**********.hh|xx...   &   ????|.***********.?|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [115, 125] cut = 120   successes/attempts = 5/200   min/max_break = 0.00177/77.05859   break associated total min/max_local_rama = 4.64797/18.04427   total min/max_local_rama = 0.39626/33.46247
+#      [127, 135] cut = 131   successes/attempts = 0/200   min/max_break = 2.10360/147.00916   break associated total min/max_local_rama = 19.39709/13.81534   total min/max_local_rama = 3.83573/31.51204
+#      [170, 190] cut = 173   successes/attempts = 0/200   min/max_break = 14.59695/94.82042   break associated total min/max_local_rama = 4.32961/4.95427   total min/max_local_rama = -3.12771/7.52214
+##### 1tua.pdb  match  1
+#####       1tua.pdb           2         C2N_N           171         182                    38                  49                      -                      -                      -                      -                      -                      -                      -                      -       0.94320053      -0.30476409       0.13225561       0.31117478       0.94986773      -0.03035550      -0.11637406       0.06978591       0.99075061       13.49789524       37.55027390      -16.49000931             inf              0.153                inf                 inf          68.888         652.976         6.960           inf                  -1                 0                      
+#####              *           1             -           125         127                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              1.483              2.347                 inf        2941.835               -        30.096         5.381                  -1                 0                      
+#### 1tua.pdb   125   127   graft_bb   graft_sc   @   LLLLLLxxxx|llll***.lll|xxxEEEE   &   ??????|????.**.???|????
+#### 1tua.pdb   171   182   graft_bb   graft_sc   @   HHhh|.**********.hh|xx...   &   ????|.***********.?|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [115, 125] cut = 120   successes/attempts = 8/200   min/max_break = 0.23555/83.08773   break associated total min/max_local_rama = 18.02385/9.64259   total min/max_local_rama = 1.29344/34.78395
+#      [127, 135] cut = 131   successes/attempts = 1/200   min/max_break = 1.66479/140.71172   break associated total min/max_local_rama = 10.40160/13.49671   total min/max_local_rama = 3.33629/38.26061
+#      [170, 190] cut = 173   successes/attempts = 0/200   min/max_break = 10.35529/74.26733   break associated total min/max_local_rama = 1.45731/0.51007   total min/max_local_rama = -3.16057/9.87948
+##### 1tua.pdb  match  1
+#####       1tua.pdb           2         C2N_N           171         182                    38                  49                      -                      -                      -                      -                      -                      -                      -                      -       0.94320053      -0.30476409       0.13225561       0.31117478       0.94986773      -0.03035550      -0.11637406       0.06978591       0.99075061       13.49789524       37.55027390      -16.49000931             inf              0.153                inf                 inf          68.888         652.976         6.960           inf                  -1                 0                      
+#####              *           1             -           125         127                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              1.483              2.347                 inf        2941.835               -        30.096         5.381                  -1                 0                      
+#### 1tua.pdb   125   127   graft_bb   graft_sc   @   LLLLLLxxxx|llll***.lll|xxxEEEE   &   ??????|????.**.???|????
+#### 1tua.pdb   171   182   graft_bb   graft_sc   @   HHhh|.**********.hh|xx...   &   ????|.***********.?|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [115, 125] cut = 120   successes/attempts = 9/200   min/max_break = 0.03708/80.21564   break associated total min/max_local_rama = 27.75080/23.41164   total min/max_local_rama = 2.39509/34.35581
+#      [127, 135] cut = 131   successes/attempts = 1/200   min/max_break = 0.28263/146.25226   break associated total min/max_local_rama = 20.92884/13.28972   total min/max_local_rama = 4.62492/31.49837
+#      [170, 190] cut = 173   successes/attempts = 0/200   min/max_break = 10.85918/78.45824   break associated total min/max_local_rama = 6.86756/-1.34183   total min/max_local_rama = -3.12094/15.00960
+##### 1tua.pdb  match  1
+#####       1tua.pdb           2         C2N_N           171         182                    38                  49                      -                      -                      -                      -                      -                      -                      -                      -       0.94320053      -0.30476409       0.13225561       0.31117478       0.94986773      -0.03035550      -0.11637406       0.06978591       0.99075061       13.49789524       37.55027390      -16.49000931             inf              0.153                inf                 inf          68.888         652.976         6.960           inf                  -1                 0                      
+#####              *           1             -           125         127                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              1.483              2.347                 inf        2941.835               -        30.096         5.381                  -1                 0                      
+#### 1tua.pdb   125   127   graft_bb   graft_sc   @   LLLLLLxxxx|llll***.lll|xxxEEEE   &   ??????|????.**.???|????
+#### 1tua.pdb   171   182   graft_bb   graft_sc   @   HHhh|.**********.hh|xx...   &   ????|.***********.?|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [115, 125] cut = 120   successes/attempts = 21/200   min/max_break = 0.65991/67.54214   break associated total min/max_local_rama = 9.34202/32.88629   total min/max_local_rama = 0.87374/32.88629
+#      [127, 135] cut = 131   successes/attempts = 2/200   min/max_break = 3.13016/146.35072   break associated total min/max_local_rama = 32.87944/16.66493   total min/max_local_rama = 2.75883/32.87944
+#      [170, 190] cut = 173   successes/attempts = 0/200   min/max_break = 8.92132/89.56497   break associated total min/max_local_rama = 4.69952/7.02785   total min/max_local_rama = -4.42205/17.47141
+##### 1tua.pdb  match  1
+#####       1tua.pdb           2         C2N_N           171         182                    38                  49                      -                      -                      -                      -                      -                      -                      -                      -       0.94320053      -0.30476409       0.13225561       0.31117478       0.94986773      -0.03035550      -0.11637406       0.06978591       0.99075061       13.49789524       37.55027390      -16.49000931             inf              0.153                inf                 inf          68.888         652.976         6.960           inf                  -1                 0                      
+#####              *           1             -           125         127                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              1.483              2.347                 inf        2941.835               -        30.096         5.381                  -1                 0                      
+#### 1tua.pdb   125   127   graft_bb   graft_sc   @   LLLLLLxxxx|llll***.lll|xxxEEEE   &   ??????|????.**.???|????
+#### 1tua.pdb   171   182   graft_bb   graft_sc   @   HHhh|.**********.hh|xx...   &   ????|.***********.?|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [115, 125] cut = 120   successes/attempts = 7/200   min/max_break = 0.44681/78.05232   break associated total min/max_local_rama = 15.85318/4.82621   total min/max_local_rama = -3.04020/32.60098
+#      [127, 135] cut = 131   successes/attempts = 1/200   min/max_break = 3.21854/138.50699   break associated total min/max_local_rama = 13.06635/12.45450   total min/max_local_rama = 3.05979/36.29302
+#      [170, 190] cut = 173   successes/attempts = 0/200   min/max_break = 16.21107/76.68930   break associated total min/max_local_rama = 4.61514/-1.30718   total min/max_local_rama = -3.09052/16.52832
+##### 1tua.pdb  match  1
+#####       1tua.pdb           2         C2N_N           171         182                    38                  49                      -                      -                      -                      -                      -                      -                      -                      -       0.94320053      -0.30476409       0.13225561       0.31117478       0.94986773      -0.03035550      -0.11637406       0.06978591       0.99075061       13.49789524       37.55027390      -16.49000931             inf              0.153                inf                 inf          68.888         652.976         6.960           inf                  -1                 0                      
+#####              *           1             -           125         127                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              1.483              2.347                 inf        2941.835               -        30.096         5.381                  -1                 0                      
+#### 1tua.pdb   125   127   graft_bb   graft_sc   @   LLLLLLxxxx|llll***.lll|xxxEEEE   &   ??????|????.**.???|????
+#### 1tua.pdb   171   182   graft_bb   graft_sc   @   HHhh|.**********.hh|xx...   &   ????|.***********.?|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [115, 125] cut = 120   successes/attempts = 25/200   min/max_break = 0.01872/84.65279   break associated total min/max_local_rama = 8.62498/7.43444   total min/max_local_rama = 1.26706/26.00100
+#      [127, 135] cut = 131   successes/attempts = 10/200   min/max_break = 2.35066/145.00601   break associated total min/max_local_rama = 9.89375/14.34356   total min/max_local_rama = 6.60126/30.08462
+#      [170, 190] cut = 173   successes/attempts = 0/200   min/max_break = 15.73174/83.68209   break associated total min/max_local_rama = -0.17480/5.83609   total min/max_local_rama = -4.92449/13.09204
+##### 1tua.pdb  match  1
+#####       1tua.pdb           2         C2N_N           171         182                    38                  49                      -                      -                      -                      -                      -                      -                      -                      -       0.94320053      -0.30476409       0.13225561       0.31117478       0.94986773      -0.03035550      -0.11637406       0.06978591       0.99075061       13.49789524       37.55027390      -16.49000931             inf              0.153                inf                 inf          68.888         652.976         6.960           inf                  -1                 0                      
+#####              *           1             -           125         127                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              1.483              2.347                 inf        2941.835               -        30.096         5.381                  -1                 0                      
+#### 1tua.pdb   125   127   graft_bb   graft_sc   @   LLLLLLxxxx|llll***.lll|xxxEEEE   &   ??????|????.**.???|????
+#### 1tua.pdb   171   182   graft_bb   graft_sc   @   HHhh|.**********.hh|xx...   &   ????|.***********.?|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [115, 125] cut = 120   successes/attempts = 2/200   min/max_break = 10.00686/82.94167   break associated total min/max_local_rama = 25.94823/-0.69470   total min/max_local_rama = -0.69470/39.20564
+#      [127, 135] cut = 131   successes/attempts = 1/200   min/max_break = 13.63849/151.44609   break associated total min/max_local_rama = 43.15026/5.78560   total min/max_local_rama = 4.21939/43.15026
+#      [170, 190] cut = 173   successes/attempts = 134/200   min/max_break = 17.25329/71.72850   break associated total min/max_local_rama = 0.86043/-1.36242   total min/max_local_rama = -4.91146/8.83513
+##### 1tua.pdb  match  1
+#####       1tua.pdb           2         C2N_N           171         182                    38                  49                      -                      -                      -                      -                      -                      -                      -                      -       0.94320053      -0.30476409       0.13225561       0.31117478       0.94986773      -0.03035550      -0.11637406       0.06978591       0.99075061       13.49789524       37.55027390      -16.49000931             inf              0.153                inf                 inf          68.888         652.976         6.960           inf                  -1                 0                      
+#####              *           1             -           125         127                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              1.483              2.347                 inf        2941.835               -        30.096         5.381                  -1                 0                      
+#### 1tua.pdb   125   127   graft_bb   graft_sc   @   LLLLLLxxxx|llll***.lll|xxxEEEE   &   ??????|????.**.???|????
+#### 1tua.pdb   171   182   graft_bb   graft_sc   @   HHhh|.**********.hh|xx...   &   ????|.***********.?|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 0/200
+#
+# Individual Statistics:
+#   Build -- 
+#      [115, 125] cut = 120   successes/attempts = 23/200   min/max_break = 18.84366/83.67301   break associated total min/max_local_rama = 20.07877/10.59043   total min/max_local_rama = 1.68890/43.50599
+#      [127, 135] cut = 131   successes/attempts = 0/200   min/max_break = 78.48369/151.33455   break associated total min/max_local_rama = 25.10720/12.72999   total min/max_local_rama = 2.29645/41.97220
+#      [170, 190] cut = 173   successes/attempts = 191/200   min/max_break = 18.00093/46.52950   break associated total min/max_local_rama = -2.63082/-3.50429   total min/max_local_rama = -6.29843/1.45497
+##### 1tua.pdb  match  1
+#####       1tua.pdb           2         C2N_N           171         182                    38                  49                      -                      -                      -                      -                      -                      -                      -                      -       0.94320053      -0.30476409       0.13225561       0.31117478       0.94986773      -0.03035550      -0.11637406       0.06978591       0.99075061       13.49789524       37.55027390      -16.49000931             inf              0.153                inf                 inf          68.888         652.976         6.960           inf                  -1                 0                      
+#####              *           1             -           125         127                    18                  21                      -                      -                      -                      -                      -                      -                      -                      -                -                -                -                -                -                -                -                -                -                 -                 -                 -             inf              1.483              2.347                 inf        2941.835               -        30.096         5.381                  -1                 0                      
+#### 1tua.pdb   125   127   graft_bb   graft_sc   @   LLLLLLxxxx|llll***.lll|xxxEEEE   &   ??????|????.**.???|????
+#### 1tua.pdb   171   182   graft_bb   graft_sc   @   HHhh|.**********.hh|xx...   &   ????|.***********.?|???
+# Grouped Statistics:
+#   Build -- 
+#      successes/attempts = 200/200
+#   Refine -- 
+#      successes/attempts = 11/200
+#   Refine with Ab after design -- 
+#      successes/attempts = 0/5
+#
+# Individual Statistics:
+#   Build -- 
+#      [115, 125] cut = 120   successes/attempts = 200/200   min/max_break = 35.74187/197.40193   break associated total min/max_local_rama = 2.80717/2.03893   total min/max_local_rama = 2.03891/25.13272
+#      [127, 135] cut = 131   successes/attempts = 200/200   min/max_break = 58.26927/191.78223   break associated total min/max_local_rama = 11.64443/3.81344   total min/max_local_rama = 1.54855/21.61367
+#      [170, 190] cut = 173   successes/attempts = 200/200   min/max_break = 43.14514/124.53234   break associated total min/max_local_rama = -1.22258/8.32960   total min/max_local_rama = -5.60725/9.79959
+#   Refine -- 
+#      [115, 125] cut = 120   successes/attempts = 198/200   min/max_break = 31.81147/193.23062   break associated total min/max_local_rama = 8.11794/5.39614   total min/max_local_rama = 0.94885/25.13272
+#      [127, 135] cut = 131   successes/attempts = 182/200   min/max_break = 58.26927/177.99687   break associated total min/max_local_rama = 11.52807/4.29306   total min/max_local_rama = -0.15286/29.85511
+#      [170, 190] cut = 173   successes/attempts = 12/200   min/max_break = 43.64644/134.65739   break associated total min/max_local_rama = 18.27892/39.62715   total min/max_local_rama = 1.35045/41.09810
+#   Refine with Ab after design -- 
+#      [115, 125] cut = 120   successes/attempts = 3/5   min/max_break = 125.31240/174.27609   break associated total min/max_local_rama = 38.59509/2.79961   total min/max_local_rama = 2.41646/38.59509
+#      [127, 135] cut = 131   successes/attempts = 0/5   min/max_break = 169.23970/181.45470   break associated total min/max_local_rama = 20.39353/25.12239   total min/max_local_rama = 20.13731/25.12239
+#      [170, 190] cut = 173   successes/attempts = 2/5   min/max_break = 65.19538/66.39845   break associated total min/max_local_rama = 2.58574/7.79902   total min/max_local_rama = 2.04520/7.79902

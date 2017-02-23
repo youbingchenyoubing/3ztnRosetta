@@ -1,0 +1,2 @@
+1ukf.pdb  2   S   55  67   41    53  $  graft_bb  graft_sc  @  HHHHxx | hh.*.hh | xxHHH  &  ???? | ???*??? | ???
+   *      1   -   14  18   18    21  $  graft_bb  graft_sc  @  LLL | ****llllllllll | xxxxxxxxxxLLL  &  ... | ****?????????? | ???

@@ -1,0 +1,2 @@
+2qff.pdb  2   S   54  65   38    49  $  graft_bb  graft_sc  @  LLLxxx | hhh.***********.hh | xxHHH  &  ??? | ???.***********.?? | ???
+   *      1   -   6  11   18    21  $  graft_bb  graft_sc  @  LLLLxxx | lll.**.llll | xxLLL  &  ???? | ???.**.???? | ???

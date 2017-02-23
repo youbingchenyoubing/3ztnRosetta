@@ -1,0 +1,2 @@
+1tua.pdb  2   C2N_N   171  182   38    49  $  graft_bb  graft_sc  @  HHhh | .***********.hh | xx...  &  ???? | .***********.?? | ???
+   *      1   -   125  127   18    21  $  graft_bb  graft_sc  @  LLLLLLxxxx | llll**.lll | xxxEEEE  &  ?????? | ????.**.??? | ????

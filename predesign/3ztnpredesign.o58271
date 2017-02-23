@@ -1,0 +1,638 @@
+command executed: rosetta.debug -epi_graft -match -rough_match -nres_Ab 323 -Ab_first -S_align -native_complex ./3ztn.pdb -loop_ranges ./loop_ranges_3ztn -use_input_from_match -input_file ./3ztn.txt -output_predesign_structure_with_Ab
+[T/F  OPT]Default FALSE value for [-no_option_display]
+[T/F  OPT]Default FALSE value for [-args_file]
+[STR  OPT]Default value for [-paths] paths.txt.
+[T/F  OPT]Default FALSE value for [-version]
+[T/F  OPT]Default FALSE value for [-score]
+[T/F  OPT]Default FALSE value for [-abinitio]
+[T/F  OPT]Default FALSE value for [-refine]
+[T/F  OPT]Default FALSE value for [-assemble]
+[T/F  OPT]Default FALSE value for [-idealize]
+[T/F  OPT]Default FALSE value for [-relax]
+[T/F  OPT]Default FALSE value for [-abrelax]
+[T/F  OPT]Default FALSE value for [-abrelax_mode]
+[T/F  OPT]Default FALSE value for [-design]
+[T/F  OPT]Default FALSE value for [-dock]
+[T/F  OPT]Default FALSE value for [-membrane]
+[T/F  OPT]Default FALSE value for [-loops]
+[T/F  OPT]Default FALSE value for [-pdbstats]
+[T/F  OPT]Default FALSE value for [-interface]
+[T/F  OPT]Default FALSE value for [-barcode_stats]
+[T/F  OPT]Default FALSE value for [-featurize]
+[T/F  OPT]Default FALSE value for [-pKa]
+[T/F  OPT]Default FALSE value for [-pose_looping]
+[T/F  OPT]Default FALSE value for [-domain_insertion]
+[T/F  OPT]Default FALSE value for [-antibody_modeler]
+[T/F  OPT]Default FALSE value for [-abinitio_variable_fragments]
+[T/F  OPT]Default FALSE value for [-abrelax_variable_fragments]
+[T/F  OPT]Default FALSE value for [-pose1]
+[T/F  OPT]Default FALSE value for [-bk_min]
+[T/F  OPT]Default FALSE value for [-adna]
+[T/F  OPT]Default FALSE value for [-pdna]
+[T/F  OPT]Default FALSE value for [-prna]
+[T/F  OPT]Default FALSE value for [-jumping]
+[T/F  OPT]Default FALSE value for [-pose_abinitio]
+[T/F  OPT]Default FALSE value for [-pose_rhiju]
+[T/F  OPT]Default FALSE value for [-extract]
+[T/F  OPT]Default FALSE value for [-pose_sse]
+[T/F  OPT]Default FALSE value for [-extract_segment]
+[T/F  OPT]Default FALSE value for [-centroid_information]
+[T/F  OPT]Default FALSE value for [-pose_idealize]
+[T/F  OPT]Default FALSE value for [-close_chainbreaks]
+[T/F  OPT]Default FALSE value for [-pose_barcode_stats]
+[T/F  OPT]Default FALSE value for [-evolution]
+[T/F  OPT]Default FALSE value for [-pose_stats]
+[T/F  OPT]Default FALSE value for [-fibril]
+[T/F  OPT]New TRUE value for [-epi_graft]
+[T/F  OPT]Default FALSE value for [-jump_relax]
+[T/F  OPT]Default FALSE value for [-cst_mode]
+[T/F  OPT]Default FALSE value for [-mj_min]
+Rosetta mode: pose1
+[T/F  OPT]Default FALSE value for [-chain]
+[T/F  OPT]Default FALSE value for [-protein]
+[T/F  OPT]Default FALSE value for [-series]
+[INT  OPT]Default value for [-nstruct]  1000
+[T/F  OPT]Default FALSE value for [-concatenate_pdbs]
+[T/F  OPT]Default FALSE value for [-single_silent_writer]
+[T/F  OPT]Default FALSE value for [-read_all_chains]
+[T/F  OPT]Default FALSE value for [-preserve_header]
+[T/F  OPT]Default FALSE value for [-use_pdb_numbering]
+[T/F  OPT]Default FALSE value for [-flip_symmetric_sidechains]
+[T/F  OPT]Default FALSE value for [-fa_input]
+[T/F  OPT]Default FALSE value for [-overwrite]
+[T/F  OPT]Default FALSE value for [-no_filters]
+[T/F  OPT]Default FALSE value for [-output_pdb_gz]
+[T/F  OPT]Default FALSE value for [-output_silent_gz]
+[T/F  OPT]Default FALSE value for [-output_scorefile_gz]
+[T/F  OPT]Default FALSE value for [-pose_silent_out]
+[T/F  OPT]Default FALSE value for [-sasapack_bvalues]
+[T/F  OPT]Default FALSE value for [-cenlist_values]
+[T/F  OPT]Default FALSE value for [-termini]
+[T/F  OPT]Default FALSE value for [-Nterminus]
+[T/F  OPT]Default FALSE value for [-Cterminus]
+[T/F  OPT]Default FALSE value for [-use_trie]
+[T/F  OPT]Default FALSE value for [-no_trie]
+[T/F  OPT]Default FALSE value for [-use_conformer]
+[T/F  OPT]Default FALSE value for [-use_bbind_conformer]
+[T/F  OPT]Default FALSE value for [-trials_trie]
+[T/F  OPT]Default FALSE value for [-no_trials_trie]
+[T/F  OPT]Default FALSE value for [-pose_relax]
+[T/F  OPT]Default FALSE value for [-output_interaction_graph_memory_usage]
+[T/F  OPT]Default FALSE value for [-read_interaction_graph]
+[T/F  OPT]Default FALSE value for [-write_interaction_graph]
+[STR  OPT]Default value for [-ig_file] .
+[T/F  OPT]Default FALSE value for [-packer_precompute_only]
+[T/F  OPT]Default FALSE value for [-tight_memory_restrictions]
+[T/F  OPT]Default FALSE value for [-lazy_ig]
+[T/F  OPT]Default FALSE value for [-linmem_ig]
+[T/F  OPT]Default FALSE value for [-minimalist_ig]
+[T/F  OPT]Default FALSE value for [-use_sasa_pack_score]
+[T/F  OPT]Default FALSE value for [-output_dot_kinemage]
+[T/F  OPT]Default FALSE value for [-pack_low_temp_annealing]
+[T/F  OPT]Default FALSE value for [-multi_cool_annealer]
+[T/F  OPT]Default FALSE value for [-debug_annealer_design]
+[T/F  OPT]Default FALSE value for [-no_his_his_pairE]
+[T/F  OPT]Default FALSE value for [-silent_input]
+[T/F  OPT]Default FALSE value for [-skip_scorefile_check]
+[T/F  OPT]Default FALSE value for [-timer]
+[T/F  OPT]Default FALSE value for [-count_attempts]
+[T/F  OPT]Default FALSE value for [-status]
+[T/F  OPT]Default FALSE value for [-decoy_status]
+[T/F  OPT]Default FALSE value for [-ise_movie]
+[T/F  OPT]Default FALSE value for [-output_all]
+[T/F  OPT]Default FALSE value for [-output_chi_silent]
+[T/F  OPT]Default FALSE value for [-accept_all]
+[T/F  OPT]Default FALSE value for [-skip_missing_residues]
+[STR  OPT]Default value for [-weightfile] none.
+[STR  OPT]Default value for [-cst] cst.
+[STR  OPT]Default value for [-dpl] dpl.
+[STR  OPT]Default value for [-resfile] none.
+[STR  OPT]Default value for [-equiv_resfile] none.
+[T/F  OPT]Default FALSE value for [-auto_resfile]
+[T/F  OPT]Default FALSE value for [-chain_inc]
+[T/F  OPT]Default FALSE value for [-full_filename]
+[T/F  OPT]Default FALSE value for [-map_sequence]
+[INT  OPT]Default value for [-max_frags]  200
+[T/F  OPT]Default FALSE value for [-output_centroids]
+[STR  OPT]Default value for [-protein_name_prefix] .
+[STR  OPT]Default value for [-frags_name_prefix] .
+[T/F  OPT]Default FALSE value for [-protein_name_prefix_homolog]
+[T/F  OPT]Default FALSE value for [-use_homolog_env_stats]
+[T/F  OPT]Default FALSE value for [-use_homolog_pair_stats]
+[T/F  OPT]Default FALSE value for [-use_homolog_cendist_stats]
+[T/F  OPT]Default FALSE value for [-use_homolog_env_stats_in_farlx]
+[T/F  OPT]Default FALSE value for [-use_homolog_pair_stats_in_farlx]
+[T/F  OPT]Default FALSE value for [-use_homolog_cendist_stats_in_farlx]
+[T/F  OPT]Default FALSE value for [-output_hbond_info]
+[T/F  OPT]Default FALSE value for [-output_interface_hbonds_only]
+[T/F  OPT]Default FALSE value for [-monomer_input]
+[REAL OPT]Default value for [-vdw_reweight]   1
+[REAL OPT]Default value for [-env_reweight]   1
+[REAL OPT]Default value for [-pair_reweight]   1
+[REAL OPT]Default value for [-cb_reweight]   1
+[REAL OPT]Default value for [-sheet_reweight]   1
+[REAL OPT]Default value for [-ss_reweight]   1
+[REAL OPT]Default value for [-hs_reweight]   1
+[REAL OPT]Default value for [-rsigma_reweight]   1
+[REAL OPT]Default value for [-rg_reweight]   1
+[REAL OPT]Default value for [-pc_reweight]   1
+[REAL OPT]Default value for [-fa_atr_reweight]   1
+[REAL OPT]Default value for [-fa_rep_reweight]   1
+[REAL OPT]Default value for [-fa_dun_reweight ]   1
+[REAL OPT]Default value for [-fa_pair_reweight]   1
+[REAL OPT]Default value for [-fa_plane_reweight]   1
+[REAL OPT]Default value for [-fa_solv_reweight]   1
+[REAL OPT]Default value for [-fa_ref_reweight ]   1
+[REAL OPT]Default value for [-fa_pH_reweight]   1
+[REAL OPT]Default value for [-fa_h2o_reweight]   1
+[REAL OPT]Default value for [-fa_prob1b_reweight]   1
+[REAL OPT]Default value for [-fa_gb_elec_reweigh]   1
+[REAL OPT]Default value for [-hb_srbb_reweight]   1
+[REAL OPT]Default value for [-hb_lrbb_reweight]   1
+[REAL OPT]Default value for [-hb_sc_reweight]   1
+[REAL OPT]Default value for [-chainbreak_reweight]   1
+[REAL OPT]Default value for [-electron_density_reweight]   1
+[REAL OPT]Default value for [-dummy_model_reweight]   1
+[REAL OPT]Default value for [-saxs_model_reweight]   1
+[REAL OPT]Default value for [-Wplane_total]   0
+[REAL OPT]Default value for [-barcode_reweight]   1
+[REAL OPT]Default value for [-barcode_energy_reweight]   1
+[T/F  OPT]Default FALSE value for [-fa_max_dis]
+[T/F  OPT]Default FALSE value for [-hydrogen_interaction_cutoff]
+[T/F  OPT]Default FALSE value for [-no_hb_env_dep]
+[T/F  OPT]Default FALSE value for [-find_disulf]
+[T/F  OPT]Default FALSE value for [-fix_disulf]
+[T/F  OPT]Default FALSE value for [-prna]
+[T/F  OPT]Default FALSE value for [-enable_dna]
+[T/F  OPT]Default FALSE value for [-enable_rna]
+[T/F  OPT]Default FALSE value for [-dna_interface]
+[T/F  OPT]Default FALSE value for [-enable_ligand_aa]
+[T/F  OPT]Default FALSE value for [-phospho_ser]
+[T/F  OPT]Default FALSE value for [-surface]
+[T/F  OPT]Default FALSE value for [-loops]
+[T/F  OPT]Default FALSE value for [-taboo]
+[T/F  OPT]Default FALSE value for [-vary_omega]
+[T/F  OPT]Default FALSE value for [-fine_hb_categories]
+[T/F  OPT]Default FALSE value for [-geometric_sol]
+[T/F  OPT]Default FALSE value for [-multi_chain]
+[T/F  OPT]Default FALSE value for [-ex1]
+[T/F  OPT]Default FALSE value for [-ex2]
+[T/F  OPT]Default FALSE value for [-ex3]
+[T/F  OPT]Default FALSE value for [-ex4]
+[T/F  OPT]Default FALSE value for [-ex1aro]
+[T/F  OPT]Default FALSE value for [-ex1aro_half]
+[T/F  OPT]Default FALSE value for [-ex2aro_only]
+[T/F  OPT]Default FALSE value for [-ex1aro_exposed]
+[T/F  OPT]Default FALSE value for [-ex2aro_exposed]
+[T/F  OPT]Default FALSE value for [-exOH]
+[INT  OPT]Default value for [-extrachi_cutoff]  18
+[T/F  OPT]Default FALSE value for [-rot_pert]
+[T/F  OPT]Default FALSE value for [-rot_pert_input]
+[T/F  OPT]Default FALSE value for [-exdb]
+[T/F  OPT]Default FALSE value for [-rotamer_explosion]
+[T/F  OPT]Default FALSE value for [-min_best_rots]
+[T/F  OPT]Default FALSE value for [-rot_opt]
+[T/F  OPT]Default FALSE value for [-use_electrostatic_repulsion]
+[T/F  OPT]Default FALSE value for [-explicit_h2o]
+[T/F  OPT]Default FALSE value for [-solvate]
+[T/F  OPT]Default FALSE value for [-pH]
+[T/F  OPT]Default FALSE value for [-try_both_his_tautomers]
+[T/F  OPT]New TRUE value for [-epi_graft]
+STATE: try_both_his_tautomers is ON
+[T/F  OPT]Default FALSE value for [-hydrate_dna]
+[T/F  OPT]Default FALSE value for [-ex_dna_waters]
+[T/F  OPT]Default FALSE value for [-minimize_rot]
+[T/F  OPT]Default FALSE value for [-read_hetero_h2o]
+[T/F  OPT]Default FALSE value for [-Wint_score_only]
+[T/F  OPT]Default FALSE value for [-Wint_repack_only]
+[T/F  OPT]Default FALSE value for [-ligand]
+[T/F  OPT]Default FALSE value for [-enzyme_design]
+[T/F  OPT]Default FALSE value for [-score_contact_flag]
+[T/F  OPT]Default FALSE value for [-score_contact_weight]
+[T/F  OPT]Default FALSE value for [-score_contact_threshold]
+[T/F  OPT]Default FALSE value for [-scorefxn]
+default centroid scorefxn:  4
+default fullatom scorefxn:  12
+[INT  OPT]Default value for [-run_level]  0
+[T/F  OPT]Default FALSE value for [-silent]
+[T/F  OPT]Default FALSE value for [-output_silent_gz]
+[T/F  OPT]Default FALSE value for [-verbose]
+[T/F  OPT]Default FALSE value for [-gush]
+[T/F  OPT]Default FALSE value for [-yap]
+[T/F  OPT]Default FALSE value for [-chat]
+[T/F  OPT]Default FALSE value for [-inform]
+[T/F  OPT]Default FALSE value for [-quiet]
+run level:  0
+[T/F  OPT]Default FALSE value for [-benchmark]
+[T/F  OPT]Default FALSE value for [-debug]
+[INT  OPT]Default value for [-sym_des_units]  1
+[T/F  OPT]Default FALSE value for [-mj_min]
+[REAL OPT]Default value for [-mod_hhrep_height]   1
+[REAL OPT]Default value for [-mod_hhrep_width]   1
+[REAL OPT]Default value for [-mod_hhrep_center]   2.79999995
+[REAL OPT]Default value for [-mod_hhrep_exponent]   4
+[REAL OPT]Default value for [-smooth_etable_ljweight]   1.15999997
+[REAL OPT]Default value for [-smooth_etable_solvweight]   1.5
+[STR  OPT]Default value for [-s] none.
+[STR  OPT]Default value for [-l] none.
+Reading /share/home/yangzhiwei/rosetta_database/Rama_smooth_dyn.dat_ss_6.4
+Reading /share/home/yangzhiwei/rosetta_database/phi.theta.36.HS.resmooth
+Reading /share/home/yangzhiwei/rosetta_database/phi.theta.36.SS.resmooth
+[STR  OPT]Default value for [-atom_vdw_set] default.
+[T/F  OPT]Default FALSE value for [-IUPAC]
+Atom_mode set to all
+[STR  OPT]Default value for [-paircutoffs] paircutoffs.
+Reading /share/home/yangzhiwei/rosetta_database/paircutoffs
+[T/F  OPT]Default FALSE value for [-interface_ds]
+[T/F  OPT]Default FALSE value for [-decoystats]
+set_decoystats_flag: from,to F F
+[T/F  OPT]Default FALSE value for [-decoyfeatures]
+[T/F  OPT]Default FALSE value for [-t32s3]
+[T/F  OPT]Default FALSE value for [-evolution]
+[T/F  OPT]Default FALSE value for [-evol_recomb]
+[T/F  OPT]Default FALSE value for [-profile]
+[T/F  OPT]Default FALSE value for [-pose_benchmark]
+[T/F  OPT]Default FALSE value for [-pose_barcode_stats]
+[T/F  OPT]Default FALSE value for [-bk_min]
+[T/F  OPT]Default FALSE value for [-jumping]
+[T/F  OPT]Default FALSE value for [-pose_abinitio]
+[T/F  OPT]Default FALSE value for [-electron_density_score]
+[T/F  OPT]Default FALSE value for [-extract]
+[T/F  OPT]Default FALSE value for [-pose_rhiju]
+[T/F  OPT]Default FALSE value for [-close_chainbreaks]
+[T/F  OPT]Default FALSE value for [-evolution]
+[T/F  OPT]Default FALSE value for [-evol_recomb]
+[T/F  OPT]Default FALSE value for [-pose_idealize]
+[T/F  OPT]Default FALSE value for [-jjh_loops]
+[T/F  OPT]Default FALSE value for [-featurize]
+[T/F  OPT]Default FALSE value for [-centroid_information]
+[T/F  OPT]Default FALSE value for [-dna_water_refine]
+[T/F  OPT]Default FALSE value for [-dna_loop_min]
+[T/F  OPT]Default FALSE value for [-mj_min]
+[T/F  OPT]New TRUE value for [-epi_graft]
+[T/F  OPT]Default FALSE value for [-help]
+[T/F  OPT]New TRUE value for [-match]
+[T/F  OPT]Default FALSE value for [-multigraft]
+[T/F  OPT]Default FALSE value for [-decimated_multigraft]
+[T/F  OPT]Default FALSE value for [-test]
+[T/F  OPT]Default FALSE value for [-scarlet]
+[T/F  OPT]New TRUE value for [-rough_match]
+[T/F  OPT]Default FALSE value for [-combi_match]
+[T/F  OPT]Default FALSE value for [-superposition_minrepack_refine]
+[T/F  OPT]Default FALSE value for [-screen_with_repack]
+[T/F  OPT]Default FALSE value for [-skip_N2C_align]
+[T/F  OPT]Default FALSE value for [-skip_C2N_align]
+[T/F  OPT]Default FALSE value for [-E_align]
+[T/F  OPT]New TRUE value for [-S_align]
+[T/F  OPT]Default FALSE value for [-SS_align]
+[STR  OPT]New value for [-native_complex] ./3ztn.pdb.
+[STR  OPT]New value for [-loop_ranges] ./loop_ranges_3ztn.
+[STR  OPT]New value for [-input_file] ./3ztn.txt.
+[T/F  OPT]New TRUE value for [-use_input_from_match]
+[T/F  OPT]Default FALSE value for [-input_pdb_has_Ab]
+[INT  OPT]New value for [-nres_Ab]  323
+[T/F  OPT]Default FALSE value for [-scaffold_first]
+[INT  OPT]Default value for [-termini_residue_skip]  4
+[INT  OPT]Default value for [-min_match_width]  3
+[INT  OPT]Default value for [-max_match_width_delta]  10
+[INT  OPT]Default value for [-max_rough_match_width_delta]  10
+[INT  OPT]Default value for [-moveable_closure_residues]  3
+[REAL OPT]Default value for [-max_closure_rms]   2
+[REAL OPT]Default value for [-max_rms_over_length]  -1
+[REAL OPT]Default value for [-max_intra_clash]   10000
+[REAL OPT]Default value for [-max_inter_clash]   30000
+[T/F  OPT]Default FALSE value for [-use_full_sidechain_inter_clash]
+[T/F  OPT]Default FALSE value for [-use_epitope_sidechain_during_clash_check]
+[REAL OPT]Default value for [-rough_match_closure_rms]   2
+[REAL OPT]Default value for [-rough_match_ca_distance]   2
+[REAL OPT]Default value for [-combi_match_ca_distance]   1
+[T/F  OPT]Default FALSE value for [-fluidize_landing]
+[T/F  OPT]Default FALSE value for [-fluidize_takeoff]
+[T/F  OPT]Default FALSE value for [-rb_move]
+[REAL OPT]Default value for [-recovery_rms_epsilon]   0
+[REAL OPT]Default value for [-allowed_intra_clash_increase]   10
+[REAL OPT]Default value for [-dihedral_deviation]   5
+[REAL OPT]Default value for [-dihedral_step]   5
+[REAL OPT]Default value for [-rb_cube_side_length]   1
+[REAL OPT]Default value for [-rb_translation_step]   0.5
+[REAL OPT]Default value for [-rb_angle_deviation]   5
+[REAL OPT]Default value for [-rb_angle_step]   5
+[T/F  OPT]Default FALSE value for [-spatial_filter]
+[STR  OPT]Default value for [-spatial_filter] .
+[REAL OPT]Default value for [-spatial_filter_distance_cutoff]   5.5
+[INT  OPT]Default value for [-spatial_filter_min_cbeta]  6
+[INT  OPT]Default value for [-spatial_filter_max_cbeta]  10
+[T/F  OPT]Default FALSE value for [-compute_cbeta_neighbors]
+[REAL OPT]Default value for [-cbeta_neighbors_distance_cutoff]   5.5
+[T/F  OPT]Default FALSE value for [-multigraft]
+[STR  OPT]Default value for [-output_file] graft_matches.out.
+[T/F  OPT]Default FALSE value for [-no_single_match_output]
+[T/F  OPT]Default FALSE value for [-no_partial_match_output]
+[T/F  OPT]Default FALSE value for [-output_aligned_loops]
+[T/F  OPT]Default FALSE value for [-output_predesign_structure]
+[T/F  OPT]New TRUE value for [-output_predesign_structure_with_Ab]
+[T/F  OPT]Default FALSE value for [-override_pdb_output_path]
+[STR  OPT]Default value for [-override_pdb_output_path] .
+[T/F  OPT]Default FALSE value for [-checkpoint]
+[T/F  OPT]Default FALSE value for [-checkpoint_interval_minutes]
+[STR  OPT]Default value for [-vall] vall.dat.pc60_2002-12-27_v01.2.
+[T/F  OPT]Default FALSE value for [-keep_natro]
+[T/F  OPT]Default FALSE value for [-batch_id]
+[STR  OPT]Default value for [-batch_id] .
+[T/F  OPT]Default FALSE value for [-dump_predesign]
+[STR  OPT]Default value for [-dump_predesign] none.
+[T/F  OPT]Default FALSE value for [-dump_all_closure_attempt_structures]
+[T/F  OPT]Default FALSE value for [-dump_closed]
+[T/F  OPT]Default FALSE value for [-dump_refined]
+[T/F  OPT]Default FALSE value for [-dump_someclosed]
+[T/F  OPT]Default FALSE value for [-no_idealize_loop_geometry]
+[T/F  OPT]Default FALSE value for [-epitope_rb_optimize]
+[INT  OPT]Default value for [-epitope_rb_cycles]  1
+[T/F  OPT]Default FALSE value for [-epitope_rb_min]
+[T/F  OPT]Default FALSE value for [-Ab_epitope_optimize]
+[T/F  OPT]Default FALSE value for [-Ab_epitope_optimize_including_rb]
+[T/F  OPT]Default FALSE value for [-epitope_optimize]
+[T/F  OPT]Default FALSE value for [-no_micromanage_termini]
+[T/F  OPT]Default FALSE value for [-randomize_moveable_phipsi]
+[T/F  OPT]Default FALSE value for [-build_loops]
+[T/F  OPT]Default FALSE value for [-refine_loops]
+[T/F  OPT]Default FALSE value for [-ignore_build_failure]
+[T/F  OPT]Default FALSE value for [-ignore_refine_failure]
+[T/F  OPT]Default FALSE value for [-design_after_closure]
+[T/F  OPT]Default FALSE value for [-refine_with_Ab_after_design]
+[T/F  OPT]Default FALSE value for [-do_QC]
+[T/F  OPT]Default FALSE value for [-store_top_design_per_backbone]
+[INT  OPT]Default value for [-closure_attempts]  25
+[INT  OPT]Default value for [-closure_reset_period]  3
+[INT  OPT]Default value for [-store_n_best_closures]  5
+[INT  OPT]Default value for [-design_attempts]  3
+[INT  OPT]Default value for [-store_n_best_designs]  1
+[T/F  OPT]Default FALSE value for [-graft_with_Ab]
+[T/F  OPT]Default FALSE value for [-close_as_GLY]
+[T/F  OPT]Default FALSE value for [-grow_as_GLY]
+[REAL OPT]Default value for [-rotation_perturb_magnitude]   1
+[REAL OPT]Default value for [-translation_perturb_magnitude]   0.5
+[T/F  OPT]Default FALSE value for [-no_fragment_insertion]
+[T/F  OPT]Default FALSE value for [-use_sequence_biased_fragments]
+[T/F  OPT]Default FALSE value for [-variable_fragments]
+[T/F  OPT]Default FALSE value for [-allow_any_ss_during_fragment_insertion]
+[INT  OPT]Default value for [-nfrag]  200
+[T/F  OPT]Default FALSE value for [-build_with_adaptive]
+[T/F  OPT]Default FALSE value for [-build_with_arm]
+[T/F  OPT]Default FALSE value for [-build_with_screen]
+[INT  OPT]Default value for [-build_cycles]  10
+[T/F  OPT]Default FALSE value for [-force_refine]
+[T/F  OPT]Default FALSE value for [-refine_with_minrepack]
+[T/F  OPT]Default FALSE value for [-refine_with_classic]
+[T/F  OPT]Default FALSE value for [-refine_with_constraints]
+[T/F  OPT]Default FALSE value for [-fast_refine]
+[INT  OPT]Default value for [-refine_cycles]  3
+[REAL OPT]Default value for [-max_chainbreak_score]   0.00800000038
+[REAL OPT]Default value for [-max_local_rama]   5
+[T/F  OPT]Default FALSE value for [-repack_epitope]
+[T/F  OPT]Default FALSE value for [-design_epitope]
+[T/F  OPT]Default FALSE value for [-repack_Ab]
+[T/F  OPT]Default FALSE value for [-allow_AA_at_inter_design]
+[REAL OPT]Default value for [-intra_design_cutoff]   4
+[REAL OPT]Default value for [-inter_design_cutoff]   4
+[REAL OPT]Default value for [-Ab_repack_cutoff]   4.5
+[T/F  OPT]Default FALSE value for [-scan_randomize_moveable]
+[T/F  OPT]Default FALSE value for [-scan_randomize_cutpoints]
+[T/F  OPT]Default FALSE value for [-scan_randomize_ss]
+[REAL OPT]Default value for [-scan_ss_minimum_content]   0.5
+[T/F  OPT]Default FALSE value for [-scan_ss_use_any]
+[T/F  OPT]Default FALSE value for [-complementarity_design]
+[T/F  OPT]Default FALSE value for [-complementarity_rb]
+[REAL OPT]Default value for [-complementarity_design_cutoff]   4
+[INT  OPT]Default value for [-complementarity_design_attempts]  1
+[INT  OPT]Default value for [-complementarity_design_cycles]  3
+[REAL OPT]Default value for [-complementarity_shell_cutoff]   4
+[T/F  OPT]Default FALSE value for [-complementarity_shell_repack]
+[T/F  OPT]Default FALSE value for [-complementarity_shell_redesign]
+[T/F  OPT]Default FALSE value for [-export_blueprint]
+[T/F  OPT]Default FALSE value for [-export_resfile]
+[T/F  OPT]Default FALSE value for [-use_old_graft_info_format]
+[T/F  OPT]Default FALSE value for [-restart_from]
+[STR  OPT]Default value for [-restart_from] .
+[T/F  OPT]Default FALSE value for [-post_modify_restart]
+[INT  OPT]Default value for [-nstruct]  1
+[REAL OPT]Default value for [-build_attempt_multiplier]   10
+[INT  OPT]Default value for [-max_refine_attempts_per_round]  5
+[T/F  OPT]Default FALSE value for [-water]
+[T/F  OPT]Default FALSE value for [-tea]
+[T/F  OPT]Default FALSE value for [-coffee]
+[T/F  OPT]Default FALSE value for [-milk]
+[T/F  OPT]Default FALSE value for [-port]
+[T/F  OPT]Default FALSE value for [-juice]
+[T/F  OPT]Default FALSE value for [-cola]
+[T/F  OPT]Default FALSE value for [-wine]
+[T/F  OPT]Default FALSE value for [-beer]
+[T/F  OPT]Default FALSE value for [-bubble_tea]
+[T/F  OPT]Default FALSE value for [-mango_lassi]
+[T/F  OPT]Default FALSE value for [-vodka]
+[T/F  OPT]Default FALSE value for [-tequila]
+[T/F  OPT]Default FALSE value for [-test]
+[T/F  OPT]Default FALSE value for [-score_contact_fullatom]
+[T/F  OPT]Default FALSE value for [-long_range_hb_weight]
+[T/F  OPT]Default FALSE value for [-short_range_hb_weight]
+[T/F  OPT]Default FALSE value for [-new_centroid_packing]
+[REAL OPT]Default value for [-centroid_pack_weight]   2
+[T/F  OPT]Default FALSE value for [-separate_centroid_pack_score]
+[REAL OPT]Default value for [-cb_weight]   1
+[REAL OPT]Default value for [-localstrandpair_penalty]   0
+[REAL OPT]Default value for [-rsd_wt_helix]   1
+[REAL OPT]Default value for [-rsd_wt_loop]   1
+[REAL OPT]Default value for [-rsd_wt_strand]   1
+[REAL OPT]Default value for [-strand_dist_cutoff]   6.5
+[T/F  OPT]Default FALSE value for [-stretch_strand_dist_cutoff]
+[REAL OPT]Default value for [-seq_sep_scale]   20
+[REAL OPT]Default value for [-max_strand_dist_cutoff]   12
+[T/F  OPT]Default FALSE value for [-ignore_sspair_barcode_in_score]
+[T/F  OPT]Default FALSE value for [-handedness_score]
+[T/F  OPT]Default FALSE value for [-use_native_centroid]
+initializing full atom functions
+[T/F  OPT]Default FALSE value for [-dna_weights]
+[T/F  OPT]Default FALSE value for [-soft_rep]
+[T/F  OPT]Default FALSE value for [-soft_rep_design]
+[T/F  OPT]Default FALSE value for [-use_aw]
+[T/F  OPT]Default FALSE value for [-use_bw]
+[T/F  OPT]Default FALSE value for [-use_packing_etables_always]
+[T/F  OPT]Default FALSE value for [-smooth_etable]
+[T/F  OPT]Default FALSE value for [-reduce_templates]
+[T/F  OPT]Default FALSE value for [-gen_born]
+[T/F  OPT]Default FALSE value for [-small_radii]
+[STR  OPT]Default value for [-fa_lj_rep_slope] highres.
+Starting energy table calculation
+Energy table parameter set: polh_aroh  Revision: 14367 Date: 2007-04-19 12:08:54 +0300 (Thu, 19 Apr 2007)
+[T/F  OPT]Default FALSE value for [-mod_hhrep]
+Finished calculating energy tables.
+[T/F  OPT]Default FALSE value for [-mod_etable]
+[T/F  OPT]Default FALSE value for [-input_etables]
+[T/F  OPT]Default FALSE value for [-output_etables]
+Reading /share/home/yangzhiwei/rosetta_database/bbdep02.May.sortlib
+Reading /share/home/yangzhiwei/rosetta_database/plane_data_table_1015.dat
+Reading /share/home/yangzhiwei/rosetta_database/pdbpairstats_fine
+Reading /share/home/yangzhiwei/rosetta_database/Paa
+Reading /share/home/yangzhiwei/rosetta_database/Paa_n
+Reading /share/home/yangzhiwei/rosetta_database/Paa_pp
+Reading /share/home/yangzhiwei/rosetta_database/avgE_from_pdb
+Filling missing atoms
+optimizing missing atoms
+[T/F  OPT]Default FALSE value for [-disallow_hbond_o4star]
+[T/F  OPT]Default FALSE value for [-disallow_hbond_ho2star]
+[T/F  OPT]Default FALSE value for [-dun_sd_correction]
+Instantiating PDInteractionGraph
+[T/F  OPT]Default FALSE value for [-simple_elec]
+[T/F  OPT]Default FALSE value for [-record_annealer_trajectory]
+[T/F  OPT]Default FALSE value for [-disallow_quench]
+[T/F  OPT]Default FALSE value for [-use_time_as_seed]
+[INT  OPT]Default value for [-seed_offset]  0
+[T/F  OPT]Default FALSE value for [-delay_at_start]
+[T/F  OPT]Default FALSE value for [-constant_seed]
+# =====================================
+# random seed: 1186422086
+# =====================================
+optimizing hydrogen positions
+[T/F  OPT]Default FALSE value for [-pack_bump_cutoff]
+Instantiating PDInteractionGraph
+WARNING:: end of pdb file reached: angle, secstruct, & res info not found
+Looking for dssp file: ./3ztn.dssp
+dssp file not found
+calculating secondary structure from torsion angles
+[T/F  OPT]Default FALSE value for [-use_alpha_rama]
+[T/F  OPT]Default FALSE value for [-ssweight_for_homolog]
+[T/F  OPT]Default FALSE value for [-electron_density_file]
+score-delta from sidechain flip (using score 12): 0
+[T/F  OPT]Default FALSE value for [-large_rotamer_set]
+[T/F  OPT]Default FALSE value for [-favor_native_residue]
+[REAL OPT]Default value for [-favor_native_residue]  -1.5
+designing with this many rotamers  20
+Instantiating PDInteractionGraph
+designing with this many rotamers  40
+Instantiating PDInteractionGraph
+designing with this many rotamers  301
+Instantiating PDInteractionGraph
+designing with this many rotamers  602
+Instantiating PDInteractionGraph
+load_epitope_ranges: read 2 loops as follows:
+loop: 1 nres: 4 full_native_range: [18, 21]
+Primary loop? 1
+   nranges: 1
+     range: [18, 21] [1, 4]
+loop: 2 nres: 17 full_native_range: [38, 54]
+Primary loop? 1
+   nranges: 2
+     range: [38, 49] [1, 12]
+     range: [41, 53] [4, 16]
+THis is a test!::18
+THis is a test!::19
+THis is a test!::20
+THis is a test!::21
+THis is a test!::38
+THis is a test!::39
+THis is a test!::40
+THis is a test!::41
+THis is a test!::42
+THis is a test!::43
+THis is a test!::44
+THis is a test!::45
+THis is a test!::46
+THis is a test!::47
+THis is a test!::48
+THis is a test!::49
+THis is a test!::50
+THis is a test!::51
+THis is a test!::52
+THis is a test!::53
+THis is a test!::54
+Filling missing atoms
+optimizing missing atoms
+Instantiating PDInteractionGraph
+optimizing hydrogen positions
+Instantiating PDInteractionGraph
+WARNING:: end of pdb file reached: angle, secstruct, & res info not found
+Looking for dssp file: /share/home/yangzhiwei/pdbID/1ll7.dssp
+dssp file not found
+calculating secondary structure from torsion angles
+designing with this many rotamers  704
+Instantiating PDInteractionGraph
+designing with this many rotamers  1408
+Instantiating PDInteractionGraph
+Searching 1ll7.pdb
+  using 2 existing matches from input
+WARNING:: pose.total_residue() > param::MAX_RES()() -- updating MAX_RES
+This will erase any data in MAX_RES sized arrays, eg fragments.
+Pose::dump_pdb: ./1ll7_single_1.predesign_with_Ab.pdb.gz
+WARNING:: pose.total_residue() > param::MAX_RES()() -- updating MAX_RES
+This will erase any data in MAX_RES sized arrays, eg fragments.
+Pose::dump_pdb: ./1ll7_single_2.predesign_with_Ab.pdb.gz
+  found 0 multiple matches through rough match
+Filling missing atoms
+optimizing missing atoms
+Instantiating PDInteractionGraph
+optimizing hydrogen positions
+Instantiating PDInteractionGraph
+WARNING:: end of pdb file reached: angle, secstruct, & res info not found
+Looking for dssp file: /share/home/yangzhiwei/pdbID/1tua.dssp
+dssp file not found
+calculating secondary structure from torsion angles
+designing with this many rotamers  175
+Instantiating PDInteractionGraph
+designing with this many rotamers  350
+Instantiating PDInteractionGraph
+Searching 1tua.pdb
+  using 1 existing matches from input
+Pose::dump_pdb: ./1tua_single_1.predesign_with_Ab.pdb.gz
+  found 0 multiple matches through rough match
+Filling missing atoms
+optimizing missing atoms
+Instantiating PDInteractionGraph
+optimizing hydrogen positions
+Instantiating PDInteractionGraph
+WARNING:: end of pdb file reached: angle, secstruct, & res info not found
+Looking for dssp file: /share/home/yangzhiwei/pdbID/1ukf.dssp
+dssp file not found
+calculating secondary structure from torsion angles
+designing with this many rotamers  174
+Instantiating PDInteractionGraph
+designing with this many rotamers  348
+Instantiating PDInteractionGraph
+Searching 1ukf.pdb
+  using 1 existing matches from input
+Pose::dump_pdb: ./1ukf_single_1.predesign_with_Ab.pdb.gz
+  found 0 multiple matches through rough match
+Filling missing atoms
+optimizing missing atoms
+Instantiating PDInteractionGraph
+optimizing hydrogen positions
+Instantiating PDInteractionGraph
+WARNING:: end of pdb file reached: angle, secstruct, & res info not found
+Looking for dssp file: /share/home/yangzhiwei/pdbID/2qff.dssp
+dssp file not found
+calculating secondary structure from torsion angles
+designing with this many rotamers  70
+Instantiating PDInteractionGraph
+designing with this many rotamers  140
+Instantiating PDInteractionGraph
+Searching 2qff.pdb
+  using 1 existing matches from input
+Pose::dump_pdb: ./2qff_single_1.predesign_with_Ab.pdb.gz
+  found 0 multiple matches through rough match
+Filling missing atoms
+optimizing missing atoms
+Instantiating PDInteractionGraph
+optimizing hydrogen positions
+Instantiating PDInteractionGraph
+WARNING:: end of pdb file reached: angle, secstruct, & res info not found
+Looking for dssp file: /share/home/yangzhiwei/pdbID/4x0j.dssp
+dssp file not found
+calculating secondary structure from torsion angles
+designing with this many rotamers  495
+Instantiating PDInteractionGraph
+designing with this many rotamers  990
+Instantiating PDInteractionGraph
+Searching 4x0j.pdb
+  using 2 existing matches from input
+Pose::dump_pdb: ./4x0j_single_1.predesign_with_Ab.pdb.gz
+Pose::dump_pdb: ./4x0j_single_2.predesign_with_Ab.pdb.gz
+  found 0 multiple matches through rough match
