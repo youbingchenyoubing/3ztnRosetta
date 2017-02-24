@@ -5,7 +5,7 @@
  
 + firstmatch： 是Multigraft Match的实验
 + predesign： 是Multigraft Predesign的实验
-+ design：是 Multigraft design
++ design：是 Multigraft design的实验。
  
 如果有人觉得这个资料有用，记得引用本人的硕士论文（在撰写当中）
  
