@@ -6,7 +6,7 @@
 + firstmatch： 是Multigraft Match的实验
 + predesign： 是Multigraft Predesign的实验
 + design：是 Multigraft design的实验。
- 
++ prot24641-sup-0004-suppinfo.pdf中详细介绍命令参数的含义、取值范围、同时还包含了Multigrfat design策略的详细介绍。
 如果有人觉得这个资料有用，记得引用本人的硕士论文（在撰写当中）
  
 参考文献
@@ -17,4 +17,3 @@
 + Correia B E, Bates J T, Loomis R J, 等. Proof of principle for epitope-focused vaccine design[J]. Nature, 2014, 507(7): 201–206.
 + Azoitei M L, Correia B E, Ban Y-E A, 等. Computation-Guided Backbone Grafting of a Discontinuous Motif onto a Protein Scaffold[J]. Science, 2011, 334(6): 373–.
 + Barlow D J, Edwards M S, Thornton J M. Continuous and discontinuous protein antigenic determinants[J]. Nature, Nature Publishing Group, 1986, 322(6081): 747–748.
-+ 
