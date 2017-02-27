@@ -1,0 +1,11 @@
+-min_pack
+-packing
+  -multi_cool_annealer 10
+  -ex1
+  -ex2
+  -ex1aro
+  -ex2aro
+  -extrachi_cutoff 0
+  -use_input_sc
+-suffix min_pack
+-nstruct 5
