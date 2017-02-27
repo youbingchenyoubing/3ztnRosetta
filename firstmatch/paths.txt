@@ -8,8 +8,8 @@ fragments(not used)             ./
 structure dssp (not used)       ./
 sequence map(optional)          ./
 constraints(optional)           ./
-starting structure(required)    /share/home/yangzhiwei/pdbID/
-data files(required)            /share/home/yangzhiwei/rosetta_database/
+starting structure(required)    ~/pdbID/
+data files(required)            ~/rosetta_database/
 OUTPUT PATHS:
 movie                           ./
 pdb path                        ./
