@@ -6,6 +6,7 @@
 + firstmatch： 是Multigraft Match的实验
 + predesign： 是Multigraft Predesign的实验
 + design：是 Multigraft design的实验。
++ analysis：是分析结果的文件夹
 + prot24641-sup-0004-suppinfo.pdf中详细介绍命令参数的含义、取值范围、同时还包含了Multigrfat design策略的详细介绍。
 
 如果有人觉得这个资料有用，记得引用本人的硕士论文（在撰写当中）
